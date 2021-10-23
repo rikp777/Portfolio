@@ -1,0 +1,141 @@
+
+
+
+
+**Personal information** 
+
+|                  |             |
+| ---------------- | ----------- |
+| Graduation route | S           |
+| Student number:  | 409059      |
+| Name             | Rik Peeters |
+
+**Organization Details** 
+
+|              |                                          |
+| ------------ | ---------------------------------------- |
+| Name         | Energy Essentials                        |
+| Address      | Sint Maartenslaan 26, 6221 AX Maastricht |
+| Phone number | 085 303 0080                             |
+| Website      | https://vertex.energyessentials.nl/      |
+
+**Company mentor**
+
+|                  |                                           |
+| ---------------- | ----------------------------------------- |
+| Name             | Yorick Smeets                             |
+| Department       | Software Engineering                      |
+| Position         | Lead developer                            |
+| Background study | Eindhoven University of Technology (TU/e) |
+| Linked-in        | https://www.linkedin.com/in/yoricksmeets/ |
+| Phone number     | +31 6 /                                   |
+| Email            | /                                         |
+
+**Looptijd**
+
+|                 |                 |
+| --------------- | --------------- |
+| Start date      | 5 February 2022 |
+| End date        | /               |
+| ASAM Assignment | No              |
+
+*This internship site meets all the requirements according to the block book, which has been established by the Fontys.*
+
+# Project
+
+## Context
+To understand the essence of this project I have to explain certain concepts first: 
+
+Monolithic architecture: everything is composed into one piece which means that components of the program are interconnected and they depent on eachother. Between components within the monolithic architecture the communication is synchronised. For example the first component needs to communicate something to the second component. This interaction needs to be finished before the second component can interacted with the third component (otherwise it will get blocked). So if one component fails, the whole architecture fails. 
+
+Such an architecture makes it difficult to be updated every once in a while since you maybe need to change another component as well for it to work properly, since an update can cause for example such an interaction problem. 
+
+Micro service architecture: everything is composed into small pieces. That means they are independent of one another. They serve only the functionality they are designed for. Micro services do not have to be hosted in one location. So it is obviously way more scalable than a monolithic structure. Micro services are asynchronous. To not confuse you even more I will state the example above a little different: if the third component needs to do something, it doesn't have to wait for the first component to finish its interaction with the second component. Thus they are indepent, they do not get blocked when a communication/interaction is not finished yet. 
+
+Currently Energy Essentials has a software called Vertex which consists out of monolithic architecture. With a structure like domain driven design CQRS even coursing aggregate root. 
+
+## Problem and opportunity analysis 
+
+Energy Essentials wants to change the architecture of their Vertex software which is currently monolithic to cloud native architecture, also known as micro services. Their main reason to want to change the current architecture is to make the software solution more scalable. They need to change the way components interact with one another. At the moment they communicate in a synchronized matter (monolithic) but that needs to be changed into asynchronized (micro services). This transition poses different challenges. For example a micro service architecture needs a gateway that knows about all the instances which are the actual micro services. A gateway gives you as a client access to the software by redirecting you to the right service and instance, it is basically the entry point into the system. There are different frameworks for a gateway solution so my job in this project is to find the one that fits the best for this problem. To find the right one I need to do some research first.  
+
+
+
+security 
+
+robustness resiliency testing 
+
+debugging 
+
+versioning  
+
+## Purpose of the project.  
+
+Being able to run everything in the cloud native way this also means that the entire architecture must be able to scale to the needs of users that use their software.  
+
+## Grenzen en Voorwaarden 
+## Onderzoek
+
+Because it is very important to know what is involved in a transition to a microservice archtecture, it is useful to do some early research. The attitude I take in this regard is by asking myself what steps are necessary in such a transition. Since it's a trend to make everything cloud native, it's interesting to see how other companies have implemented these things 
+
+### Onderzoeksvragen 
+
+***What to do to make the application cloud native, this means everything involved in the transition to convert from monolith to microservice architecture*** 
+
+hoe maak je de transitie van synchronous data sturen naar asychronous 
+
+## Samenvatting van het project 
+
+Korte versie opdracht omschrijving 
+
+
+
+Transitie hudige structuur monoliet met modules naar microservice structuur 
+
+# Organization 
+
+## Description 
+
+[Energy Essentials](https://www.energyessentials.nl/) develops a software called Vertex for the energy/utilities market. Vertex is some kind of automation-platform which benefits the core businesses of the energy market. It develops tools, processes, statistical models, reports and full scale applications that efficiently supports the energy market businesses. 
+
+## Team members  
+
+The team consists of different departments that can provide export support in multiple areas. If I would need support in, for example, the front-end, I could take care of this department. Also when I want technical information about things I can go to an expert within the company for this. All employees have graduated from both HBO or University level in their specialization, and some have expanded their focus in several directions. Also, there is attentive observation of what I as a trainee am doing and they help where necessary.
+
+## Communicatie 
+
+## Guidance/Support
+
+Within Energy Essentials Yorick Smeets is going to be my supervisor for this internship. He finished three studies* that are ICT related which makes him a compatible supervisor. He meets the criterion given by the Fontys ICT exam board. He will be guiding me in person for a minimun of two hours a week but he will be on location as well for a minimun of 4 days a week if in any case I run into some issues, than he is there to help me out. Yorick will also be the contact person for Fontys, his information can be found at the beginning of the document. 
+
+*TU/e - Electrical Engineering, TU/e - Industrial Engineering & Fontys University of Applied Sciences - ICT & Business
+
+# Activiteiten en planning 
+## Indeling en aanpak van het project
+## Fases 
+### Opstartfase 
+### Verzamelen van vereisten / analysefase
+### Ontwerpfase
+### Implementatiefase 
+### Testfase 
+### Afrond fase 
+## Algemeen tijdschema 
+
+# Configuratie Beheer
+
+
+# Risico's / beperkingen en uitwijkactiviteiten  
+
+# Personal Development Goals 
+
+Because my personal development is also very important, during my internship I will work on a number of personal learning goals in order to work on my professionalism. Below is a brief description of the learning objectives I want to work on.
+
+Improve my English. I want to see if I can write this internship report without problems since it is a little bit of a challenge for me to write it fully in English. 
+
+Writing in a professional matter is difficult for me so I want to improve this. I find it difficult to get my ideas out on paper. Maybe this is due to my dyslexia but nevertheless I want to improve this skill because this is important for any further studies. 
+
+Applying techniques that I have learned during my studies at Fontys on situations in the real business world. I want to get hands-on experience with the things I learned during my studies since this is also really important once I finish my studies so I will be confident enough in my quality of work. 
+
+Accepting flaws within an architectural design. Sometimes when I need to work on a software I get frustrated by the way it is build even if it does not interfere with what I need to work on within the software. I always have the urge to rewrite the whole architecture but this is not needed since the software works for the given solution. 
+
+
+
