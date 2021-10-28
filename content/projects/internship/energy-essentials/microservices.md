@@ -2,6 +2,8 @@
 
 
 
+
+
 **Personal information** 
 
 |                  |             |
@@ -58,38 +60,42 @@ Currently Energy Essentials has a software called Vertex which consists out of m
 
 Energy Essentials wants to change the architecture of their Vertex software which is currently monolithic to cloud native architecture, also known as micro services. Their main reason to want to change the current architecture is to make the software solution more scalable. They need to change the way components interact with one another. At the moment they communicate in a synchronized matter (monolithic) but that needs to be changed into asynchronized (micro services). This transition poses different challenges. For example a micro service architecture needs a gateway that knows about all the instances which are the actual micro services. A gateway gives you as a client access to the software by redirecting you to the right service and instance, it is basically the entry point into the system. There are different frameworks for a gateway solution so my job in this project is to find the one that fits the best for this problem. To find the right one I need to do some research first.  
 
+There are also some things to take in consideration when you want to change a software to a microservice architecture:
+
+- security
+
+- robustness resiliency testing
+
+- debugging
+
+- versioning
 
 
-security 
+## Purpose of the project
 
-robustness resiliency testing 
+The purpose of  this project became pretty clear when I visited the company for the first time in person. Yorick and Justin introduced me to their idea for my internship. They want to change their current architecture which is monolithic to a cloud native one. Their reason to do this is because cloud native is way more flexible, scalable, resilient and less prone to problems. Monolithic architecture is a little bit out dated and does not fit their current solution any longer so they would prefer a cloud native architecture. An architecture like this is better for a bigger company and ofcourse, Energy Essentials is a lot bigger now than when they started. 
 
-debugging 
+To help me understand the assignment of this internship they had to explain the functionalities and architecture of the current software which is called Vertex. My key purpose is to change the current Vertex architecture (monolithic) into cloud native architecture. As stated above being cloud native has multiple advantages. If, for example, one of the modules fail for whatever reason the other modules will still keep working which means high availability for their users/customers.    
 
-versioning  
+## Research
 
-## Purpose of the project.  
+To lead this project to a good end I have to do some research first. I need to get a clear view about what to do and how to achieve this. Therefore it is important learn more about microservice architecture and what is involved in a transition to a microservice like architecture. Lately, many companies are changing their architecture to microservice so I think looking at how other companies achieved this transition will give me pretty good idea about how I can make this change for Energy Essentials. 
 
-Being able to run everything in the cloud native way this also means that the entire architecture must be able to scale to the needs of users that use their software.  
+### Research questions 
 
-## Grenzen en Voorwaarden 
-## Onderzoek
+***How to convert monolithic architecture to cloud native solution?*** *
 
-Because it is very important to know what is involved in a transition to a microservice archtecture, it is useful to do some early research. The attitude I take in this regard is by asking myself what steps are necessary in such a transition. Since it's a trend to make everything cloud native, it's interesting to see how other companies have implemented these things 
+Which cloud native solution is the best for Energy Essentials? 
 
-### Onderzoeksvragen 
+What is the difference between cloud native and microservice? 
 
-***What to do to make the application cloud native, this means everything involved in the transition to convert from monolith to microservice architecture*** 
+How to make the transition from synchronous to asychronous? 
 
-hoe maak je de transitie van synchronous data sturen naar asychronous 
-
-## Samenvatting van het project 
-
-Korte versie opdracht omschrijving 
+ What did other companies do to achieve the same goal? (look for relevant examples)
 
 
 
-Transitie hudige structuur monoliet met modules naar microservice structuur 
+*this means everything involved in the transition to convert from monolith to microservice architecture
 
 # Organization 
 
@@ -99,31 +105,13 @@ Transitie hudige structuur monoliet met modules naar microservice structuur
 
 ## Team members  
 
-The team consists of different departments that can provide export support in multiple areas. If I would need support in, for example, the front-end, I could take care of this department. Also when I want technical information about things I can go to an expert within the company for this. All employees have graduated from both HBO or University level in their specialization, and some have expanded their focus in several directions. Also, there is attentive observation of what I as a trainee am doing and they help where necessary.
-
-## Communicatie 
+The team consists of different departments that can provide expert support in multiple areas. If I would need support in, for example, the front-end, I could take my problems to this department. Also when I want technical information about a certain topic I can go to an expert within the company for this. All employees have graduated from both HBO or University in their specialization, and some have expanded their focus in several directions. Also, there is attentive observation of what I as a trainee am doing and they help where necessary.
 
 ## Guidance/Support
 
 Within Energy Essentials Yorick Smeets is going to be my supervisor for this internship. He finished three studies* that are ICT related which makes him a compatible supervisor. He meets the criterion given by the Fontys ICT exam board. He will be guiding me in person for a minimun of two hours a week but he will be on location as well for a minimun of 4 days a week if in any case I run into some issues, than he is there to help me out. Yorick will also be the contact person for Fontys, his information can be found at the beginning of the document. 
 
 *TU/e - Electrical Engineering, TU/e - Industrial Engineering & Fontys University of Applied Sciences - ICT & Business
-
-# Activiteiten en planning 
-## Indeling en aanpak van het project
-## Fases 
-### Opstartfase 
-### Verzamelen van vereisten / analysefase
-### Ontwerpfase
-### Implementatiefase 
-### Testfase 
-### Afrond fase 
-## Algemeen tijdschema 
-
-# Configuratie Beheer
-
-
-# Risico's / beperkingen en uitwijkactiviteiten  
 
 # Personal Development Goals 
 
