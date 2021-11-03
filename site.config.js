@@ -2,7 +2,7 @@
 
 export default {
   name: 'Rik Peeters',
-  domain: 'rikpeeters.dev', // add without https:// , used in meta tags and share urls
+  domain: 'rikp777.github.io', // add without https:// , used in meta tags and share urls
   image: '/images/bighead-five.png',
   email: 'rikpeeters11@hotmail.com.com',
   googleAnalyticsV4: {

@@ -15,6 +15,7 @@
                 <span v-if="project.category" v-for="category in project.category">{{category.name}} </span>
               </p>
             </div>
+            {{localePath(`/projects/${project.slug}`)}}
             <nuxt-link class="group" :to="localePath(`/projects/${project.slug}`)">
               <h3 class="mt-0.5 group-hover:text-indigo-500 text-md leading-7 font-semibold text-gray-200">
                 {{ project.title }} <span v-if="project.id">- {{ project.id }}</span>
