@@ -14,14 +14,10 @@ const createSitemapRoutes = async () => {
   if (config.projects.enabled) {
     const projects = await $content('projects').fetch();
     for (const project of projects) {
-      let dirs = project.slug.split("_")
-      let searchUrl = ""
-      dirs.forEach(x => {
-        searchUrl = searchUrl + "/" + x
-      })
-      routes.push(`projects/${searchUrl}`);
+      routes.push(`projects/${project.slug}`);
     }
   }
+  console.log(routes)
   return routes;
 }
 
@@ -150,7 +146,7 @@ const nuxtConfig = {
 
   sitemap: {
     hostname: `https://${config.domain}`,
-    routes: createSitemapRoutes
+    routes: createSitemapRoutes()
   },
 
   toast: {
@@ -205,15 +201,12 @@ const nuxtConfig = {
       }
     },
 
-    extend(config, ctx) {
-      config.module.rules.push({
-        test: /\.(ogg|mp3|wav|mpe?g)$/i,
-        loader: 'file-loader',
-        options: {
-          name: '[path][name].[ext]'
-        }
-      })
-    }
+    // extend: function (config, {isDev, isClient}) {
+    //   config.node = {
+    //     fs: "empty",
+    //     net: 'empty',
+    //   };
+    // }
   },
 
 

@@ -35,6 +35,7 @@ export default {
     } finally {
       console.timeEnd(fetchDocsLabel)
     }
+    console.log(this.$router.options.routes)
   },
 }
 </script>

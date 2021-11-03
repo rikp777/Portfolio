@@ -64,8 +64,6 @@
 </template>
 
 <script>
-import { useSound } from '@vueuse/sound'
-
 const ALL = 'all'
 
 export default {
@@ -73,23 +71,6 @@ export default {
     return {
       title: `projects -- ${this.$config.name}`
     }
-  },
-  methods: {
-    toggleSound() {
-      let audio = this.$refs.audio;
-      if (
-        audio.paused &&
-        document.querySelector(".toggle-sound").classList.contains("paused")
-      ) {
-        console.log("play it")
-        audio.play();
-        document.querySelector(".toggle-sound").classList.remove("paused");
-      } else {
-        console.log("pause it")
-        audio.pause();
-        document.querySelector(".toggle-sound").classList.add("paused");
-      }
-    },
   },
   computed: {
     minor(){
@@ -110,6 +91,19 @@ export default {
           })
         }
       })
+
+      // this.projects.forEach((project) => {
+      //   console.log(project.slug)
+      //   let dirs = project.slug.split("_")
+      //   console.log(dirs)
+      //   let searchUrl = ""
+      //   dirs.forEach(x => {
+      //     searchUrl = searchUrl + x + "_"
+      //   })
+      //   console.log(searchUrl)
+      // })
+
+
       console.log(techs)
       return [ALL, ...new Set(techs)]
     },

@@ -148,6 +148,7 @@ export default {
     console.log(project)
     // project.twitterShareUrl = `https://twitter.com/intent/tweet?text=${project.title} by @${project.author.social.twitter}&url=https://${$config.domain}${route.fullPath}`
     project.twitterShareUrl = `https://twitter.com/intent/tweet`
+
     return {
       project,
     }
