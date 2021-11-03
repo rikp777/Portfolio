@@ -14,7 +14,12 @@ const createSitemapRoutes = async () => {
   if (config.projects.enabled) {
     const projects = await $content('projects').fetch();
     for (const project of projects) {
-      routes.push(`projects/${project.slug}`);
+      let dirs = project.slug.split("_")
+      let searchUrl = ""
+      dirs.forEach(x => {
+        searchUrl = searchUrl + "/" + x
+      })
+      routes.push(`projects/${searchUrl}`);
     }
   }
   return routes;
