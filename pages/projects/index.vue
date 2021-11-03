@@ -91,19 +91,6 @@ export default {
           })
         }
       })
-
-      // this.projects.forEach((project) => {
-      //   console.log(project.slug)
-      //   let dirs = project.slug.split("_")
-      //   console.log(dirs)
-      //   let searchUrl = ""
-      //   dirs.forEach(x => {
-      //     searchUrl = searchUrl + x + "_"
-      //   })
-      //   console.log(searchUrl)
-      // })
-
-
       console.log(techs)
       return [ALL, ...new Set(techs)]
     },

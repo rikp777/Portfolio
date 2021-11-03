@@ -2,10 +2,13 @@ import config from './site.config'
 
 const createSitemapRoutes = async () => {
   let routes = [];
-  const { $content } = require('@nuxt/content');
+  const { $content } = require('@nuxt/content')
 
   if (config.projects.enabled) {
-    const projects = await $content('projects').fetch();
+    const projects = await $content('projects', { deep: true})
+      .without(['body', 'toc'])
+      .sortBy('id', 'asc')
+      .fetch()
     for (const project of projects) {
       routes.push(`projects/${project.slug}`);
     }
@@ -75,7 +78,7 @@ const nuxtConfig = {
       { property: 'twitter:image', content: `${config.image}` },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'}
     ],
   },
@@ -122,7 +125,7 @@ const nuxtConfig = {
 
   pwa: {
     icon: {
-      fileName: 'favicon.png'
+      fileName: 'favicon.ico'
     },
     meta: {
       name: config.domain,
@@ -185,22 +188,7 @@ const nuxtConfig = {
     splitChunks: {
       layout: true
     },
-    loaders: {
-      vue: {
-        transformAssetUrls: {
-          audio: 'src'
-        }
-      }
-    },
-
-    // extend: function (config, {isDev, isClient}) {
-    //   config.node = {
-    //     fs: "empty",
-    //     net: 'empty',
-    //   };
-    // }
   },
-
 
   tailwindcss: {
     jit: true
