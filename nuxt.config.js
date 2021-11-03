@@ -3,9 +3,9 @@ import config from './site.config'
 const createSitemapRoutes = async () => {
   let routes = [];
   const { $content } = require('@nuxt/content')
-  const projects = await $content('projects').fetch();
 
   if (config.projects.enabled) {
+    const projects = await $content('projects').fetch();
     for (const project of projects) {
       routes.push(`projects/${project.slug}`);
     }
