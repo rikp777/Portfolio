@@ -17,7 +17,7 @@
       twitter: rikp777
   slug: other_statistic-formulas
 ---
-
+small
 I am a visual learner so I find it hard to understand material by just reading it I have to make myself visual illustrations this has done both the khan cource for me and the many notes I have made. 
 
 # Statistical formulas
@@ -56,21 +56,29 @@ It kind of is like the mean of every 50% of the set.
 
 ##### Normal
 
-set: 62, 63, | 64 |, 64, 70, || 72, 76, | 77 |, 81,81
+Set: 62, 63, | 64 |, 64, 70, || 72, 76, | 77 |, 81,81
+
+Median = (70 + 72) / 2 = 71
+
+Mean = 71
 
 Q1 = 64
 
 Q3 = 77
 
+
+
 ##### Odd number
 
-set:  63, | 64 , 64 |, 70, | 72 |, 76, | 77, 81 | ,81
+Set:  63, | 64 , 64 |, 70, | 72 |, 76, | 77, 81 | ,81
+
+Median = 72
+
+Mean = 72
 
 Q1 = (64 + 64) / 2 = 64
 
 Q3 = (77 + 81) / 2 = 79
-
-
 
 ### Variance and standard deviation of a population
 

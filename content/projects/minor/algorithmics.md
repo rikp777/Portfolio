@@ -52,10 +52,45 @@ Most essentials components for a computer model:
 - [] Mouse
 - [] Monitor
 
-## Ram
+## Ram (Random Access Machine)
 <div class="mermaid">
 graph TD;
     Input-->Ram;
     Program-->Ram;
     Ram-->Memory;
 </div>
+- Simple operation takes 1 time step
+
+- Loops count as often as they run 
+- Memory access is free 0 time steps 
+
+Example one:
+
+```
+A = 1					0 steps
+
+b = 2 * a 		 		1 step 
+```
+
+Example two:
+
+```
+s = 5 					0 steps
+
+while s > 0			    6 steps  
+	s = s -1 		    5 steps 
+```
+
+Simple operations take 1 time step - unrealistic 
+
+We have as much memory as we need - unrealistic 
+
+Memory access is free - unrealistic 
+
+A unit of memory cannot hold an arbitrarily large number - realistic a
+
+ 
+
+
+
+## Big O notation explained 
