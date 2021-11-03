@@ -3,7 +3,7 @@ import config from './site.config'
 const createSitemapRoutes = async () => {
   let routes = [];
   const { $content } = require('@nuxt/content')
-  const articles = await $content('posts').fetch();
+  const articles = await $content('projects').fetch();
 
   if (config.blog.enabled) {
     for (const article of articles) {
