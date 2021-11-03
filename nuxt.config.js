@@ -2,7 +2,7 @@ import config from './site.config'
 
 const createSitemapRoutes = async () => {
   let routes = [];
-  const { $content } = require('@nuxt/content')
+  const { $content } = require('@nuxt/content');
 
   if (config.projects.enabled) {
     const projects = await $content('projects').fetch();
@@ -10,7 +10,6 @@ const createSitemapRoutes = async () => {
       routes.push(`projects/${project.slug}`);
     }
   }
-  console.log(routes)
   return routes;
 }
 
@@ -139,7 +138,7 @@ const nuxtConfig = {
 
   sitemap: {
     hostname: `https://${config.domain}`,
-    routes: createSitemapRoutes()
+    routes: createSitemapRoutes
   },
 
   toast: {
