@@ -43,7 +43,22 @@ Below are the results of that were obtained in the unit tests of the subject of 
 Above is the current status of the unit tests created for the subject of statistics. The unit tests were taken on the Khanacademy platform.  As seen above, all unit tests were passed with a minimum score of 70% or higher.  Since the workload is very high, it was difficult to keep up with all the material that was given each week. Also, the material itself was very difficult and sometimes hard to understand. During these first weeks I learned what the subject of statistics is and when and what it is used for. I also learned what static research is and the formulas that go with it by making hypotheses. 
 
 [Khan academy - statistics-probability](https://www.khanacademy.org/math/statistics-probability)
-# Assignments
+
+### Version (2)
+
+In my previous evaluation I showed my results from the beginning to the middle of the course. In this evaluation I have now finished the course and both my project and my khan unit have been evaluated. The given results are shown below:
+
+<a href="/images/Projects/Minor/statistics/second_results.png" target="_blank" rel="some text">
+  <img width="80%" src="/images/Projects/Minor/statistics/second_results.png" alt="second test results"/>
+</a>
+
+<a href="/images/Projects/Minor/statistics/research_project.png" target="_blank" rel="some text">
+  <img width="80%" src="/images/Projects/Minor/statistics/research_project.png" alt="research project result"/>
+</a>
+
+I am very happy that I was able to attend this course. It has taught me a lot and has contributed greatly to the continuation of my studies. Even though I find the formulas difficult to apply within real examples at the moment. The remaining weeks of this minor I want to make these formulas my own so that they are engraved in my brain. 
+
+## Assignments
 ### Research project
 
 Conduct scientific research by establishing hypotheses, analyzing and concluding. 

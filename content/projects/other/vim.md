@@ -203,8 +203,7 @@ vtags
 
 
 
-modes 
-
+Vim Modes 
 | Mode | Description                                |
 | ---- | ------------------------------------------ |
 | esc  | Normal mode                                |
@@ -212,12 +211,63 @@ modes
 | V    | Visual mode \| selecting text and deleting |
 |      |                                            |
 
-| Key  | Description |
-| ---- | ----------- |
-| h    | left        |
-| j    | up          |
-| k    | down        |
-| l    | right       |
+Vim Motion 
+| Key  | Description                                      |
+| ---- | ------------------------------------------------ |
+| h    | Move cursor left                                 |
+| j    | Move cursor down                                 |
+| k    | Move cursor up                                   |
+| l    | Move cursor right                                |
+| w    | Move cursor forward one word                     |
+| b    | Move cursor the the beginning of the word        |
+| e    | Move cursor to the end of the word               |
+| gg   | Move cursor to the beginning of the file         |
+| G    | Move cursor to the end of the file               |
+| 0    | Move cursor to the beginning of the current line |
+| $    | Move cursor to the end of the current line       |
+
+Search 
+
+| Key      | Description                                                  |
+| -------- | ------------------------------------------------------------ |
+| f {char} | "Find" Move cursor to the next {char} on the current line    |
+| F {char} | "Reverse find" Move cursor to the previous {char} on the current line |
+| t {char} | "Till"  Move cursor just before the next {char} on the current line |
+| T {char} | "Reverse till" Move cursor just after the previous {char} on the current line |
+
+Undo
+
+| Key    | Description      |
+| ------ | ---------------- |
+| u      | undo last action |
+| ctrl+r | redo last action |
+
+Insert Mode 
+
+| Key           | Action       | Description                                                  |
+| ------------- | ------------ | ------------------------------------------------------------ |
+| x             | Delete       | Delete character at cursor                                   |
+| d {subject}   | Delete       | Delete combined with a subject that defines **what** it deletes. |
+| dw            | Delete       | Delete from the cursor position till the next word           |
+| db            | Delete       | Delete from the cursor position to the beginning of the current word (or to the beginning of the previous word, if already at the beginning of a word) |
+| dd            | Delete       | Delete current line                                          |
+| i             | Change Mode  | Insert at cursor, puts you into insert mode just **before** your cursor |
+| I             | Change Mode  | Insert at beginning of line, puts you into insert mode **just before the first non-whitespace character of the current line** |
+| a             | Change Mode  | Append at cursor, puts you into insert mode just **after** your cursor |
+| A             | Change Mode  | Append at end of line, puts you into insert mode **at the end of the current line** |
+| esc or ctrl+[ | Exit Mode    | Exit insert mode                                             |
+| j k           | Exit Mode    | When in insert mode, type j k quickly to switch back to normal mode. |
+| ctrl + c      | Exit Mode    | This key combo also escapes from insert mode                 |
+| r             | Replace char | replace the character under the cursor                       |
+|               |              |                                                              |
+
+|                 |                                |
+| --------------- | ------------------------------ |
+| :q              | Close file                     |
+| :q!             | Close file, don't save changes |
+| :w              | Save changes to file           |
+| :wq or :x or ZZ | Save changes and close file    |
+|                 |                                |
 
 
 
@@ -230,4 +280,20 @@ modes
 |                  |           |
 |                  |           |
 | pwd              | Directory |
+
+
+
+
+
+Vim copy and paste 
+
+|      |                         |
+| ---- | ----------------------- |
+| yw   | Yank word               |
+| yy   | Yank line               |
+| p    | Paste after cursor      |
+| P    | Paste before cursor     |
+| :reg | Show yank register      |
+| "0p  | Paste from 0 regsiter   |
+| "ap  | Paste from "a" register |
 

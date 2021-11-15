@@ -94,3 +94,8 @@ A unit of memory cannot hold an arbitrarily large number - realistic a
 
 
 ## Big O notation explained 
+
+
+
+# Data structures 
+

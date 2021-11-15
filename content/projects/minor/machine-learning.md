@@ -150,3 +150,66 @@ This is suitable for classification with discrete features (e.g., word counts fo
 </a>
 
 It is very important for an algorithm that the accuracy is high. From the image above you can see that my algorithm can make a prediction for future data with a certainty of around 98%. 
+
+# Workshop Tilburg
+
+During this workshop it was explained how machine learning could be applied to detect cyber attacks. Here we were given a presentation with the basic principles and techniques. We were then allowed to apply these within the supplied dataset. Because I already did two projects within this field it was not so difficult and it was easy because they used scikit learn. 
+
+## Confusion Matrix
+
+When you are using machine learning algorithms it is useful to always test your dataset. This can be done with a confusion matrix when done you can see where your algorithm goes wrong and where it predicted wrong values. It gives you a general performance level of a classification model. 
+
+Below I am going to briefly explain how to read a confusion table: 
+
+<img width="80%" src="/images/Projects/Minor/machine_learning/confusion_matrix.png" alt="Machine learning main image"/>
+
+as you can see the total predictions that this model did was 165. Within those 165 predictions it gave a total of 100 times yes when it was actually yes and it predicted no 50 times when it was actually no. But we can also see the errors we can for example see that it  predicted no 5 times when it was textually yes and 10 times yes when it was actually no. 
+
+- 50 times No when it was actually no = true negatives 
+- 100 times yes when it was actually yes = true positives 
+- 5 times no when it was actually yes = true positives = type two error 
+- 10 times yes when it was actually no = false positives = type one error
+
+<img width="80%" src="/images/Projects/Minor/machine_learning/confusion_matrix_sum.png" alt="Machine learning main image"/>
+
+This is a list of rates that are often computed from a confusion matrix:
+
+- Accuracy: Overall, how often is the classifier corrrect? 
+
+  - (TP+TN)/total = (100+50)/165 = 0,91
+
+- Misclassification Rate (Error rate): Overall, how often is it wrong?
+
+  - (FP+FN)/total = (10+5)/165 = 0.09
+
+- True Positive Rate: When it's actually yes, how often does it predict yes?
+
+  - TP/actual yes = 100/105 = 0.95
+
+    Also known as "Sensitivity" or "Recall"
+
+- False Positive Rate: When it's actually no, how often does it predict yes?
+
+  - FP/actual no = 10/60 = 0.17
+
+- True Negative Rate: When it's actually no, how often does it predict no?
+
+  - TN/actual no = 50/60 = 0.83
+
+    Equivalent to 1 minus False Positive Rate
+
+    Also known as "Specificity"
+
+- Precision: When it predicts yes, how often is it correct?
+
+  - TP/predicted yes = 100/110 = 0.91
+
+- Prevalence: How often does the yes condition actually occur in our sample?
+
+  - actual yes/total = 105/165 =0.64
+
+Below is a confusion matrix I made at the workshop in tilburg: 
+
+<img width="80%" src="/images/Projects/Minor/machine_learning/machine_learning_confusion_matrix.png" alt="Machine learning main image"/>
+
+Here we can see that the table is bigger but the same principle remains. 
