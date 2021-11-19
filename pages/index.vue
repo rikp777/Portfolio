@@ -3,7 +3,7 @@
     <HeroSection/>
     <GithubCalendar v-if="$config.social.github"/>
     <Recommendations v-if="$config.recommendations.enabled"/>
-    <LazyRecentBlog v-if="$config.blog.enabled && posts" :posts="posts"/>
+    <LazyRecentBlog v-if="$config.projects.enabled && posts" :posts="posts"/>
   </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
     const fetchDocsLabel = 'fetchAllPosts'
     console.time(fetchDocsLabel)
     try {
-      const posts = await this.$content('posts')
+      const posts = await this.$content('projects', { deep: true})
         .without(['body', 'toc', 'dir', 'extension', 'path', 'tags'])
         .limit(3)
         .skip(0)

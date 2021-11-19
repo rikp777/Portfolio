@@ -22,6 +22,8 @@
 The learning objectives I want to cover this semester (some of which I want to develop for the current minor "Cyber") are as followed:
 Mathematica
 
+<div class="table-one">
+
 | subject     | elaborate   | explanation |
 | ----------- | ----------- | ----------- |
 | Calculus    |             | Mathematics |
@@ -48,6 +50,8 @@ Cyber:
 | Forensics   | X           | Identification, acquisition, processing, analysis and reporting of data - (Individual) |
 | OSINT       | X           | Open-source intelligence - (Group project) |
 
+</div>
+
 _I elaborate on the major learning objectives marked with an X below:_
 
 Learning Objectives and  their Assignments (Body of Knowledge).
@@ -60,16 +64,16 @@ With this in mind I am going to immerse myself in these topics and make assignme
 
 
 <style>
-table th:first-of-type {
+.table-one table th:first-of-type {
     width: 10%;
 }
-table th:nth-of-type(2) {
+.table-one table th:nth-of-type(2) {
     width: 10%;
 }
-table th:nth-of-type(3) {
+.table-one table th:nth-of-type(3) {
     width: 50%;
 }
-table th:nth-of-type(4) {
+.table-one table th:nth-of-type(4) {
     width: 30%;
 }
 </style>

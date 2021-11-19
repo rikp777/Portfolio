@@ -135,7 +135,7 @@ export default {
           'Hey there it\'s me Rik Peeters 👋👀. ' +
           'I am a software engineer and cyber security specialist. On this site you can read all about projects and assignments I did during my study.' +
           'In doing so, you can read what my approach is to projects and my knowledge for these topics becomes clear.',
-        words: ['developer', 'engineer', 'programmer', 'encoder', 'data analysis', 'Cyber security specialist'],
+        words: ['developer', 'engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
       },
       githubCalendar: {
         header: 'contributions',
@@ -147,6 +147,10 @@ export default {
       },
       recentBlog: {
         header: 'recent blogs',
+        subtext: 'it takes a lot of time to write man'
+      },
+      recentProject: {
+        header: 'recent projects',
         subtext: 'it takes a lot of time to write man'
       },
       uses: {
@@ -165,7 +169,7 @@ export default {
       },
       recommendations: {
         header: 'recommendations',
-        subtext: 'what do my mentors say'
+        subtext: 'what do my mentors & friends say'
       }
     }
   }
