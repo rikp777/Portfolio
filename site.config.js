@@ -4,15 +4,15 @@ export default {
   name: 'Rik Peeters',
   domain: 'rikp777.github.io', // add without https:// , used in meta tags and share urls
   image: '/images/bighead-five.png',
-  email: 'rikpeeters11@hotmail.com.com',
+  email: 'rikpeeters11@hotmail.com',
   googleAnalyticsV4: {
-    enabled: false,
-    id: ''
+    enabled: true,
+    id: 'G-9VP01NDSXJ'
   },
   plausibleAnalytics: {
     enabled: true,
     domain: 'https://rikp777.github.io/',
-    trackLocalhost: false,
+    trackLocalhost: true,
     // leave it empty if plausible is not self hosted
     apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
   },
@@ -26,11 +26,10 @@ export default {
     facebook: '',
     twitter: '',
     instagram: 'me.rikp/',
-    codestats: '' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
     enabled: true,
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    url: 'https://www.buymeacoffee.com/rikpeeters'
   },
   projects: {
     enabled: true,
