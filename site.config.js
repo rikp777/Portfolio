@@ -18,7 +18,7 @@ export default {
   },
   // enable if you want comments and likes on posts
   firebase: {
-    enabled: false
+    enabled: true
   },
   social: {
     github: 'rikp777',
