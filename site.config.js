@@ -65,14 +65,18 @@ export default {
         src: '/images/jobs/cytosmart-logo.svg',
         url: 'https://www.cytosmart.com/',
         year: 2020,
-        period: "Sept 2020 – Feb 2021 – 6 months"
+        period: "Sept 2020 – Feb 2021 – 6 months",
+        description: "Research and implementation of features/modules in order to make CytoSMART’s cell counter comply to FDA 21 CFR part 11 regulations.",
+        grade: 8.9
       },
       {
         name: 'Limax',
         src: '/images/jobs/limax-logo.png',
         url: 'https://limax.nl',
         year: 2018,
-        period: "Feb 2018 – Jul 2018 – 6 months"
+        period: "Feb 2018 – Jul 2018 – 6 months",
+        description: "Digitization of distribution and production processes",
+        grade: 8
       },
       {
         name: 'Cre8 media',
@@ -127,7 +131,7 @@ export default {
         signOut: 'sign out'
       },
       hero: {
-        iBlogTech: 'Full time student blog',
+        iBlogTech: 'Full time student',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
         description: '' +
