@@ -31,7 +31,8 @@
                         <img :src="firm.src" class="h-8 rounded-sm sm:h-9 mr-5 " :alt="firm.name"/>
                       </a>
                       <small class="text-gray-300 hidden md:inline-block" v-text="firm.year"></small>
-                      <div :ref="`tooltipRef-${index}`" v-bind:class="{'hidden': !tooltipShow[index], 'md:block': tooltipShow[index]}" class=" bg-indigo-600 bg-opacity-90 border-0 ml-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg">
+                      <div class="hidden md:inline-block">
+                        <div :ref="`tooltipRef-${index}`" v-bind:class="{'hidden': !tooltipShow[index], 'md:block': tooltipShow[index]}" class=" bg-indigo-600 bg-opacity-90 border-0 ml-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg">
                         <div>
                           <div class="bg-indigo-600 bg-opacity-90 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
                             {{firm.name}}
@@ -46,6 +47,7 @@
                             Final grade: {{ firm.grade }}
                           </div>
                         </div>
+                      </div>
                       </div>
                     </div>
                   </div>
