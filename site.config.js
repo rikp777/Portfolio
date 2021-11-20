@@ -111,6 +111,18 @@ export default {
     // wandering-cubes
   },
   strings: {
+
+
+
+
+
+
+
+
+
+
+
+
     NL: {
       download: 'download',
       nav: {
@@ -135,9 +147,9 @@ export default {
         haveALook: 'neem een kijkje',
         friendlyNeighborhood: 'jouw vriendelijke buurt',
         description: '' +
-          'Hey daar, ik ben het Rik Peeters 👋👀. ' +
-          'Ik ben software engineer en cyber security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
-          'Zo kunt je lezen wat mijn aanpak van projecten is en wordt mijn kennis voor deze onderwerpen duidelijk.',
+          'Hey daar, mijn naam is Rik Peeters 👋👀. ' +
+          'Ik ben Software Engineer en Cyber Security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
+          'Zo kun je bijvoorbeeld lezen hoe ik mijn projecten heb aangepakt en wordt mijn kennis in deze onderwerpen duidelijk.',
         words: ['ontwikkelaar', 'ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
       },
       githubCalendar: {
@@ -206,21 +218,33 @@ export default {
         meta: [
           {
             name: 'Saray Rond',
-            designation: 'Psychologie student en lieve vriendin ❤',
+            designation: 'Psychologie student en hele lieve vriendin ❤',
             image: 'images/saray.jfif',
             linkedin: 'https://www.linkedin.com/in/saray-r-672049212/',
-            content: 'Als hij ✨gemotiveerd✨ is, houdt Rik vol tot een taak af is. ' +
-              'Dat is een waardevolle vaardigheid om te hebben, aangezien sommige taken moeilijk of veel werk kunnen zijn. ' +
-              'Hij is ook heel goed in het communiceren met medestudenten over hoe ze een bepaald doel moeten aanpakken, hij kan hen als het ware naar succes leiden. ' +
+            content: 'Als Rik ✨gemotiveerd✨ is, blijft hij aan een taak werken totdat die klaar is. ' +
+              'Dat is een waardevolle skill om te hebben, aangezien sommige taken moeilijk of veel werk kunnen zijn. ' +
+              'Ook is hij heel sterk op het gebied van communicatie met medestudenten. Bijvoorbeeld over hoe ze een bepaald doel moeten aanpakken, hij kan hen als het ware naar succes leiden. ' +
               'Dat maakt hem een echte teamplayer en dat is belangrijk in zijn vakgebied. 👨🏼💻'
           },
           {
             name: 'Jeanine Peeters',
             designation: 'Mams',
-            content: 'Rik is een persoon waar je op kunt bouwen en die zijn werk serieus neemt. Hij stopt hier veel tijd en energie in. Hij maakt het eerst af al duurt het tot in de late uurtjes. Rik is de kracht in zijn vak.'}
+            content: 'Rik is een persoon waar je op kunt bouwen en die zijn werk serieus neemt. Hij stopt hier veel tijd en energie in. Hij maakt het eerst af, al duurt het tot in de late uurtjes. Rik is de kracht in zijn vak.'}
         ]
       }
     },
+
+
+
+
+
+
+
+
+
+
+
+
     en_US: {
       download: 'download',
       nav: {
@@ -246,7 +270,7 @@ export default {
         friendlyNeighborhood: 'your friendly neighborhood',
         description: '' +
           'Hey there it\'s me Rik Peeters 👋👀. ' +
-          'I am a software engineer and cyber security specialist. On this site you can read all about projects and assignments I did during my study.' +
+          'I am a Software Engineer and Cyber Security specialist. On this website you can read all about projects and assignments I did during my studies.' +
           'In doing so, you can read what my approach is to projects and my knowledge for these topics becomes clear.',
         words: ['developer', 'engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
       },
@@ -324,7 +348,7 @@ export default {
           },
           {
             name: 'Jeanine Peeters',
-            designation: 'Full time mother ❤',
+            designation: 'Full time mother 👪',
             content: 'Rik is a person you can build on and who takes his work seriously. He puts a lot of time and energy into this. He finishes first even if it takes until the wee hours of the morning. Rik is the power in his profession.'
           }
         ]
