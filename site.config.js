@@ -123,6 +123,9 @@ export default {
         signIn: 'log in',
         signOut: 'log uit'
       },
+      internships: {
+        title: "Stages bij"
+      },
       resume:{
         password: 'wachtwoord',
         provide: 'Voer het opgegeven wachtwoord in'
@@ -222,6 +225,9 @@ export default {
         buyMeACoffee: 'buy me a beer 🍺',
         signIn: 'sign in',
         signOut: 'sign out'
+      },
+      internships: {
+        title: "Internships at"
       },
       resume:{
         password: 'password',
