@@ -2,7 +2,7 @@
   id: 1
   title: digital forensics
   description:
-    What is digical foresics and what processes are involved
+    What is digital forensics and what processes are involved
   duration: 1 day
   image: /images/projects/minor/digital-forensics/main.jpg
   tech:
