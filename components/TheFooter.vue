@@ -48,6 +48,23 @@
           <a class="inline-block md:hidden" target="_blank" href="https://github.com/rikp777">{{ name }} </a>
           </span>
         </p>
+        <p class="mt-8 text-sm leading-6 text-gray-400 md:mt-0 md:order-1">
+          <nuxt-link
+            v-if="$i18n.locale !== 'en'"
+            :to="switchLocalePath('en')"
+            class="text-gray-300 hover:text-hot-pink"
+          >
+            Give me english please!
+          </nuxt-link>
+
+          <nuxt-link
+            v-if="$i18n.locale !== 'nl'"
+            :to="switchLocalePath('nl')"
+            class="text-gray-300 hover:text-hot-pink"
+          >
+            Ik lees dit liever in het Nederlands
+          </nuxt-link>
+        </p>
       </div>
     </div>
   </footer>

@@ -6,7 +6,7 @@
     </div>
 
     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      <div v-for="(rec, index) in $config.recommendations.meta" :key="`rec-${index}`" class="relative h-full bg-gray-900 rounded-lg shadow-lg text-base w-full">
+      <div v-for="(rec, index) in $t('recommendations.meta')" :key="`rec-${index}`" class="relative h-full bg-gray-900 rounded-lg shadow-lg text-base w-full">
         <blockquote class="relative">
           <div class="rounded-t-lg px-5 py-5 sm:px-8 sm:py-8y">
             <div class="flex flex-row">

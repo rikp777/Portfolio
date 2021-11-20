@@ -156,7 +156,16 @@ const nuxtConfig = {
     lazy: true,
     langDir: 'lang/',
     locales: [
-      {code: 'en', name: 'English', file: 'en_US.js'}
+      {
+        code: 'en',
+        name: 'English',
+        file: 'en_US.js'
+      },
+      {
+        code: 'nl',
+        name: 'Dutch',
+        file: 'NL.js'
+      }
     ],
     defaultLocale: 'en',
     vueI18n: {

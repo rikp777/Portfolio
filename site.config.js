@@ -44,14 +44,6 @@ export default {
   },
   uses: {
     enabled: true,
-    meta: [
-      {title: 'OS', value: 'Linux Arch / Windows 10'},
-      {title: 'Memory', value: '16 GB '},
-      {title: 'Keyboard', value: 'Razer DeathStalker'},
-      {title: 'Mouse', value: 'Logitech MX Vertical Ergonomic Mouse'},
-      {title: 'Monitor', value: 'Acer Predator X34'},
-      {title: 'Laptop • Processor • Graphics', value: 'Lenovo Yoga 9 (15-inch, 2021) • 2.4 GHz 8-Core Intel Core i9 • GeForce GTX 1650 Ti'}
-    ],
     image: {
       laptop: '/images/laptop.jpeg'
     }
@@ -118,6 +110,106 @@ export default {
     // wandering-cubes
   },
   strings: {
+    NL: {
+      download: 'download',
+      nav: {
+        home: 'thuis',
+        blog: 'blog',
+        projects: 'projecten',
+        uses: 'gebruikt',
+        resume: 'curriculum vitae',
+        buyMeACoffee: 'koop mij een biertje 🍺',
+        signIn: 'log in',
+        signOut: 'log uit'
+      },
+      resume:{
+        password: 'wachtwoord',
+        provide: 'Voer het opgegeven wachtwoord in'
+      },
+      hero: {
+        iBlogTech: 'Voltijd student ',
+        haveALook: 'neem een kijkje',
+        friendlyNeighborhood: 'jouw vriendelijke buurt',
+        description: '' +
+          'Hey daar, ik ben het Rik Peeters 👋👀. ' +
+          'Ik ben software engineer en cyber security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
+          'Zo kunt je lezen wat mijn aanpak van projecten is en wordt mijn kennis voor deze onderwerpen duidelijk.',
+        words: ['ontwikkelaar', 'ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
+      },
+      githubCalendar: {
+        header: 'bijdragen',
+        subtext: 'github calender heatmap'
+      },
+      blog: {
+        header: 'blog',
+        subtext: 'ik probeer af en toe te schrijven. Laat me weten wat je denkt in de commentaren.'
+      },
+      recentBlog: {
+        header: 'recente blogs',
+        subtext: 'het kost veel tijd om te schrijven man'
+      },
+      recentProject: {
+        header: 'recente projecten',
+        subtext: 'het kost veel tijd om te schrijven man'
+      },
+      uses: {
+        header: 'gebruikt',
+        subtext: 'een korte samenvatting van wat ik dagelijks gebruik om te coderen',
+        meta: [
+          {
+            title: 'OS',
+            value: 'Linux Arch / Windows 11'
+          },
+          {
+            title: 'Werk geheugen',
+            value: '16 GB '
+          },
+          {
+            title: 'Toetsenbord',
+            value: 'Razer DeathStalker'
+          },
+          {
+            title: 'Muis',
+            value: 'Logitech MX Verticale Ergonomische Muis'
+          },
+          {
+            title: 'Beeldscherm',
+            value: 'Acer Predator X34'
+          },
+          {
+            title: 'Laptop • Processor • Grafisch',
+            value: 'Lenovo Yoga 9 (15-inch, 2021) • 2.4 GHz 8-Core Intel Core i9 • GeForce GTX 1650 Ti'
+          }
+        ],
+      },
+      projects: {
+        header: 'projecten',
+        subtext: 'op deze pagina staan enkele van mijn persoonlijke en werkprojecten. elk project heeft een verhaal, klik op de titel om het te lezen. ' +
+          'Opmerking: Deze projecten zijn wel in het engels geschreven.',
+        minor: {
+          subtext: 'Ik ben Rik Peeters en ik studeer momenteel Software-engineering.  ' +
+            'daarnaast ben ik ook gespecialiseerd in de route Cyber Security. ' +
+            'In de onderwerpen hieronder kunt u alles lezen over mijn kennis van onderwerpen ' +
+            'Op deze website komen alle taken en activiteiten te staan die ik tijdens de minor ga doen. Bij elke taak zal een theorie uitleg staan over het onderwerp en een proof of concept dat ik heb gedaan om die taak te oefenen.'
+        }
+      },
+      recommendations: {
+        header: 'aanbevelingen',
+        subtext: 'wat zeggen mijn mentoren, vrienden en collega\'s',
+        meta: [
+          {
+            name: 'Saray Rond',
+            designation: 'Psychologie student en lieve vriendin ❤',
+            image: 'images/saray.jfif',
+            linkedin: 'https://www.linkedin.com/in/saray-r-672049212/',
+            content: 'Als hij ✨gemotiveerd✨ is, houdt Rik vol tot een taak af is. ' +
+              'Dat is een waardevolle vaardigheid om te hebben, aangezien sommige taken moeilijk of veel werk kunnen zijn. ' +
+              'Hij is ook heel goed in het communiceren met medestudenten over hoe ze een bepaald doel moeten aanpakken, hij kan hen als het ware naar succes leiden. ' +
+              'Dat maakt hem een echte teamplayer en dat is belangrijk in zijn vakgebied. 👨🏼💻'
+          }
+        ]
+      }
+    },
     en_US: {
       download: 'download',
       nav: {
@@ -129,6 +221,10 @@ export default {
         buyMeACoffee: 'buy me a beer 🍺',
         signIn: 'sign in',
         signOut: 'sign out'
+      },
+      resume:{
+        password: 'password',
+        provide: 'Enter provided password'
       },
       hero: {
         iBlogTech: 'Full time student',
@@ -158,7 +254,33 @@ export default {
       },
       uses: {
         header: 'uses',
-        subtext: 'a quick summary of what I use on a daily basis to code'
+        subtext: 'a quick summary of what I use on a daily basis to code',
+        meta: [
+          {
+            title: 'OS',
+            value: 'Linux Arch / Windows 11'
+          },
+          {
+            title: 'Memory',
+            value: '16 GB '
+          },
+          {
+            title: 'Keyboard',
+            value: 'Razer DeathStalker'
+          },
+          {
+            title: 'Mouse',
+            value: 'Logitech MX Vertical Ergonomic Mouse'
+          },
+          {
+            title: 'Monitor',
+            value: 'Acer Predator X34'
+          },
+          {
+            title: 'Laptop • Processor • Graphics',
+            value: 'Lenovo Yoga 9 (15-inch, 2021) • 2.4 GHz 8-Core Intel Core i9 • GeForce GTX 1650 Ti'
+          }
+        ],
       },
       projects: {
         header: 'projects',
@@ -172,7 +294,18 @@ export default {
       },
       recommendations: {
         header: 'recommendations',
-        subtext: 'what do my mentors & friends say'
+        subtext: 'what do my mentors, friends & colleagues say',
+        meta: [
+          {
+            name: 'Saray Rond',
+            designation: 'Psychology student & Full time girlfriend ❤',
+            image: 'images/saray.jfif',
+            linkedin: 'https://www.linkedin.com/in/saray-r-672049212/',
+            content: 'When ✨motivated✨, Rik persists till a task is finished. ' +
+              'That is a valuable skill to have since some tasks can be difficult or a lot of work. ' +
+              'He is also quite good at communicating with fellow students about how to approach a certain goal, he can sort of lead them to succes. That makes him a real teamplayer which is important in his field. 👨🏼‍💻'
+          }
+        ]
       }
     }
   }
