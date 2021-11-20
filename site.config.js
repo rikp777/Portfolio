@@ -213,7 +213,11 @@ export default {
               'Dat is een waardevolle vaardigheid om te hebben, aangezien sommige taken moeilijk of veel werk kunnen zijn. ' +
               'Hij is ook heel goed in het communiceren met medestudenten over hoe ze een bepaald doel moeten aanpakken, hij kan hen als het ware naar succes leiden. ' +
               'Dat maakt hem een echte teamplayer en dat is belangrijk in zijn vakgebied. 👨🏼💻'
-          }
+          },
+          {
+            name: 'Jeanine Peeters',
+            designation: 'Mams',
+            content: 'Rik is een persoon waar je op kunt bouwen en die zijn werk serieus neemt. Hij stopt hier veel tijd en energie in. Hij maakt het eerst af al duurt het tot in de late uurtjes. Rik is de kracht in zijn vak.'}
         ]
       }
     },
@@ -312,11 +316,16 @@ export default {
           {
             name: 'Saray Rond',
             designation: 'Psychology student & Full time girlfriend ❤',
-            image: 'images/saray.jfif',
+            image: './images/saray.jfif',
             linkedin: 'https://www.linkedin.com/in/saray-r-672049212/',
             content: 'When ✨motivated✨, Rik persists till a task is finished. ' +
               'That is a valuable skill to have since some tasks can be difficult or a lot of work. ' +
               'He is also quite good at communicating with fellow students about how to approach a certain goal, he can sort of lead them to succes. That makes him a real teamplayer which is important in his field. 👨🏼‍💻'
+          },
+          {
+            name: 'Jeanine Peeters',
+            designation: 'Full time mother ❤',
+            content: 'Rik is a person you can build on and who takes his work seriously. He puts a lot of time and energy into this. He finishes first even if it takes until the wee hours of the morning. Rik is the power in his profession.'
           }
         ]
       }

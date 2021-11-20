@@ -4,7 +4,7 @@
   description:
     summary about the implementation of the GDPR-CFR legislation that I have applied within the company CytoSMART.
   duration: 1 day
-  image: /images/projects/internship/cytosmart/gdpr.jfif
+  image: ./images/projects/internship/cytosmart/gdpr.jfif
   tech:
     - name: gdpr
     - name: annex 11

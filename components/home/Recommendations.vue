@@ -12,7 +12,7 @@
             <div class="flex flex-row">
               <a :href="rec.linkedin" target="_blank" rel="noreferrer">
                 <cite class="flex items-center rounded-b-lg not-italic">
-                  <div class="flex-shrink-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 rounded-full border border-hot-pink mr-4">
+                  <div class="flex-shrink-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 rounded-full border border-hot-pink mr-4" v-show="rec.image">
                     <img class="w-8 h-8 rounded-full bg-indigo-300" :src="rec.image" alt="Varun">
                   </div>
                   <span class="text-gray-400 font-semibold py-2">
