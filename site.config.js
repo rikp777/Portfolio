@@ -26,6 +26,7 @@ export default {
     facebook: '',
     twitter: '',
     instagram: 'me.rikp/',
+    lastfm: 'rikp777'
   },
   buyMeACoffee: {
     enabled: true,
