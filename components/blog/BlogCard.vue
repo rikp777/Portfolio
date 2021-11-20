@@ -6,9 +6,11 @@
       <div class="flex-1 bg-gray-900 p-5 flex flex-col justify-between">
         <div class="flex-1">
           <p class="text-xs font-medium text-hot-pink hover:text-hot-pink">
-            <a href="#" class="hover:underline hover:text-hot-pink" v-for="category in post.category" :key="category.name">
-              {{ category.name }}
-            </a>
+            <template v-for="(category, index) in post.category">
+              <span class="hover:text-pink-600" :key="category.name">
+                {{ category.name }}<span v-if="index < post.category.length -1">,</span>
+              </span>
+            </template>
           </p>
           <div>
             <h3 class="mt-0.5 text-md leading-7 font-semibold text-gray-200">

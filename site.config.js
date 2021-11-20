@@ -92,7 +92,7 @@ export default {
     meta: [
       {
         name: 'Saray Rond',
-        designation: 'Full time girlfriend ❤',
+        designation: 'Psychology student & Full time girlfriend ❤',
         image: 'images/saray.jfif',
         linkedin: 'https://www.linkedin.com/in/saray-r-672049212/',
         content: 'When ✨motivated✨, Rik persists till a task is finished. ' +
