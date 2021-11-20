@@ -154,7 +154,7 @@ export default {
       },
       recentProject: {
         header: 'recente projecten',
-        subtext: 'het kost veel tijd om te schrijven man'
+        subtext: 'het neem echt veel tijd in beslag dat ✨ schrijven ✨'
       },
       uses: {
         header: 'gebruikt',
@@ -187,7 +187,7 @@ export default {
         ],
       },
       projects: {
-        header: 'projecten',
+        header: 'projecten & onderzoeken',
         subtext: 'op deze pagina staan enkele van mijn persoonlijke en werkprojecten. elk project heeft een verhaal, klik op de titel om het te lezen. ' +
           'Opmerking: Deze projecten zijn wel in het engels geschreven.',
         minor: {
@@ -195,7 +195,10 @@ export default {
             'daarnaast ben ik ook gespecialiseerd in de route Cyber Security. ' +
             'In de onderwerpen hieronder kunt u alles lezen over mijn kennis van onderwerpen ' +
             'Op deze website komen alle taken en activiteiten te staan die ik tijdens de minor ga doen. Bij elke taak zal een theorie uitleg staan over het onderwerp en een proof of concept dat ik heb gedaan om die taak te oefenen.'
-        }
+        },
+        technologies: 'Technologieën',
+        categories: 'Categorieën',
+        all: 'alle'
       },
       recommendations: {
         header: 'aanbevelingen',
@@ -257,7 +260,7 @@ export default {
       },
       recentProject: {
         header: 'recent projects',
-        subtext: 'it takes a lot of time to write man'
+        subtext: 'it takes a lot of time to write ✍🏽 man'
       },
       uses: {
         header: 'uses',
@@ -290,14 +293,17 @@ export default {
         ],
       },
       projects: {
-        header: 'projects',
+        header: 'projects & research',
         subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read',
         minor: {
           subtext: 'I am Rik Peeters and I am currently studying Software-engineering. ' +
             'in addition I also am specializing in the route Cyber Security. ' +
             'In the topics below you can read all about my knowledge of topics ' +
             'This website will show all the tasks and activities that I will do during the minor. By every task, will be a theory explanation about the subject and a proof of concept that I did in order to practice that task.'
-            }
+        },
+        technologies: 'Technologies',
+        categories: 'Categories',
+        all: 'all'
       },
       recommendations: {
         header: 'recommendations',

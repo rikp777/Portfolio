@@ -8,6 +8,7 @@
         <h2 class="text-2xl tracking-tight font-extrabold text-gray-200">
           {{ $t('projects.header') }}
         </h2>
+        <span class="mx-auto text-gray-300">- 📓✍🏽 -</span>
         <p class="mt-2 px-2 max-w-2xl mx-auto text-sm leading-7 text-gray-400">
           {{ $t('projects.subtext') }}
         </p>
@@ -17,7 +18,7 @@
 
     <div class="mt-5 gap-4 mx-4 grid max-w-none lg:grid-cols-2">
       <div data-aos="zoom-in" class="select-none px-4 items-center justify-center sm:justify-start overflow-hidden flex pt-4 border-b-2 pb-5">
-        <span class="text-gray-300 mr-5 hidden md:inline-block">Technologies</span>
+        <span class="text-gray-300 mr-5 hidden md:inline-block">{{ $t('projects.technologies') }}</span>
         <nav class="flex flex-wrap items-center justify-center flex-row space-x-2 sm:space-x-4" aria-label="Tabs">
           <button @click="current = tech" :class="{ 'bg-gray-900 text-gray-300': tech === current }" v-for="tech in techs" :key="tech"
                   class="flex text-gray-300 focus:outline-none focus:ring-transparent focus:ring-offset-transparent hover:text-hot-pink px-3 py-2 font-medium text-sm rounded-xl">
@@ -26,7 +27,7 @@
         </nav>
       </div>
       <div data-aos="zoom-in" class="select-none px-4 items-center justify-center sm:justify-start overflow-hidden flex pt-4 border-b-2 pb-5">
-        <span class="text-gray-300 mr-5 hidden md:inline-block">Categories</span>
+        <span class="text-gray-300 mr-5 hidden md:inline-block">{{ $t('projects.categories') }}</span>
         <nav class="flex flex-wrap items-center justify-center flex-row space-x-2 sm:space-x-4" aria-label="Tabs">
           <button @click="current = category" :class="{ 'bg-gray-900 text-gray-300': category === current }" v-for="category in categories" :key="category"
                   class="flex text-gray-300 focus:outline-none focus:ring-transparent focus:ring-offset-transparent hover:text-hot-pink px-3 py-2 font-medium text-sm rounded-xl">
@@ -64,8 +65,6 @@
 </template>
 
 <script>
-const ALL = 'all'
-
 export default {
   head() {
     return {
@@ -92,7 +91,7 @@ export default {
         }
       })
       console.log(techs)
-      return [ALL, ...new Set(techs)]
+      return [this.ALL, ...new Set(techs)]
     },
     categories() {
       let categories = []
@@ -105,10 +104,10 @@ export default {
           })
         }
       })
-      return [ALL, ...new Set(categories)]
+      return [this.ALL, ...new Set(categories)]
     },
     projectsBy() {
-      if (this.current === ALL)
+      if (this.current === this.ALL)
         return this.projects
       console.log("filter by", this.current)
       let data = []
@@ -153,8 +152,8 @@ export default {
   },
   data() {
     return {
-      current: ALL,
-      ALL: ALL, // exporting it to template
+      current: this.$t('projects.all'),
+      ALL: this.$t('projects.all'), // exporting it to template
       file: "../static/unox.mp3"
     }
   },
