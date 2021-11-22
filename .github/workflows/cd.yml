@@ -22,12 +22,13 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Cache yarn dependencies
-        uses: actions/cache@v1
+        uses:  actions/cache@v2
+        id: yarn-cache
         with:
-          path: ~/.yarn
-          key: ${{ runner.OS }}-yarn-cache-${{ hashFiles('**/package-lock.json') }}
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.OS }}-yarn-cache-
+            ${{ runner.os }}-yarn-
 
       - name: Install dependencies 🔧
         run: yarn
