@@ -145,8 +145,8 @@ classifier.fit(x_train, y_train)  # Train Model
 In my code, I use the multinomial Naive Bayes classifier. \
 This is suitable for classification with discrete features (e.g., word counts for text classification)
 
-<a href="/images/Projects/Minor/machine_learning/minor_cyber_machine_learning_scores.png" target="_blank" rel="some text">
-  <img width="80%" src="/images/Projects/Minor/machine_learning/minor_cyber_machine_learning_scores.png" alt="Machine learning main image"/>
+<a href="/images/projects/minor/machine_learning/minor_cyber_machine_learning_scores.png" target="_blank" rel="some text">
+  <img width="80%" src="/images/projects/minor/machine_learning/minor_cyber_machine_learning_scores.png" alt="Machine learning main image"/>
 </a>
 
 It is very important for an algorithm that the accuracy is high. From the image above you can see that my algorithm can make a prediction for future data with a certainty of around 98%. 
@@ -161,7 +161,7 @@ When you are using machine learning algorithms it is useful to always test your 
 
 Below I am going to briefly explain how to read a confusion table: 
 
-<img width="80%" src="/images/Projects/Minor/machine_learning/confusion_matrix.png" alt="Machine learning main image"/>
+<img width="80%" src="/images/projects/minor/machine_learning/confusion_matrix.png" alt="Machine learning main image"/>
 
 as you can see the total predictions that this model did was 165. Within those 165 predictions it gave a total of 100 times yes when it was actually yes and it predicted no 50 times when it was actually no. But we can also see the errors we can for example see that it  predicted no 5 times when it was textually yes and 10 times yes when it was actually no. 
 
@@ -170,7 +170,7 @@ as you can see the total predictions that this model did was 165. Within those 1
 - 5 times no when it was actually yes = true positives = type two error 
 - 10 times yes when it was actually no = false positives = type one error
 
-<img width="80%" src="/images/Projects/Minor/machine_learning/confusion_matrix_sum.png" alt="Machine learning main image"/>
+<img width="80%" src="/images/projects/minor/machine_learning/confusion_matrix_sum.png" alt="Machine learning main image"/>
 
 This is a list of rates that are often computed from a confusion matrix:
 
@@ -210,6 +210,6 @@ This is a list of rates that are often computed from a confusion matrix:
 
 Below is a confusion matrix I made at the workshop in tilburg: 
 
-<img width="80%" src="/images/Projects/Minor/machine_learning/machine_learning_confusion_matrix.png" alt="Machine learning main image"/>
+<img width="80%" src="/images/projects/minor/machine_learning/machine_learning_confusion_matrix.png" alt="Machine learning main image"/>
 
 Here we can see that the table is bigger but the same principle remains. 

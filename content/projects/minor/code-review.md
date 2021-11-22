@@ -82,16 +82,16 @@ In my sixth semester, I also used sonarqube to ensure my code quality. As descri
 
 I chose this solution because automated solutions can be quite expensive and the costs can add up quickly. The SonarQube solution is open source so it is free to use and is well maintained by the community. The analyses performed on my code are divided into several domains so is the cyber domain also one of them. 
 
-<a href="/images/Projects/Minor/code-review/code-quality_qonarcloud.png" target="_blank" rel="some text">
-  <img width="80%" src="/images/Projects/Minor/code-review/code-quality_qonarcloud.png" alt="SonarCloud dashboard"/>
+<a href="/images/projects/minor/code-review/code-quality_qonarcloud.png" target="_blank" rel="some text">
+  <img width="80%" src="/images/projects/minor/code-review/code-quality_qonarcloud.png" alt="SonarCloud dashboard"/>
 </a>
 
 #### Codacy
 
 Codacy automates code reviews and monitors code quality on every commit and pull request, reporting back on the impact of each commit or pull request, code style, best practices, security, and many other issues. It tracks changes in code coverage, duplication, and complexity. Saving developers' time during code reviews, allowing them to tackle technical debt more effectively. Currently, JavaScript, Java, Ruby, Scala, PHP, Python, CoffeeScript, and CSS are supported. Codacy is static analysis without the complication.
 
-<a href="/images/Projects/Minor/code-review/codacy.jpeg" target="_blank" rel="some text">
-  <img width="80%" src="/images/Projects/Minor/code-review/codacy.jpeg" alt="Codacy dashboard"/>
+<a href="/images/projects/minor/code-review/codacy.jpeg" target="_blank" rel="some text">
+  <img width="80%" src="/images/projects/minor/code-review/codacy.jpeg" alt="Codacy dashboard"/>
 </a>
 
 
