@@ -21,6 +21,14 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      - name: Cache yarn dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.yarn
+          key: ${{ runner.OS }}-yarn-cache-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-yarn-cache-
+
       - name: Install dependencies 🔧
         run: yarn
 
