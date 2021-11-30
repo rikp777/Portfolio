@@ -16,7 +16,7 @@
     image: /images/me.jpg
     social:
       twitter: rikp777
-  slug: minor_privacy
+  slug: minor_secure-development
 ---
 
 # Methodologies and practices of secure development 
