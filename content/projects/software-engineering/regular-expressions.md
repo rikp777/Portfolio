@@ -4,7 +4,7 @@
   description:
     What are they and how to make one 
   duration: 1 day
-  image: /images/projects/other/time-management.jpg
+  image: /images/projects/minor/regex.png
   tech:
     - name: regex
   category:

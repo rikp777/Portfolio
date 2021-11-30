@@ -4,7 +4,7 @@
   description:
     What are algorithmics 
   duration: 1 day
-  image: /images/projects/minor/digital-forensics/main.jpg
+  image: /images/projects/minor/algorithm/algorithm.jpg
   tech:
     - name: math
     - name: algorithmics 

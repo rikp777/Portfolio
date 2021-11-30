@@ -4,7 +4,7 @@
   description:
     What is vim and why should you use it as a professional 
   duration: 1 whole day in total
-  image: /images/projects/other/time-management.jpg
+  image: /images/projects/other/vim.png
   tech:
     - name: vim
     - name: ide 

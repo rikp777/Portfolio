@@ -1,10 +1,9 @@
 ---
-  id: 1
   title: digital forensics
   description:
     What is digital forensics and what processes are involved
   duration: 1 day
-  image: /images/projects/minor/digital-forensics/main.jpg
+  image: /images/projects/minor/digital-forensics/digital-forensics.png
   tech:
     - name: digital forensics
   category:

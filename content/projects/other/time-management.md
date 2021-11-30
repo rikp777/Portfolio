@@ -4,7 +4,7 @@
   description:
     How to manage time and make priorities 
   duration: 1 whole day in total 
-  image: /images/projects/other/time-management.jpg
+  image: /images/projects/minor/time-management.png
   tech:
     - name: time management
   category:

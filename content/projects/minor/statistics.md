@@ -1,11 +1,10 @@
 ---
-  id: 3
   title: statistics 
   description:
     Basic knowledge building for preparation master studies. 
     Here I learn to perform statistical analysis and draw conclusions
   duration: full time 1 week 
-  image: /images/projects/minor/statistics/main.jfif
+  image: /images/projects/minor/statistics/statistics.jpg
   tech:
     - name: statistics 
     - name: math

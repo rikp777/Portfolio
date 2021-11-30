@@ -1,5 +1,4 @@
 ---
-  id: 4
   title: machine learning
   description: 
     A project where I apply machine learning to the aspect of cyber. 

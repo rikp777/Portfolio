@@ -1,5 +1,4 @@
 ---
-  id: 2
   title: ethics
   description:
     What standards and values are involved in analyzing data. How to avoid prejudice.

@@ -3,7 +3,7 @@
   title: Secure-development
   description: Privacy for the user while developing software / Security while developing software / Security in a project lifecycle 
   duration: 1 whole day
-  image: /images/projects/minor/osint/main.png
+  image: /images/projects/minor/secure-development.png
   tech:
     - name: software-engineering
     - name: secure-development

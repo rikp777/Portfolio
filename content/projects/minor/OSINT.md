@@ -1,5 +1,4 @@
 ---
-  id: 5
   title: OSINT
   description: OSINT
   duration: 2 weeks

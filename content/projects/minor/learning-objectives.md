@@ -1,5 +1,4 @@
 ---
-  id: 0
   title: Learning Objectives & PDR 
   description:
     Learning Objectives for minor Cyber summarized & PDR with evaluation

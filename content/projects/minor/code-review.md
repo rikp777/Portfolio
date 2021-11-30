@@ -4,7 +4,7 @@
   description:
     COurse code review with a cyber aspact 
   duration: 1 day
-  image: /images/projects/minor/digital-forensics/main.jpg
+  image: /images/projects/minor/code-analysis.png
   tech:
     - name: review
   category:
