@@ -56,9 +56,15 @@
       </div>
     </div>
 
-
+    <div class="flex justify-end items-center my-3">
+      <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+        <input v-model="showImage" type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
+        <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+      </div>
+      <label for="toggle" class="text-xs text-white mr-5">Show image</label>
+    </div>
     <div data-aos="zoom-in" class="mt-5 gap-4 mx-4 grid max-w-none lg:grid-cols-3">
-      <ProjectCard class="hover:-rotate-12" v-for="project in projectsBy" :key="project.slug" :project="project" />
+      <ProjectCard class="hover:-rotate-12" v-for="project in projectsBy" :key="project.slug" :project="project" :showImage="showImage"/>
     </div>
 
   </div>
@@ -154,7 +160,8 @@ export default {
     return {
       current: this.$t('projects.all'),
       ALL: this.$t('projects.all'), // exporting it to template
-      file: "../static/unox.mp3"
+      file: "../static/unox.mp3",
+      showImage: false
     }
   },
   async asyncData({ $content }) {
@@ -174,6 +181,16 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+/* CHECKBOX TOGGLE SWITCH */
+/* @apply rules for documentation, these do not work as inline style */
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68D391;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-400;
+  background-color: #68D391;
+}
 </style>
