@@ -20,7 +20,7 @@
   slug: minor_ethics-data-science
 ---
 
-# Ethics 
+# Ethics - Data Science
 To begin with, people tend to view data as objective by nature. 
 We tend to forget that data is only as accurate and objective as the people and processes used to generate and collect it.
 

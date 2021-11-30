@@ -26,6 +26,10 @@ Regular expressions are one of the most used programming functions. Almost all b
 
 But before we go deeper in to the topic you first need to understand what a regular expression ( regex) is. Regex  is a character set witch describes certain patterns its is mostly used to match and locate text in a string. 
 
+A regular expressions is a way to describe patterns. A computer can recognize these regular expressions and will be able to recognize text inside for example a document. You can for example use a regular expression to search through a text or check if an email-address is correctly formatted.
+
+There are a lot of character used in a regular expression and it can be unreadable to the untrained eye.
+
 ## Cheat sheet summary 
 
 To make a regex yourself you need to understand the list below. in doing so you have to understand what each character means and does. 
