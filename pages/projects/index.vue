@@ -1,9 +1,7 @@
 <template>
   <div class="relative max-w-7xl border-r border-l border-dashed border-gray-700 py-6 mx-auto">
 
-    <div v-if="current === 'minor' || current === 'cyber'" >
-    </div>
-    <div v-else>
+    <div>
       <div data-aos="fade-up" class="text-center">
         <h2 class="text-2xl tracking-tight font-extrabold text-gray-200">
           {{ $t('projects.header') }}
@@ -36,24 +34,18 @@
         </nav>
       </div>
 
-      <div v-if="current === 'minor' || current === 'cyber'">
-        <div class="">
+      <template v-for="(category, index) in $t('projects.category_data')">
+        <div :key="index" v-show="category.id === current">
           <div class="mt-5 h-auto py-10 px-10 w-3/3 bg-gray-900 flex flex-col space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform">
-            <h1 class="font-medium text-white text-xl tracking-wide">MINOR</h1>
-            <p class="font-normal tracking-wide text-base text-white lg:w-4/5">{{ $t('projects.minor.subtext') }}</p>
+            <h1 class="font-medium text-white text-xl tracking-wide">{{ category.name }}</h1>
+            <p class="font-normal tracking-wide text-base text-white lg:w-4/5">{{ category.description }}</p>
             <div class="flex flex-col">
               <backquotes class="font-normal text-white text-sm tracking-wider">Rik Peeters</backquotes>
               <backqoutes class="font-normal text-white text-sm tracking-wider">Fontys ICT</backqoutes>
             </div>
           </div>
         </div>
-      </div>
-      <div class="">
-        <div class="mt-5 h-auto py-20 px-10 w-3/3 bg-gray-900 flex flex-col space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform">
-          <h1 class=" font-medium text-white text-xl tracking-wide">Introduction to the category {{ current }}</h1>
-          <p class="font-normal tracking-wide text-xl text-white lg:w-4/5">blablabla</p>
-        </div>
-      </div>
+      </template>
     </div>
 
     <div class="flex justify-end items-center my-3">
@@ -161,7 +153,7 @@ export default {
       current: this.$t('projects.all'),
       ALL: this.$t('projects.all'), // exporting it to template
       file: "../static/unox.mp3",
-      showImage: false
+      showImage: true
     }
   },
   async asyncData({ $content }) {

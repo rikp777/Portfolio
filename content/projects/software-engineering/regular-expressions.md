@@ -9,7 +9,7 @@
     - name: regex
   category:
     - name: body of knowledge 
-    - name: Software engineering
+    - name: software-engineering
     - name: cyber
     - name: minor
   author:

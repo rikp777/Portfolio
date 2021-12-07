@@ -9,6 +9,7 @@
     - name: statistics 
   category:
     - name: body of knowledge
+    - name: minor
   author:
     name: Rik Peeters
     image: /images/me.jpg

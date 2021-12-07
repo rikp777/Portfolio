@@ -210,7 +210,41 @@ export default {
         },
         technologies: 'Technologieën',
         categories: 'Categorieën',
-        all: 'alle'
+        all: 'alle',
+        category_data: [
+          {
+            id: 'minor',
+            name: 'Minor',
+            description: 'Ik ben Rik Peeters en ik studeer momenteel Software-engineering. ' +
+              'daarnaast ben ik ook gespecialiseerd in het traject Cyber Security. ' +
+              'In de onderstaande onderwerpen kun je alles lezen over mijn kennis van onderwerpen ' +
+              'Op deze website staan alle taken en werkzaamheden die ik tijdens de minor zal uitvoeren. ' +
+              'Bij elke taak, zal een theorie uitleg staan over het onderwerp en een proof of concept dat ik heb gedaan om die taak te kunnen oefenen.'
+          },
+          {
+            id: 'cyber',
+            name: 'Cyber',
+            description: 'Het internet brengt vele bedreigingen met zich mee. ' +
+              'Tegenwoordig zijn er veel vormen van cyber crime, waardoor er ook meer professionals nodig zijn om de veiligheid op het internet te garanderen.' +
+              'Hier hoop ik een deel van uit te mogen maken de topics hieronder gaan over dit vakgebied'
+          },
+          {
+            id: "body of knowledge",
+            name: "Body of knowledge",
+            description: 'Hoeveelheid kennis die de basis vormt voor het uitoefenen van een specifiek beroep. ' +
+              'Ieder beroep kent een \'body of knowledge\', en het leren van die body of knowledge noemen we conceptueel leren.'
+          },
+          {
+            id: 'software-engineering',
+            name: 'Software-engineering',
+            description: 'Software engineering is een deelgebied van de informatica dat zich bezighoudt met alle aspecten van het bouwen van complexe maar betrouwbare software tot informatiesystemen.'
+          },
+          {
+            id: 'internship',
+            name: 'Stage',
+            description: "Stage opdrachten"
+          }
+        ]
       },
       recommendations: {
         header: 'aanbevelingen',
@@ -324,14 +358,45 @@ export default {
         header: 'projects & research',
         subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read',
         minor: {
-          subtext: 'I am Rik Peeters and I am currently studying Software-engineering. ' +
-            'in addition I also am specializing in the route Cyber Security. ' +
-            'In the topics below you can read all about my knowledge of topics ' +
-            'This website will show all the tasks and activities that I will do during the minor. By every task, will be a theory explanation about the subject and a proof of concept that I did in order to practice that task.'
+          subtext: ""
         },
         technologies: 'Technologies',
         categories: 'Categories',
-        all: 'all'
+        all: 'all',
+        category_data: [
+          {
+            id: 'minor',
+            name: 'Minor',
+            description: 'I am Rik Peeters and I am currently studying Software-engineering. ' +
+              'in addition I also am specializing in the route Cyber Security. ' +
+              'In the topics below you can read all about my knowledge of topics ' +
+              'This website will show all the tasks and activities that I will do during the minor. ' +
+              'By every task, will be a theory explanation about the subject and a proof of concept that I did in order to practice that task.'
+          },
+          {
+            id: 'cyber',
+            name: 'Cyber',
+            description: 'The Internet brings with it many threats. ' +
+              'Nowadays, there are many forms of cyber crime, which also means that more professionals are needed to ensure security on the Internet.' +
+              'This is where I hope to be a part of the topics below are about this field'
+          },
+          {
+            id: 'body of knowledge',
+            name: 'Body of knowledge',
+            description: 'Amount of knowledge that forms the basis for practicing a specific profession. ' +
+              'Every profession has a body of knowledge, and the learning of that body of knowledge is called conceptual learning.'
+          },
+          {
+            id: 'software-engineering',
+            name: 'Software-engineering',
+            description: 'Software engineering is a subfield of computer science that deals with all aspects of building complex but reliable software into information systems.'
+          },
+          {
+            id: 'internship',
+            name: "Internship",
+            description: "Internship assignments"
+          }
+        ]
       },
       recommendations: {
         header: 'recommendations',
