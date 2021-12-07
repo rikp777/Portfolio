@@ -219,30 +219,35 @@ export default {
               'daarnaast ben ik ook gespecialiseerd in het traject Cyber Security. ' +
               'In de onderstaande onderwerpen kun je alles lezen over mijn kennis van onderwerpen ' +
               'Op deze website staan alle taken en werkzaamheden die ik tijdens de minor zal uitvoeren. ' +
-              'Bij elke taak, zal een theorie uitleg staan over het onderwerp en een proof of concept dat ik heb gedaan om die taak te kunnen oefenen.'
+              'Bij elke taak, zal een theorie uitleg staan over het onderwerp en een proof of concept dat ik heb gedaan om die taak te kunnen oefenen.',
+            image: '/images/projects/cyber.jpg',
           },
           {
             id: 'cyber',
             name: 'Cyber',
             description: 'Het internet brengt vele bedreigingen met zich mee. ' +
               'Tegenwoordig zijn er veel vormen van cyber crime, waardoor er ook meer professionals nodig zijn om de veiligheid op het internet te garanderen.' +
-              'Hier hoop ik een deel van uit te mogen maken de topics hieronder gaan over dit vakgebied'
+              'Hier hoop ik een deel van uit te mogen maken de topics hieronder gaan over dit vakgebied',
+            image: '/images/projects/cyber.jpg',
           },
           {
             id: "body of knowledge",
             name: "Body of knowledge",
             description: 'Hoeveelheid kennis die de basis vormt voor het uitoefenen van een specifiek beroep. ' +
-              'Ieder beroep kent een \'body of knowledge\', en het leren van die body of knowledge noemen we conceptueel leren.'
+              'Ieder beroep kent een \'body of knowledge\', en het leren van die body of knowledge noemen we conceptueel leren.',
+            image: '/images/projects/study.jpg',
           },
           {
             id: 'software-engineering',
             name: 'Software-engineering',
-            description: 'Software engineering is een deelgebied van de informatica dat zich bezighoudt met alle aspecten van het bouwen van complexe maar betrouwbare software tot informatiesystemen.'
+            description: 'Software engineering is een deelgebied van de informatica dat zich bezighoudt met alle aspecten van het bouwen van complexe maar betrouwbare software tot informatiesystemen.',
+            image: '/images/projects/software.jpg',
           },
           {
             id: 'internship',
             name: 'Stage',
-            description: "Stage opdrachten"
+            description: "Stage opdrachten",
+            image: '/images/projects/internship.svg',
           }
         ]
       },
@@ -371,30 +376,35 @@ export default {
               'in addition I also am specializing in the route Cyber Security. ' +
               'In the topics below you can read all about my knowledge of topics ' +
               'This website will show all the tasks and activities that I will do during the minor. ' +
-              'By every task, will be a theory explanation about the subject and a proof of concept that I did in order to practice that task.'
+              'By every task, will be a theory explanation about the subject and a proof of concept that I did in order to practice that task.',
+            image: '/images/projects/cyber.jpg',
           },
           {
             id: 'cyber',
             name: 'Cyber',
             description: 'The Internet brings with it many threats. ' +
               'Nowadays, there are many forms of cyber crime, which also means that more professionals are needed to ensure security on the Internet.' +
-              'This is where I hope to be a part of the topics below are about this field'
+              'This is where I hope to be a part of the topics below are about this field',
+            image: '/images/projects/cyber.jpg',
           },
           {
             id: 'body of knowledge',
             name: 'Body of knowledge',
             description: 'Amount of knowledge that forms the basis for practicing a specific profession. ' +
-              'Every profession has a body of knowledge, and the learning of that body of knowledge is called conceptual learning.'
+              'Every profession has a body of knowledge, and the learning of that body of knowledge is called conceptual learning.',
+            image: '/images/projects/study.jpg',
           },
           {
             id: 'software-engineering',
             name: 'Software-engineering',
-            description: 'Software engineering is a subfield of computer science that deals with all aspects of building complex but reliable software into information systems.'
+            description: 'Software engineering is a subfield of computer science that deals with all aspects of building complex but reliable software into information systems.',
+            image: '/images/projects/software.jpg',
           },
           {
             id: 'internship',
             name: "Internship",
-            description: "Internship assignments"
+            description: "Internship assignments",
+            image: '/images/projects/internship.svg',
           }
         ]
       },
