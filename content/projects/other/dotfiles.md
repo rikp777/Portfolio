@@ -16,6 +16,7 @@
     social:
       twitter: rikp777
   slug: other_dotfiles
+  github: https://github.com/rikp777/.dotfiles
 ---
 
 # .dotfiles
