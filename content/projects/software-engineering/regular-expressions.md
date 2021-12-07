@@ -18,6 +18,7 @@
     social:
       twitter: rikp777
   slug: software-engineering_regular-expressions
+  createdAt: 2021-11-6
 ---
 
 # Regular expressions

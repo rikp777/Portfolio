@@ -15,6 +15,7 @@
   slug: minor_learning-objectives
   meta_data:
     thank_reader: False
+  createdAt: 2021-09-12
 ---
 
 # Learning Objectives

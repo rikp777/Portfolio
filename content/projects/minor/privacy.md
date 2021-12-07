@@ -1,12 +1,12 @@
 ---
   id:
-  title: Secure-development
-  description: Privacy for the user while developing software / Security while developing software / Security in a project lifecycle 
+  title: Privacy in software applications
+  description: Privacy for the user while developing software
   duration: 1 whole day
-  image: /images/projects/minor/secure-development.png
+  image: /images/projects/minor/osint/main.png
   tech:
     - name: software-engineering
-    - name: secure-development
+    - name: privacy
   category:
     - name: minor
     - name: cyber
@@ -16,8 +16,8 @@
     image: /images/me.jpg
     social:
       twitter: rikp777
-  slug: minor_secure-development
-  createdAt: 2021-09-26
+  slug: minor_privacy
+  createdAt: 2021-12-07
 ---
 
 # Methodologies and practices of secure development 

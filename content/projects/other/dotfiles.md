@@ -17,6 +17,7 @@
       twitter: rikp777
   slug: other_dotfiles
   github: https://github.com/rikp777/.dotfiles
+  createdAt: 2021-12-07
 ---
 
 # .dotfiles

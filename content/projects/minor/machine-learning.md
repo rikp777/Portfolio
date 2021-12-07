@@ -19,6 +19,7 @@
       twitter: rikp777
   github: https://github.com/rikp777/stat_project
   slug: minor_machine-learning
+  createdAt: 2021-11-17
 ---
 
 # Machine Learning

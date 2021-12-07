@@ -17,6 +17,7 @@
     social:
       twitter: rikp777
   slug: minor_ethics-data-science
+  createdAt: 2021-10-24
 ---
 
 # Ethics - Data Science

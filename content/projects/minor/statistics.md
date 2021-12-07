@@ -20,6 +20,7 @@
     twitter: rikp777
   github: https://github.com/rikp777/stat_project
   slug: minor_statistics
+  createdAt: 2021-11-19
 ---
 
 # Statistics 

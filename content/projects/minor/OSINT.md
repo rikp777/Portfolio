@@ -16,6 +16,7 @@
     social: 
       twitter: rikp777
   slug: minor_OSINT
+  createdAt: 2021-12-07
 ---
 
 # OSINT

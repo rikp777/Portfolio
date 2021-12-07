@@ -17,6 +17,7 @@
       twitter: rikp777
   slug: other_vim
   github: https://github.com/rikp777/.dotfiles/tree/master/nvim/.config/nvim
+  createdAt: 2021-12-08
 ---
 
 # Vim (IDE)
