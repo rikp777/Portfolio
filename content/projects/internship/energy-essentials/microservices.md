@@ -23,22 +23,22 @@
 
 **Company mentor**
 
-|                  |                                           |
-| ---------------- | ----------------------------------------- |
-| Name             | Yorick Smeets                             |
-| Department       | Software Engineering                      |
-| Position         | Lead developer                            |
-| Background study | Eindhoven University of Technology (TU/e) |
-| Linked-in        | https://www.linkedin.com/in/yoricksmeets/ |
-| Phone number     | +31 6 /                                   |
-| Email            | /                                         |
+|                  |                                                              |
+| ---------------- | ------------------------------------------------------------ |
+| Name             | Ralph Jansen                                                 |
+| Department       | Software Engineering                                         |
+| Position         | Senior developer                                             |
+| Background study | Eindhoven University of Technology (TU/e)                    |
+| Linked-in        | https://www.linkedin.com/in/ralph-jansen-58547716/           |
+| Phone number     | +31 6 /                                                      |
+| Email            | [Ralph.jansen@energyessentials.nl](mailto:Ralph.jansen@energyessentials.nl) |
 
 **Looptijd**
 
 |                 |                 |
 | --------------- | --------------- |
-| Start date      | 5 February 2022 |
-| End date        | /               |
+| Start date      | 7 February 2022 |
+| End date        | 8 July 2022     |
 | ASAM Assignment | No              |
 
 *This internship site meets all the requirements according to the block book, which has been established by the Fontys.*
@@ -91,7 +91,7 @@ What is the difference between cloud native and microservice?
 
 How to make the transition from synchronous to asychronous? 
 
- What did other companies do to achieve the same goal? (look for relevant examples)
+What did other companies do to achieve the same goal? (look for relevant examples)
 
 
 
@@ -109,21 +109,22 @@ The team consists of different departments that can provide expert support in mu
 
 ## Guidance/Support
 
-Within Energy Essentials Yorick Smeets is going to be my supervisor for this internship. He finished three studies* that are ICT related which makes him a compatible supervisor. He meets the criterion given by the Fontys ICT exam board. He will be guiding me in person for a minimun of two hours a week but he will be on location as well for a minimun of 4 days a week if in any case I run into some issues, than he is there to help me out. Yorick will also be the contact person for Fontys, his information can be found at the beginning of the document. 
+Within Energy Essentials Ralph Jansen is going to be my supervisor for this internship. He finished one study* that is ICT related which makes him a compatible supervisor. He meets the criterion given by the Fontys ICT exam board. He will be guiding me in person for a minimun of two hours a week but he will be on location as well for a minimun of 4 days a week if in any case I run into some issues, than he is there to help me out. Ralph will also be the contact person for Fontys, his information can be found at the beginning of the document. 
 
-*TU/e - Electrical Engineering, TU/e - Industrial Engineering & Fontys University of Applied Sciences - ICT & Business
+*Zuyd Hogeschool | University of Applied Sciences 
 
 # Personal Development Goals 
 
 Because my personal development is also very important, during my internship I will work on a number of personal learning goals in order to work on my professionalism. Below is a brief description of the learning objectives I want to work on.
 
-Improve my English. I want to see if I can write this internship report without problems since it is a little bit of a challenge for me to write it fully in English. 
+- Improve my English. I want to see if I can write this internship report without problems since it is a little bit of a challenge for me to write it fully in English. 
 
-Writing in a professional matter is difficult for me so I want to improve this. I find it difficult to get my ideas out on paper. Maybe this is due to my dyslexia but nevertheless I want to improve this skill because this is important for any further studies. 
+- Writing in a professional matter is difficult for me so I want to improve this. I find it difficult to get my ideas out on paper. Maybe this is due to my dyslexia but nevertheless I want to improve this skill because this is important for any further studies. 
 
-Applying techniques that I have learned during my studies at Fontys on situations in the real business world. I want to get hands-on experience with the things I learned during my studies since this is also really important once I finish my studies so I will be confident enough in my quality of work. 
+- Applying techniques that I have learned during my studies at Fontys on situations in the real business world. I want to get hands-on experience with the things I learned during my studies since this is also really important once I finish my studies so I will be confident enough in my quality of work. 
 
-Accepting flaws within an architectural design. Sometimes when I need to work on a software I get frustrated by the way it is build even if it does not interfere with what I need to work on within the software. I always have the urge to rewrite the whole architecture but this is not needed since the software works for the given solution. 
+- Accepting flaws within an architectural design. Sometimes when I need to work on a software I get frustrated by the way it is build even if it does not interfere with what I need to work on within the software. I always have the urge to rewrite the whole architecture but this is not needed since the software works for the given solution. 
+
 
 
 

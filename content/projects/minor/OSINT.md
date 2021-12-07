@@ -1,5 +1,4 @@
 ---
-  id: 5
   title: OSINT
   description: OSINT
   duration: 2 weeks
@@ -19,19 +18,24 @@
   slug: minor_OSINT
 ---
 
-# Test
+# OSINT
 
-Tijdens dit semester hebben wij als groep het project topic OSINT. 
-Bij Fontys komen er overheidstrainees en studenten terecht die moeten leren wat OSINT inhoudt. Om dit onderwerp interessant te houden moet er een leuke en interactieve manier gevonden worden om OSINT te demonstreren. Een manier om dit te bereiken is een CTF met betrekking tot OSINT. 
-Capture the flags zijn een leuke en interactieve manier om dit te bereiken.  
+During this semester, we as a group have the project topic OSINT. 
 
-Dit onderwerp geeft meer inzicht wat OSINT is en welke toepassingen het heeft dit lijkt mij persoonlijk zeer interessant daarom zou ik hier graag meer over willen leren. 
-OSINT behoord tot het vakgebied van Cyber. 
+OSIN stands for Open Source Intelligence and includes the method of collecting information and intelligence through public sources.
 
-OSINT staat voor Open Source Intelligence en omvat de methode om informatie en inlichtingen middels openbare bronnen te verzamelen.
+At Fontys, government trainees and students have to learn what OSINT entails. To keep this subject interesting, a fun and interactive way to demonstrate OSINT must be found. One way to accomplish this is a CTF related to OSINT. CTF stands for "Capture the flag" this is a fun and interactive way to accomplish this.  
 
-Voor het project gaan we een CTF framework opzetten. Dit framework maakt het mogelijk om in een leuke manier met teamleden doelen te behalen. 
-In dit framework worden alle challenges verwerkt die ons team dit semester heeft ontwikkeld.
+This topic gives more insight what OSINT is and what applications it has this seems to me personally very interesting therefore I would like to learn more about this. 
 
-Dit leerdoel ga ik halen door leuke challenges te maken en het uitwerken van ethiek. Alle challanges zijn terug te vinden in de CTF challenge platform. 
+OSINT belongs to the field of Cyber. 
+
+For the project we are going to set up a CTF framework. This framework makes it possible to achieve goals in a fun way with team members. 
+This framework will incorporate all the challenges that our team has developed this semester.
+
+I am going to meet this learning goal by creating fun challenges and working out ethics. All challenges can be found in the CTF challenge platform. 
+
+To create this platform we as a group used the open source framework CTFd. CTFd is a Capture The Flag framework focusing on ease of use and customizability. It comes with everything you need to run a CTF and it's easy to customize with plugins and themes.
+
+Within this plaftorm I created most of the challenges. These challenges vary from very easy to very difficult. because it seemed to me personally very nice to keep a standard theme I proposed this to the group. They agreed to this. Therefore, we chose the theme alien invasion. This also has the advantage that with this we are always politically correct because we do not use names.
 

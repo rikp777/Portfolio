@@ -4,7 +4,7 @@
   description:
      What are they and how are they used 
   duration: 1 day
-  image: /images/projects/other/time-management.jpg
+  image: /images/projects/minor/recaptcha.png
   tech:
     - name: captcha
   category:

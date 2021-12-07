@@ -4,7 +4,7 @@
       <div data-aos="fade-up"  class="bg-gray-900 py-3 px-6 flex justify-between items-center">
         <h1 class="text-lg flex flex-row font-semibold text-gray-200"><span class="pr-1">{{ $t('nav.resume') }}</span>
           - <span class="pl-1 hidden md:block">{{ $config.name }}</span></h1>
-        <a target="_blank" rel="noreferrer" :href="$config.resume.pdfUrl" :download="`${$config.name}.pdf`" v-if="passwordIsCorrect"
+        <a target="_blank" rel="noreferrer" :href="$config.pdfUrl" :download="`${$config.name}.pdf`" v-if="passwordIsCorrect"
            class="inline-flex text-indigo-500 hover:text-indigo-600 items-center px-2 py-1 border
            border-transparent shadow-sm text-sm font-medium
            rounded-md btn-color-style">
@@ -14,11 +14,12 @@
           {{ $t('download') }}
         </a>
         <div v-if="!passwordIsCorrect">
-          <small class="text-gray-200"> Enter provided password</small>
-          <input class="shadow appearance-none border rounded py-2 px-3 text-gray-200 bg-gray-900 leading-tight focus:outline-none focus:shadow-outline" id="password" type="text" placeholder="password" v-model="password"  @change="checkPassword()">
+          <small class="text-gray-200">{{ $t('resume.provide') }}{{$config.resume.pdfUrl}}</small>
+          <input class="shadow appearance-none border rounded py-2 px-3 text-gray-200 bg-gray-900 leading-tight focus:outline-none focus:shadow-outline" id="password" type="text" :placeholder="$t('resume.password')" v-model="password"  @change="checkPassword()">
         </div>
 
        </div>
+
       <div class="px-4 py-5 sm:p-6 flex items-center justify-center" v-if="passwordIsCorrect">
         <div class="w-full dark:text-gray-500 text-gray-800 font-bold">
           <PdfViewer class="shadow-md" :src="$config.resume.pdfUrl"/>
@@ -32,7 +33,7 @@
 export default {
   head() {
     return {
-      title: `resume -- ${this.$config.name}`,
+      title: `📎 ${this.$t('nav.resume')} -- ${this.$config.name}`,
     }
   },
   data(){

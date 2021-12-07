@@ -148,13 +148,14 @@ export default {
     console.log(project)
     // project.twitterShareUrl = `https://twitter.com/intent/tweet?text=${project.title} by @${project.author.social.twitter}&url=https://${$config.domain}${route.fullPath}`
     project.twitterShareUrl = `https://twitter.com/intent/tweet`
+
     return {
       project,
     }
   },
   head() {
     return {
-      title: this.project.title + ` -- projects -- ${this.$config.name}`,
+      title: `📚 ${this.project.title} -- ${this.$t('nav.projects')} -- ${this.$config.name}`,
       meta: [
         { hid: 'description', name: 'description', content: this.project.description },
         // Open Graph

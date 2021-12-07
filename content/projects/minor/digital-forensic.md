@@ -1,10 +1,9 @@
 ---
-  id: 1
   title: digital forensics
   description:
-    What is digical foresics and what processes are involved
+    What is digital forensics and what processes are involved
   duration: 1 day
-  image: /images/projects/minor/digital-forensics/main.jpg
+  image: /images/projects/minor/digital-forensics/digital-forensics.png
   tech:
     - name: digital forensics
   category:
@@ -145,7 +144,7 @@ Here are the main types of digital forensic tools:
 - Memory Forensic Tools
 - Mobile Phone Forensic Tools
 
-As you can see, there are a whole bunch of subdomains that forensic analysis can be done on. Each domain has its own tooling to achieve the desired result. 
+As you can see, there are a whole bunch of subdomains that forensic analysis can be done on. Each domain has its own tooling to achieve the desired result. on each domain you can apply your own methods to get to the desired result for example I apply machine learning in my own project. 
 
 ***
 Resource: 

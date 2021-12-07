@@ -1,10 +1,9 @@
 ---
-  id:
   title: Statistic 1  
   description:
     Formulas explained 
   duration: 2 whole day in total
-  image: /images/projects/other/time-management.jpg
+  image: /images/projects/minor/statistics/statistics.jpg
   tech:
     - name: math
     - name: statistics 

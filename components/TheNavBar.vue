@@ -8,12 +8,49 @@
         </nuxt-link>
         <div class="hidden lg:block lg:ml-6">
           <div class="flex space-x-4">
-            <nuxt-link exact :to="localePath('/')" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.home')}}</nuxt-link>
-            <nuxt-link v-show="$config.blog.enabled" :to="localePath('/blog')" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.blog')}}</nuxt-link>
-            <nuxt-link v-show="$config.projects.enabled" :to="localePath('/projects')" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.projects')}}</nuxt-link>
-            <nuxt-link v-show="$config.uses.enabled" :to="localePath('/uses')" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.uses')}}</nuxt-link>
-            <nuxt-link v-show="$config.resume.enabled" :to="localePath('/resume')" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.resume')}}</nuxt-link>
-            <a v-show="$config.buyMeACoffee.enabled" :href="$config.buyMeACoffee.url" target="_blank" rel="noreferrer" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.buyMeACoffee')}}</a>
+            <nuxt-link
+              exact :to="localePath('/')"
+              class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
+              {{ $t('nav.home')}}
+            </nuxt-link>
+            <nuxt-link
+              v-show="$config.blog.enabled" :to="localePath('/blog')"
+              class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
+              {{ $t('nav.blog')}}
+            </nuxt-link>
+            <nuxt-link
+              v-show="$config.projects.enabled"
+              :to="localePath('/projects')"
+              class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
+              {{ $t('nav.projects')}}
+            </nuxt-link>
+            <nuxt-link
+              v-show="$config.uses.enabled"
+              :to="localePath('/uses')"
+              class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
+              {{ $t('nav.uses')}}
+            </nuxt-link>
+            <nuxt-link
+              v-show="$config.resume.enabled"
+              :to="localePath('/resume')"
+              class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
+              {{ $t('nav.resume')}}
+            </nuxt-link>
+<!--            <a v-show="$config.buyMeACoffee.enabled" :href="$config.buyMeACoffee.url" target="_blank" rel="noreferrer" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.buyMeACoffee')}}</a>-->
+            <a
+              v-show="$config.buyMeACoffee.enabled"
+              :href="$config.buyMeACoffee.url"
+              target="_blank"
+              rel="noreferrer"
+              class="mb-auto mt-auto active px-3">
+              <div class="flex">
+
+                <img
+                  src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=rikpeeters&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
+                  class="object-fill h-9 w-full flex-1">
+                <span class="-mx-1.5 animate-ping my-0 z-10 inline-flex h-2 w-2 rounded-full bg-red-500 opacity-75"></span>
+              </div>
+            </a>
           </div>
         </div>
       </div>

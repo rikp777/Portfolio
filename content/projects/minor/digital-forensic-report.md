@@ -1,10 +1,9 @@
 ---
-  id: 2
   title: digital forensics report
   description:
     A digital forensic report based on the Norton dataset
   duration: 1 day
-  image: /images/projects/minor/digital-forensics/main.jpg
+  image: /images/projects/minor/digital-forensics/digital-forensics.png
   tech:
     - name: digital forensics
     - name: report

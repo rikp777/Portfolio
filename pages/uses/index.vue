@@ -41,7 +41,7 @@
     </div>
     <div>
       <dl>
-        <div v-for="(item, index) in $config.uses.meta" :class="index%2 === 0 ? 'bg-gray-800' : 'bg-gray-900'" class="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+        <div v-for="(item, index) in  $t('uses.meta') " :class="index%2 === 0 ? 'bg-gray-800' : 'bg-gray-900'" class="px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
           <dt class="text-sm leading-5 font-medium text-gray-500">
             {{ item.title }}
           </dt>
@@ -62,7 +62,7 @@
 export default {
   head() {
     return {
-      title: `uses -- ${this.$config.name}`
+      title: `👀 ${this.$t('nav.uses')} -- ${this.$config.name}`
     }
   },
   data() {
