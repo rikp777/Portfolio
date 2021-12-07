@@ -35,7 +35,7 @@
       </div>
     </div>
     <template v-for="(category, index) in $t('projects.category_data')">
-      <div class="mt-5 mx-4 grid grid-cols-2 gap-4" :key="index" v-show="category.id === current">
+      <div class="mt-5 mx-4 grid md:grid-cols-2 grid-cols-1 gap-4" :key="index" v-show="category.id === current">
         <div class="">
           <div class="mt-5 h-auto py-10 px-10 w-3/3 bg-gray-900 flex flex-col space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform">
             <h1 class="font-medium text-white text-xl tracking-wide">{{ category.name }}</h1>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="">
-          <div class="mt-5 h-auto w-3/3 bg-gray-900 flex flex-col">
+          <div class="mt-5 mx-4 h-auto w-3/3 bg-gray-900 flex flex-col" v-show="showImage">
             <img class="rounded-3xl object-contain h-auto w-full" :src="category.image" alt="logo" />
           </div>
         </div>
