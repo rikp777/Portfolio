@@ -130,7 +130,8 @@ export default {
         dueTo: 'Vanwege de Europese wetgeving de GDPR moet ik het vragen😅. ',
         settings: 'Maak je geen zorgen, je instellingen worden bewaard, dus je hoeft maar één keer akkoord te gaan! 😇',
         ok: 'Ja, natuurlijk.👍',
-        no: 'Ik denk het niet 🖕'
+        no: 'Ik denk het niet 🖕',
+        moreInfo: 'https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_nl'
       },
       nav: {
         home: 'thuis',
@@ -298,7 +299,8 @@ export default {
         dueTo: 'Due to european legislation the GDPR I must ask😅. ',
         settings: 'Don\'t worry, your settings will be saved, so you only need to be agree once! 😇',
         ok: 'Yes, sure 👍',
-        no: 'Don\'t think so 🖕'
+        no: 'Don\'t think so 🖕',
+        moreInfo: 'https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en'
       },
       nav: {
         home: 'home',

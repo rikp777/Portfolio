@@ -14,7 +14,7 @@
 
         <h1 class="font-medium ">- {{ $t('cookies.title') }} - </h1>
         <p class="mt-2">
-          {{ $t('cookies.dueTo') }} <br>
+          {{ $t('cookies.dueTo') }}<a class="hover:text-blue-600 text-blue-400" :href="$t('cookies.moreInfo')">info</a><br>
           {{ $t('cookies.settings') }}<br>
         </p>
       </div>
