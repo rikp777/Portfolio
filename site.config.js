@@ -7,7 +7,7 @@ export default {
   email: 'rikpeeters11@hotmail.com',
   googleAnalyticsV4: {
     enabled: true,
-    id: 'G-9VP01NDSXJ'
+    id: 'G-22G4GKFTPR'
   },
   plausibleAnalytics: {
     enabled: true,
