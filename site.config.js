@@ -125,6 +125,13 @@ export default {
 
     NL: {
       download: 'download',
+      cookies: {
+        title: 'Mag ik cookies gebruiken voor analyses?',
+        dueTo: 'Vanwege de Europese wetgeving de GDPR moet ik het vragen😅. ',
+        settings: 'Maak je geen zorgen, je instellingen worden bewaard, dus je hoeft maar één keer akkoord te gaan! 😇',
+        ok: 'Ja, natuurlijk.👍',
+        no: 'Ik denk het niet 🖕'
+      },
       nav: {
         home: 'thuis',
         blog: 'blog',
@@ -286,6 +293,13 @@ export default {
 
     en_US: {
       download: 'download',
+      cookies: {
+        title: 'Can I use cookies for analytics?',
+        dueTo: 'Due to european legislation the GDPR I must ask😅. ',
+        settings: 'Don\'t worry, your settings will be saved, so you only need to be agree once! 😇',
+        ok: 'Yes, sure 👍',
+        no: 'Don\'t think so 🖕'
+      },
       nav: {
         home: 'home',
         blog: 'blog',
