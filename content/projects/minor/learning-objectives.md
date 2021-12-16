@@ -206,6 +206,6 @@ For the professional writing I chose to write my portfolio in English. Currently
 
 I have delved quite deeply into the ethical processes within the topics I cover. I have also done this for the group project. This has taught me how to approach certain things and what things cannot be done within the field and specialization. The line between right and wrong is sometimes very thin. 
 
-## General Conslusion 
+## General Conclusion 
 
 Overall, I think I learned a lot in this minor. In doing so, I placed my focus mainly on performing machine learning in the area of cyber. I had no prior knowledge of this. Now I have a broad scale of knowledge both technical and non technical aspects.
