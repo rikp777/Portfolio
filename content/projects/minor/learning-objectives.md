@@ -82,7 +82,7 @@ With this in mind I am going to immerse myself in these topics and make assignme
 
 ## Introduction 
 
-This page serves as a reading guide and also as my evaluation of the assignments made within the minor. We will focus on 3 aspects as described in the Cyber course. I will describe each learning objective briefly and give an evaluation. I will also talk about the group project and the tasks that we made within this group. I will also briefly show my peer assessment results as I have been assessed by my group members. In the conclusion, a reflection about all assignments is written. How it went and what could be better etc. 
+This page serves as a reading guide and also as my evaluation of the assignments made within the minor. We will focus on 3 aspects as described in the Cyber course. I will describe each learning objective briefly and give an evaluation. I will also talk about the group project and the tasks that we made within this group. I will also briefly show my peer assessment results as I have been assessed by my group members. In the conclusion, a reflection about all assignments is written; how it went and what could be better etc. 
 
 ## LO1 – Digital forensics 
 
@@ -131,7 +131,7 @@ The goal is to develop a running, stable and reachable CTF system. Users should 
 
 ### Contribution
 
-I was the scrum leader during the definition phase of the project. This meant that I was the first to define the tasks within the group and then assign them. I also have a big role within the creation of challenges within our platform. In doing so, I made sure that there was a set format and a set theme. The theme has to do with aliens who try to infiltrate our society. It is up to the trainee to track down these aliens. I have also contributed to the research within our group by helping to formulate the research questions. I also made sure there was good communication within the group so that everyone knows what they are doing and the other way around.
+I was the scrum leader during the definition phase of the project. This meant that I was the first to define the tasks within the group and then assign them. I also have a big role within the creation of challenges within our platform. In doing so, I made sure that there was a set format and a set theme. The theme has to do with aliens who try to infiltrate our society. It is up to the trainee to track down these aliens. I have also contributed to the research within our group by helping to formulate the research questions. I also made sure there was good communication within the group so that everyone knows what they are doing and the other way around. During the final sprint we showed all our challenges within our platform. We did this as a group in the form of a workshop with other students. These students gave feedback about our final challenges. After that we transformed the two group project is to one whole platform with combined challenges from both groups. 
 
 ### Conclusion 
 
@@ -139,11 +139,11 @@ Finally, in terms of my growth as an innovator, I have had experience expressing
 
 ## LO3
 
-This chapter will focus on a peer review of my project skills and feedback from my coach, stakeholders, and other external sources. It will also review and analyze things as well as my contributions to professional writing and communication tasks which include presenting, interviewing, relationship management, and advising. It will also cover the ethical aspects of my professional development as a security professional.
+This chapter will focus on a peer review of my project skills and feedback from my coach, stakeholders, and other external sources. It will also review and analyze things as well as my contributions to professional writing and communication tasks which include presenting, interviewing, relationship management and advising. It will also cover the ethical aspects of my professional development as a security professional.
 
-### Peerassement
+### Peerassement (1)
 
-Below are the points that can be seen as given by my teammates within my project group.
+Below are the points that can be seen as given by my teammates within my project group. Score evaluation 1 t/m 5
 
 | ***Description\***                                           | **Marks** | --   | --   | --   | --   |
 | ------------------------------------------------------------ | --------- | ---- | ---- | ---- | ---- |
@@ -189,6 +189,61 @@ table th:nth-of-type(5) {
 As you can see, the overall assessment is very positive. It is nice to hear that my groupmates think positively of me. This is very motivating to continue developing the project.
 Nevertheless, there are also some things in which I can still improve myself. The most important point is communication. The first few weeks, this went very well but due to matters outside of school I was unable to come to school on location for the last two weeks. 
 
+
+
+### Peerassement (2)
+
+Below are the points that can be seen as given by my teammates within my project group. Score evaluation 1 t/m 4
+
+| ***Description\***                                           | **Marks** | -- v | -- r | -- j | -- jo |
+| ------------------------------------------------------------ | --------- | ---- | ---- | ---- | ----- |
+| *Helps others*                                               | 4         | 3    | 3    | 4    | 4     |
+| *Takes responsibility within the project for the work to be done* | 4         | 3    | 3    | 4    | 4     |
+| *Open to receive feedback from others*                       | 4         | 3    | 4    | 4    | 4     |
+| *Capable of giving feedback to others*                       | 4         | 3    | 4    | 4    | 4     |
+| *Delivers results as agreed on (meets deadlines)*            | 4         | 3    | 4    | 4    | 4     |
+| *Particpates actively in group process*                      | 4         | 3    | 3    | 4    | 4     |
+| Cooperative attitude (team player)                           | 4         | 3    | 4    | 4    | 4     |
+| Contributes to group ambience                                | 4         | 3    | 4    | 4    | 4     |
+| Signals problems and contributes to solving them             | 4         | 3    | 4    | 4    | 4     |
+| Quality of work                                              | 4         | 3    | 4    | 4    | 4     |
+
+<style>
+table th:first-of-type {
+    width: 40%;
+}
+table th:nth-of-type(2) {
+    width: 12%;
+}
+table th:nth-of-type(3) {
+    width: 12%;
+}
+table th:nth-of-type(4) {
+    width: 12%;
+}
+table th:nth-of-type(5) {
+    width: 12%;
+}
+</style>
+
+
+#### Strengths
+
+- Great focus on your tasks
+- Works very hard on assignments
+- works hard when at home
+- Betrokken en sociaal
+
+#### Improvements 
+
+- Let others know what you're doing and maybe show them, this way they know what you're doing.
+
+As you can see, the overall assessment is very positive. It is nice to hear that my groupmates think positively of me. I also see a improvement in my communication skills on a professional level. 
+
+### Conclusion 
+
+Overall, I have developed myself well this semester the feedback I received was generally very positive. there was a point of development for communication I worked on this and it is reflected in the reviews of my team members. Because of the alternating corona measures and consequences of working from home, it was sometimes difficult to switch. I did have trouble with that, but generally speaking the whole group did. Despite all this, it went well and we were able to deliver a nice product 
+
 ### Professional writing
 
 For the professional writing I chose to write my portfolio in English. Currently I am taking an English course to bring my English to a professional level so writing my portfolio in English is a very good exercise. I have also done different researches like the static research. This has also contributed to my professionalism so I have learned how to set up a hypothesis, do research and analyze the data. In the process I also learned how to draw a conclusion from the results as found in the research. 
@@ -199,4 +254,4 @@ I have delved quite deeply into the ethical processes within the topics I cover.
 
 ## General Conslusion 
 
-Overall, I think I learned a lot in this minor. In doing so, I placed my focus mainly on performing machine learning in the area of cyber. I had no prior knowledge of this. Now I have a broad scale of knowledge both technical and non technical aspects.
+Overall, I think I learned a lot in this minor. In doing so, I placed my focus mainly on performing machine learning in the area of cyber. I had no prior knowledge of this. Now I have a broad scale of knowledge both technical and non technical aspects. I was happy in the way this minor was structured. It was very open minded I was free in learning about things of interest what I personally find very motivating. It was also allowed to combined different aspects within the cyber atmosphere. I did a lot of side projects that interested me I learned a lot about all of them and besides you really benefit if you are free in what you want to learn because you only learn what you are interested in. Finally, I would like to conclude this minor by thanking all the teachers, especially Stefan and Peter, for their great guidance. 
