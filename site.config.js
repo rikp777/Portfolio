@@ -464,7 +464,7 @@ export default {
           'Hey daar, mijn naam is Rik Peeters 👋👀. ' +
           'Ik ben Software Engineer en Cyber Security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
           'Zo kun je bijvoorbeeld lezen hoe ik mijn projecten heb aangepakt en wordt mijn kennis in deze onderwerpen duidelijk.',
-        intro: ['hey daar ik ben','ik bouw dingen voor op \nhet web en ik ben..'],
+        intro: ['hey daar ik ben...','ik bouw dingen voor op \nhet web en ik ben..'],
         words: ['web-ontwikkelaar', 'software-ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
       },
       githubCalendar: {

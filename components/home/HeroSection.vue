@@ -15,19 +15,22 @@
                 </nuxt-link>
                 <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-3xl xl:text-3xl">
                   <div data-aos="zoom-in-up" v-show="elementVisible">
-                    <small class="md:block">{{ $t('hero.intro[0]') }} {{$config.name}}</small><br>
+                    <small class="md:block">
+                      <span class="text-gray-300 font-extralight">{{ $t('hero.intro[0]')  }}</span>  <br>
+                      <span class="text-3xl">{{$config.name}}</span>
+                    </small>
                     <div>
-                      <vue-typer :text="$t('hero.intro[1]')" :repeat='0'></vue-typer>
+                      <vue-typer :text="$t('hero.intro[1]')" :repeat='0' pre-type-delay='1800'></vue-typer>
                     </div>
                   </div>
-                  <div v-show="!elementVisible">
+                  <div v-bind:class="{'hidden': elementVisible, ' animate-fade':!elementVisible }">
                     <span class="md:block">{{ $t('hero.friendlyNeighborhood') }}</span>
                     <div>
-                      <vue-typer :text="$t('hero.words')" :shuffle='true'></vue-typer>
+                      <vue-typer :text="$t('hero.words')" :shuffle='true' pre-type-delay='1800'></vue-typer>
                     </div>
                   </div>
                 </h1>
-                <p class="mt-3 text-base text-gray-300 sm:mt-5" >
+                <p class="mt-3 text-base text-gray-300 sm:mt-5" v-bind:class="{'hidden': elementVisible, ' animate-fade':!elementVisible }">
                   {{ $t('hero.description') }}
                 </p>
                 <p v-if="$config.internships.enabled" class="mt-8 text-sm text-white lowercase tracking-wide font-semibold sm:mt-10 uppercase ">{{ $t('internships.title') }}</p>
@@ -194,7 +197,7 @@ export default {
         this.tooltipShow[index] = false
       })
     }
-    setTimeout(() => this.elementVisible = false, 4600)
+    setTimeout(() => this.elementVisible = false, 5200)
   }
 }
 </script>
