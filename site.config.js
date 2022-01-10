@@ -54,12 +54,13 @@ export default {
     enabled: true,
     meta: [
       {
+
         name: 'CytoSMART',
         src: '/images/jobs/cytosmart-logo.svg',
         url: 'https://www.cytosmart.com/',
         year: 2020,
         period: "Sept 2020 – Feb 2021 – 6 months",
-        description: "Research and implementation of features/modules in order to make CytoSMART’s cell counter comply to FDA 21 CFR part 11 regulations.",
+
         grade: 8.9
       },
       {
@@ -72,11 +73,12 @@ export default {
         grade: 8
       },
       {
-        name: 'Cre8 media',
+        id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
+        name: 'Cre8media',
         src: '/images/jobs/cre8media-logo.png',
         url: 'https://www.cre8media.nl/',
         year: 2016,
-        period: "Sept 2016 – Feb 2017 – 6 months"
+        location: "Heibloem, Provincie Limburg, Nederland",
       },
     ]
   },
@@ -110,20 +112,271 @@ export default {
     // three-bounce
     // wandering-cubes
   },
+
+  technologies: {
+    enabled: true,
+    meta: [
+      {
+        id: "c#",
+        name: "C#",
+        frameworks: [
+          {
+            id: "asp.net",
+            name: "ASP.NET",
+            url: "https://dotnet.microsoft.com/en-us/apps/aspnet",
+            subs: [
+              {
+                id: "entity-framework",
+                name: "Entity Framework",
+                url: "https://docs.microsoft.com/en-us/ef/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: "java",
+        name: "Java",
+        frameworks: [
+          {
+            id: "spring-boot \n",
+            name: "Springboot",
+            url: "https://spring.io/guides/gs/spring-boot/"
+          },
+        ],
+        subs: [
+          {
+            id: "hibernate-orm",
+            name: "Hibernate ORM",
+            url: "https://hibernate.org/"
+          },
+          {
+            id: "lombok",
+            name: "Lombok",
+            url: "https://projectlombok.org/"
+          }
+        ]
+      },
+      {
+        id: "php",
+        name: "PHP",
+        frameworks: [
+          {
+            id: "laravel",
+            name: "Laravel",
+            url: "https://laravel.com/",
+            subs: [
+              {
+                id: "eloquent-orm",
+                name: "Eloquent ORM",
+                url: "https://laravel.com/docs/eloquent"
+              },
+              {
+                id: "blade",
+                name: "Blade Template",
+                url: "https://laravel.com/docs/blade"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        id: "javascript",
+        name: "JavaScript / TypeScript",
+        url: "https://www.javascript.com/",
+        frameworks: [
+          {
+            id: "vue-js",
+            name: "Vue.js",
+            url: "https://vuejs.org/",
+            subs: [
+              {
+                id: "20a14816-0799-4b97-896e-48a62da0144b",
+                name: "Vuex",
+                url: "https://vuex.vuejs.org/"
+              }
+            ]
+          }
+        ],
+        subs: [
+          {
+            id: "msw",
+            name: "MSW js",
+            url: "https://mswjs.io"
+          },
+          {
+            id: "axios",
+            name: "Axios",
+            url: "https://github.com/axios/axios"
+          }
+        ]
+      }
+    ],
+  },
+
+
+
+
+
+  workedAt: [
+    {
+      id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
+      name: "Cre8media",
+      src: '/images/jobs/cre8media-logo.png',
+      url: "https://www.cre8media.nl/",
+      description: null,
+      positions: [
+        {
+          type: "internship",
+          title: "Application Developer",
+          description: null,
+          startAt: "01-09-2016",
+          endAt: "01-03-2017",
+          technologies: [
+            "php",
+            "laravel",
+            "eloquent-orm"
+          ]
+        }
+      ],
+      profession: true
+    },
+    {
+      id: "dccf1a31-2abf-48a6-8055-8dc4b0374c4e",
+      name: "Jumbo Supermarkten",
+      src: '/images/jobs/jumbo.png',
+      url: 'https://www.jumbo.com/winkel/jumbo-panningen-jumbo-harald-en-ilse-van-beek',
+      description: null,
+      positions: [
+        {
+          type: "part-time",
+          title: "Vakkenvuller",
+          description: null,
+          startAt: "01-06-2015",
+          endAt: "01-05-2018"
+        }
+      ],
+      profession: false
+    },
+    {
+      id: "37bd13ed-ce8d-4693-b092-121448216d96",
+      name: "De maris B.V.",
+      src: '/images/jobs/maris-logo.png',
+      url: 'https://kwekerij-demaris.nl/',
+      description: null,
+      positions: [
+        {
+          type: "part-time",
+          title: "Functioneel medewerker",
+          description: null,
+          startAt: "01-10-2012",
+          endAt: "01-08-2018"
+        }
+      ],
+      profession: false
+    },
+    {
+      id: "59303b9b-3348-4f0c-9fb3-5a595a8381de",
+      name: "CytoSMART Technologies B.V.",
+      src: '/images/jobs/cytosmart-logo.svg',
+      url: 'https://cytosmart.com/',
+      description: null,
+      positions: [
+        {
+          type: "internship",
+          title: "Software Engineer",
+          description: "e00e7a0e-2ab8-4f68-bce2-cb746535c802",
+          startAt: "01-09-2020",
+          endAt: "01-03-2021",
+          technologies: [
+            "c#",
+            "asp.net",
+            "entity-framework"
+          ]
+        }
+      ],
+      profession: true
+    },
+    {
+      id: "16c6a7ed-e4e2-428f-8fd1-da8cd55b4564",
+      name: "GoStudent",
+      src: '/images/jobs/gostudent-logo.png',
+      url: 'https://www.gostudent.org/en',
+      description: null,
+      positions: [
+        {
+          type: "freelance",
+          title: "Bijlesdocent informatica",
+          description: null,
+          startAt: "01-08-2021",
+          endAt: null,
+          technologies: [
+            "java"
+          ]
+        }
+      ],
+      profession: true
+    },
+    {
+      id: "bf781026-28a1-4b80-a683-1673b5da2522",
+      name: "Limax",
+      description: null,
+      src: '/images/jobs/limax-logo.png',
+      url: 'https://www.limax.nl/',
+      positions: [
+        {
+          type: "internship",
+          title: "Software Engineer",
+          description: "869e88ce-7a17-4aab-8495-eba997c9e146",
+          startAt: "01-02-2018",
+          endAt: "01-08-2018",
+          technologies: [
+            "php",
+            "laravel",
+            "eloquent-orm",
+            "blade",
+            "javascript"
+          ]
+        },
+        {
+          type: "part-time",
+          title: "Junior Employee Supply Chain / IT",
+          description: "69bf0516-5a12-4e45-8171-0034488c90ef",
+          startAt: "01-08-2018",
+          endAt: null,
+          technologies: [
+            "java",
+            "spring-boot",
+            "hibernate-orm",
+            "typescript",
+            "vue-js",
+            "vuex",
+            "axios",
+            "msw"
+          ]
+        }
+      ],
+      profession: true
+    },
+  ],
+
   strings: {
-
-
-
-
-
-
-
-
-
-
-
-
     NL: {
+      technologies: {
+        header: "technologieën",
+        subtext: "technologieën die ik heb toegepast binnen mijn projecten"
+      },
+      present: "Tot heden",
+      workTypes: {
+        internship: "Stage",
+        partTime: "Part-time",
+        freelance: "freelance"
+      },
+      position: {
+        "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Onderzoek en implementatie van functies/modules om CytoSMART's celteller te laten voldoen aan FDA 21 CFR part 11 regelgeving. Eindcijfer: 8,9",
+        "869e88ce-7a17-4aab-8495-eba997c9e146": "Digitalisering van distributie- en productieprocessen. Eindcijfer: 8",
+        "69bf0516-5a12-4e45-8171-0034488c90ef": "Ontwikkeling van de digitalisering van de distributieprocessen met de nieuwste technieken.",
+      },
       download: 'download',
       cookies: {
         title: 'Mag ik cookies gebruiken voor analyses?',
@@ -158,6 +411,7 @@ export default {
           'Hey daar, mijn naam is Rik Peeters 👋👀. ' +
           'Ik ben Software Engineer en Cyber Security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
           'Zo kun je bijvoorbeeld lezen hoe ik mijn projecten heb aangepakt en wordt mijn kennis in deze onderwerpen duidelijk.',
+        intro: ['ik bouw dingen voor het web.'],
         words: ['ontwikkelaar', 'ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
       },
       githubCalendar: {
@@ -293,6 +547,21 @@ export default {
 
 
     en_US: {
+      technologies: {
+        header: "technologies",
+        subtext: "Here are a few technologies I’ve been working with recently:"
+      },
+      present: "Present",
+      workTypes: {
+        internship: "Internship",
+        partTime: "Part-time",
+        freelance: "freelance"
+      },
+      position: {
+        "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Research and implementation of features/modules in order to make CytoSMART’s cell counter comply to FDA 21 CFR part 11 regulations. Final grade: 8,9",
+        "869e88ce-7a17-4aab-8495-eba997c9e146": "Digitization of distribution and production processes. Final grade: 8",
+        "69bf0516-5a12-4e45-8171-0034488c90ef": "Developing the digitalization of the distribution processes with the latest techniques ",
+      },
       download: 'download',
       cookies: {
         title: '- Can I use cookies for analytics? -',
@@ -327,6 +596,7 @@ export default {
           'Hey there it\'s me Rik Peeters 👋👀. ' +
           'I am a Software Engineer and Cyber Security specialist. On this website you can read all about projects and assignments I did during my studies.' +
           'In doing so, you can read what my approach is to projects and my knowledge for these topics becomes clear.',
+        intro: ['I build things for the web.'],
         words: ['developer', 'engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
       },
       githubCalendar: {

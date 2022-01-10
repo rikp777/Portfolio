@@ -8,6 +8,16 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
+      animation: {
+        fade: 'fadeOut 0.5s ease-in-out',
+      },
+      keyframes: theme => ({
+        fadeOut: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 100 },
+        },
+      }),
+
       colors: {
         'black': '#12151E',
         'hot-pink': '#fd2d78',

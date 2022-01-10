@@ -126,6 +126,7 @@
 <script>
 import TheLogo from "~/components/logos/TheLogo";
 export default {
+  name: "TheNavBar",
   components: {TheLogo},
   computed: {
     user() {

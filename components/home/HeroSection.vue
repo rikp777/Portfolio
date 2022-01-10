@@ -14,40 +14,74 @@
                   </svg>
                 </nuxt-link>
                 <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-3xl xl:text-3xl">
-                  <span class="md:block">{{ $t('hero.friendlyNeighborhood') }}</span>
-                  <div>
-                    <vue-typer :text="$t('hero.words')"></vue-typer>
+                  <div data-aos="zoom-in-up" v-show="elementVisible">
+                    <span class="md:block">{{$config.name}}.</span>
+                    <div>
+                      <vue-typer :text="$t('hero.intro')" :repeat='0'></vue-typer>
+                    </div>
+                  </div>
+                  <div v-show="!elementVisible">
+                    <span class="md:block">{{ $t('hero.friendlyNeighborhood') }}</span>
+                    <div>
+                      <vue-typer :text="$t('hero.words')" :shuffle='true'></vue-typer>
+                    </div>
                   </div>
                 </h1>
-                <p class="mt-3 text-base text-gray-300 sm:mt-5">
+                <p class="mt-3 text-base text-gray-300 sm:mt-5" >
                   {{ $t('hero.description') }}
                 </p>
                 <p v-if="$config.internships.enabled" class="mt-8 text-sm text-white lowercase tracking-wide font-semibold sm:mt-10 uppercase ">{{ $t('internships.title') }}</p>
                 <div v-if="$config.internships.enabled" class="mt-5 w-full sm:mx-auto lg:ml-0">
                   <div class="flex flex-wrap space-x-1 items-start items-center space-x-4">
 
-                    <div v-for="(firm, index) in $config.internships.meta" :key="index">
-                      <a :ref="`btnRef-${index}`" :href="firm.url" target="_blank" class="flex items-center justify-center" v-on:mouseenter="toggleTooltip(index)" v-on:mouseleave="toggleTooltip(index)">
-                        <img :src="firm.src" class="h-8 rounded-sm sm:h-9 mr-5 " :alt="firm.name"/>
-                      </a>
-                      <small class="text-gray-300 hidden md:inline-block" v-text="firm.year"></small>
-                      <div class="hidden md:inline-block">
-                        <div :ref="`tooltipRef-${index}`" v-bind:class="{'hidden': !tooltipShow[index], 'md:block': tooltipShow[index]}" class=" bg-indigo-600 bg-opacity-90 border-0 ml-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg">
-                        <div>
-                          <div class="bg-indigo-600 bg-opacity-90 text-white opacity-75 font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
-                            {{firm.name}}
-                          </div>
-                          <div class="text-white p-3">
-                            {{ firm.period }}
-                          </div>
-                          <div class="text-white p-3" v-show="firm.description">
-                            {{firm.description }}
-                          </div>
-                          <div class="text-white p-3" v-show="firm.grade">
-                            Final grade: {{ firm.grade }}
+                    <div v-for="(company, index) in companies" :key="index">
+                      <div v-if="company.profession" class="mx-2">
+                        <small class="text-gray-300 hidden md:inline-block mb-4" v-text="getDateFormat(company.positions[company.positions.length -1].startAt).format('MMM YYYY')"></small>
+                        <a :ref="`btnRef-${index}`" :href="company.url" target="_blank" class="flex items-center justify-center" v-on:mouseenter="toggleTooltip(index)" v-on:mouseleave="toggleTooltip(index)">
+                          <img :src="company.src" class="h-8 rounded-sm sm:h-9 mr-5 " :alt="company.name"/>
+                        </a>
+                        <div class="hidden md:inline-block">
+                          <div :ref="`tooltipRef-${index}`" v-bind:class="{'hidden': !tooltipShow[index], 'md:block animate-fade': tooltipShow[index]}" class=" bg-gray-900 border-0 ml-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg">
+                            <div>
+                              <div class="bg-indigo-600 text-white font-semibold p-3 mb-0 uppercase rounded-t-lg">
+                                {{company.name}} - {{ showStringDiffTotal(company.positions) }}
+                              </div>
+                              <template v-for="(position, index) in company.positions">
+                                <div class="content my-3">
+                                  <div class="text-white font-bold px-3">
+                                    {{position.title}}
+                                  </div>
+                                  <div class="text-white px-3 text-xs">
+                                    {{ $t(`workTypes.${position.type}`) }}
+                                  </div>
+                                  <div class="text-gray-200 px-3">
+                                    {{ getDateFormat(position.startAt).format("MMMM YYYY") }} -
+                                    <template>
+                                      <span v-if="position.endAt == null">
+                                        {{ $t('present') }}
+                                      </span>
+                                      <span v-else>
+                                        {{ getDateFormat(position.endAt).format("MMMM YYYY") }}
+                                      </span>
+                                    </template>
+                                    |
+                                    <span>
+                                      {{showStringDiff(position)}}
+                                    </span>
+                                  </div>
+                                  <div class="text-sm text-gray-300 font-medium px-3 mt-2" v-show="position.description">
+                                    {{ $t(`position.${position.description}`) }}
+                                  </div>
+                                </div>
+                              </template>
+
+
+<!--                              <div class="text-white p-3" v-show="company.grade">-->
+<!--                                Final grade: {{ company.grade }}-->
+<!--                              </div>-->
+                            </div>
                           </div>
                         </div>
-                      </div>
                       </div>
                     </div>
                   </div>
@@ -69,10 +103,12 @@
 <script>
 import { createPopper } from "@popperjs/core";
 export default {
-
+  name: "HeroSection",
   data() {
     return {
-      tooltipShow: []
+      tooltipShow: [],
+      companies: [],
+      elementVisible: true
     }
   },
   methods: {
@@ -103,14 +139,62 @@ export default {
           ],
         });
       }
+    },
+    sortCompanies(){
+      let array = this.$config.workedAt.sort((a,b) => {
+        let aStartAt = b.positions[b.positions.length -1].startAt
+        let bStartAt = a.positions[a.positions.length -1].startAt
+        return new Date(aStartAt) - new Date(bStartAt)
+      })
+      this.companies = array
+    },
+    getDateFormat(dateString){
+      let date = this.$moment()
+      if(dateString != null){
+        date = this.$moment(dateString, 'DD-MM-YYYY')
+      }
+
+      return date
+    },
+    showStringDiffTotal(possitions){
+      var a = this.getDateFormat(possitions[possitions.length -1].endAt)
+      var b = this.getDateFormat(possitions[0].startAt)
+
+      var years = a.diff(b, 'year');
+      b.add(years, 'years');
+
+      var months = a.diff(b, 'months');
+      b.add(months, 'months');
+
+      if(years == 0){
+        return `${months} mos`
+      }
+      return `${years} yrs ${months} mos`
+    },
+    showStringDiff(possition){
+      var a = this.getDateFormat(possition.endAt)
+      var b = this.getDateFormat(possition.startAt)
+
+      var years = a.diff(b, 'year');
+      b.add(years, 'years');
+
+      var months = a.diff(b, 'months');
+      b.add(months, 'months');
+
+      if(years == 0){
+        return `${months} mos`
+      }
+      return `${years} yrs ${months} mos`
     }
   },
   created() {
+    this.sortCompanies()
     if(this.tooltipShow.length == 0) {
       this.$config.internships.meta.forEach((item, index) => {
         this.tooltipShow[index] = false
       })
     }
+    setTimeout(() => this.elementVisible = false, 4300)
   }
 }
 </script>

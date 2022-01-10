@@ -41,8 +41,8 @@
             <h1 class="font-medium text-white text-xl tracking-wide">{{ category.name }}</h1>
             <p class="font-normal tracking-wide text-base text-white lg:w-4/5">{{ category.description }}</p>
             <div class="flex flex-col">
-              <backquotes class="font-normal text-white text-sm tracking-wider">Rik Peeters</backquotes>
-              <backqoutes class="font-normal text-white text-sm tracking-wider">Fontys ICT</backqoutes>
+              <div class="font-normal text-white text-sm tracking-wider">Rik Peeters</div>
+              <div class="font-normal text-white text-sm tracking-wider">Fontys ICT</div>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
       <label for="toggle" class="text-xs text-white mr-5">Show image</label>
     </div>
     <div data-aos="zoom-in" class="mt-5 gap-4 mx-4 grid max-w-none lg:grid-cols-3">
-      <ProjectCard class="hover:-rotate-12" v-for="project in projectsBy" :key="project.slug" :project="project" :showImage="showImage"/>
+      <ProjectCard class="hover:-animate-bounce transform-gpu" v-for="project in projectsBy" :key="project.slug" :project="project" :showImage="showImage"/>
     </div>
 
   </div>

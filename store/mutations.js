@@ -63,4 +63,6 @@ export default {
     })
     Vue.set(state[resource], id, data)
   }
+
+
 }
