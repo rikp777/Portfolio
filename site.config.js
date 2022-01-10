@@ -117,6 +117,27 @@ export default {
     enabled: true,
     meta: [
       {
+        id: "python",
+        name: "Python",
+        subs: [
+          {
+            id: "project-jupyter",
+            name: "Project Jupyter",
+            url: "https://jupyter.org/"
+          },
+          {
+            id: "pandas",
+            name: "Pandas",
+            url: "https://pandas.pydata.org/"
+          },
+          {
+            id:"scikit-learn",
+            name: "Scikit-learn",
+            url: "https://scikit-learn.org/stable/"
+          }
+        ]
+      },
+      {
         id: "c#",
         name: "C#",
         frameworks: [
@@ -175,6 +196,16 @@ export default {
                 id: "blade",
                 name: "Blade Template",
                 url: "https://laravel.com/docs/blade"
+              },
+              {
+                id: "symfony",
+                name: "Symfony",
+                url: "https://symfony.com/"
+              },
+              {
+                id: "composer",
+                name: "Composer",
+                url: "https://getcomposer.org/"
               }
             ]
           }
