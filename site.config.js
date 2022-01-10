@@ -252,6 +252,28 @@ export default {
   workedAt: [
     {
       id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
+      name: "Energy essentials",
+      src: '/images/jobs/energyessentials-logo.png',
+      url: "https://www.energyessentials.nl/",
+      description: null,
+      positions: [
+        {
+          type: "internship",
+          title: "Software Engineer",
+          description: null,
+          startAt: "01-02-2022",
+          endAt: "01-08-2022",
+          technologies: [
+            "c#",
+            "asp.net",
+            "entity-framework"
+          ]
+        }
+      ],
+      profession: true
+    },
+    {
+      id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
       name: "Cre8media",
       src: '/images/jobs/cre8media-logo.png',
       url: "https://www.cre8media.nl/",
