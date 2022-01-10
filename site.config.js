@@ -464,7 +464,7 @@ export default {
           'Hey daar, mijn naam is Rik Peeters 👋👀. ' +
           'Ik ben Software Engineer en Cyber Security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
           'Zo kun je bijvoorbeeld lezen hoe ik mijn projecten heb aangepakt en wordt mijn kennis in deze onderwerpen duidelijk.',
-        intro: ['ik bouw dingen voor het \n web en ik ben'],
+        intro: ['hey daar ik ben','ik bouw dingen voor op \nhet web en ik ben..'],
         words: ['web-ontwikkelaar', 'software-ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
       },
       githubCalendar: {
@@ -649,7 +649,7 @@ export default {
           'Hey there it\'s me Rik Peeters 👋👀. ' +
           'I am a Software Engineer and Cyber Security specialist. On this website you can read all about projects and assignments I did during my studies.' +
           'In doing so, you can read what my approach is to projects and my knowledge for these topics becomes clear.',
-        intro: ['I build things for the \nweb and i\'m..'],
+        intro: ['hey there i\'m...', 'I build things for the \nweb and i\'m..'],
         words: ['web-developer', 'software-engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
       },
       githubCalendar: {

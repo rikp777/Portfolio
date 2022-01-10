@@ -15,9 +15,9 @@
                 </nuxt-link>
                 <h1 class="mt-4 text-3xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-3xl xl:text-3xl">
                   <div data-aos="zoom-in-up" v-show="elementVisible">
-                    <span class="md:block">{{$config.name}}.</span>
+                    <small class="md:block">{{ $t('hero.intro[0]') }} {{$config.name}}</small><br>
                     <div>
-                      <vue-typer :text="$t('hero.intro')" :repeat='0'></vue-typer>
+                      <vue-typer :text="$t('hero.intro[1]')" :repeat='0'></vue-typer>
                     </div>
                   </div>
                   <div v-show="!elementVisible">
@@ -194,7 +194,7 @@ export default {
         this.tooltipShow[index] = false
       })
     }
-    setTimeout(() => this.elementVisible = false, 4300)
+    setTimeout(() => this.elementVisible = false, 4600)
   }
 }
 </script>
