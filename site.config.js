@@ -465,7 +465,7 @@ export default {
           'Ik ben Software Engineer en Cyber Security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
           'Zo kun je bijvoorbeeld lezen hoe ik mijn projecten heb aangepakt en wordt mijn kennis in deze onderwerpen duidelijk.',
         intro: ['ik bouw dingen voor het \n web en ik ben'],
-        words: ['ontwikkelaar', 'ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
+        words: ['web-ontwikkelaar', 'software-ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
       },
       githubCalendar: {
         header: 'bijdragen',
@@ -650,7 +650,7 @@ export default {
           'I am a Software Engineer and Cyber Security specialist. On this website you can read all about projects and assignments I did during my studies.' +
           'In doing so, you can read what my approach is to projects and my knowledge for these topics becomes clear.',
         intro: ['I build things for the \nweb and i\'m..'],
-        words: ['developer', 'engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
+        words: ['web-developer', 'software-engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
       },
       githubCalendar: {
         header: 'contributions',

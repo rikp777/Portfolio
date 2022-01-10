@@ -35,7 +35,7 @@
                   <div class="flex flex-wrap space-x-1 items-start items-center space-x-4">
 
                     <div v-for="(company, index) in companies" :key="index">
-                      <div v-if="company.positions[0].type == 'internship'" class="mx-2">
+                      <div v-if="company.positions[0].type == 'internship'" class="mx-2 mb-5">
                         <small class="text-gray-300 hidden md:inline-block mb-4" v-text="getDateFormat(company.positions[company.positions.length -1].startAt).format('MMM YYYY')"></small>
                         <a :ref="`btnRef-${index}`" :href="company.url" target="_blank" class="flex items-center justify-center" v-on:mouseenter="toggleTooltip(index)" v-on:mouseleave="toggleTooltip(index)">
                           <img :src="company.src" class="h-8 rounded-sm sm:h-9 mr-5 " :alt="company.name"/>
