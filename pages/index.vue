@@ -2,7 +2,7 @@
 
   <div>
     <HeroSection/>
-    <GithubCalendar v-if="$config.social.github"/>
+    <GithubCalendar v-if="$config.social.github" />
     <Recommendations v-if="$config.recommendations.enabled"/>
     <Technologies v-if="$config.technologies.enabled"/>
     <LazyRecentBlog v-if="$config.projects.enabled && posts" :posts="posts"/>
