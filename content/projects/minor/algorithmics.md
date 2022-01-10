@@ -16,7 +16,8 @@
     image: /images/me.jpg
     social:
       twitter: rikp777
-  slug: minor_algorithmics 
+  slug: minor_algorithmics
+  createdAt: 2021-11-07
 ---
 
 

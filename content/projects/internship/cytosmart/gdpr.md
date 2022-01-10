@@ -20,6 +20,7 @@
     social:
       twitter: rikp777
   slug: internship_cytosmart_gdpr
+  createdAt: 2021-06-06
 ---
 
 # General Data Protection Regulation (GDPR) and Annex 11

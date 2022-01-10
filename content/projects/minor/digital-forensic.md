@@ -16,6 +16,7 @@
     social:
       twitter: rikp777
   slug: minor_digital-forensic
+  createdAt: 2021-10-31
 ---
 
 # Digital Forensics

@@ -9,12 +9,14 @@
     - name: statistics 
   category:
     - name: body of knowledge
+    - name: minor
   author:
     name: Rik Peeters
     image: /images/me.jpg
     social:
       twitter: rikp777
   slug: other_statistic-formulas
+  createdAt: 2021-11-19
 ---
 small
 I am a visual learner so I find it hard to understand material by just reading it I have to make myself visual illustrations this has done both the khan cource for me and the many notes I have made. 

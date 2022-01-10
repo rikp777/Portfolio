@@ -9,12 +9,14 @@
     - name: time management
   category:
     - name: body of knowledge
+    - name: minor
   author:
     name: Rik Peeters
     image: /images/me.jpg
     social:
       twitter: rikp777
   slug: other_time-management
+  createdAt: 2021-11-10
 ---
 
 # Time Management 

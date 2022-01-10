@@ -15,6 +15,7 @@
   slug: minor_learning-objectives
   meta_data:
     thank_reader: False
+  createdAt: 2021-12-12
 ---
 
 # Learning Objectives
@@ -86,38 +87,45 @@ This page serves as a reading guide and also as my evaluation of the assignments
 
 ## LO1 – Digital forensics 
 
-My specialization that I chose for this minor is Digital Forensics. This specialization is about collecting digital evidence that can show that an organization or person has performed things in a digital environment that are not acceptable. During this specialization route, I am going to look at ethical issues and the different possibilities within this specialization. I will also look at how tooling is used within an investigation. I will also shift my focus to the field of machine-learning and its applications within the cyber aspect. 
+My specialization that I chose for this minor is Cyber Data-Science & Digital Forensics . This specialization is about collecting digital evidence that can show that an organization or person has performed things in a digital environment that are not acceptable. During this specialization route, I am going to look at ethical issues and the different possibilities within this specialization. I will also look at how tooling is used within an investigation. I will also shift my focus to the field of machine-learning and its applications within the cyber aspect. 
 
 What a digital forensic does exactly can be read in my portfolio. Herein, I map out different topics and techniques. 
 
-### Learning activies
+### Learning activities 
 
-| Task                                             | Status | Pre-knowledge         |
-| ------------------------------------------------ | ------ | --------------------- |
-| Machine-learning  Enron Dataset                  | Done   | None                  |
-| Machine-learning  Gibbarish                      | Done   | None                  |
-| Machine-learning  seclab                         | Done   | None                  |
-| Statistics  formula’s                            | Done   | None                  |
-| Statistical  research                            | Done   | None                  |
-| Captcha  mechanism                               | Done   | Some prior  knowledge |
-| Digital  forensics methodology                   | Done   | None                  |
-| Course code cyber analysis (Secure code  review) | Done   | Prior  knowledge      |
-| Regular expressions “Regex” evil “Regex”         | Done   | Some prior  knowledge |
-| OSINT                                            | Busy   | None                  |
-| GDPR FDA 21 CFR Part 11                          | Busy   | Prior  knowledge      |
-| Pentest Methodology                              | Done   | Prior  knowledge      |
+| Task                                                | Status | Pre-knowledge         |
+| --------------------------------------------------- | ------ | --------------------- |
+| Machine-learning  Enron Dataset                     | Done   | None                  |
+| Machine-learning  Gibbarish                         | Done   | None                  |
+| Machine-learning  seclab (Tilburg) confusion matrix | Done   | None                  |
+| Statistics  formula’s                               | Done   | None                  |
+| Statistical  research                               | Done   | None                  |
+| Captcha  mechanism                                  | Done   | Some prior  knowledge |
+| Methodologies and practices of secure development   | Done   | Prior knowledge       |
+| Pentest Methodology                                 | Done   | Prior  knowledge      |
+| Digital  forensics methodology                      | Done   | None                  |
+| Digital  forensics report                           | None   | None                  |
+| Course code cyber analysis (Secure code  review)    | Done   | Prior  knowledge      |
+| Regular expressions “Regex” evil “Regex”            | Done   | Some prior  knowledge |
+| OSINT                                               | Busy   | None                  |
+| GDPR FDA 21 CFR Part 11                             | Done   | Prior  knowledge      |
+| Secure development                                  | Done   | Prior  knowledge      |
+| Algorithmics                                        | Busy   | None                  |
+| Data science ethics                                 | Done   | None                  |
+| .Dotfiles & Vim                                     | Done   | None                  |
+| Time management                                     | Done   | None                  |
 
 ### Technical learning activities
 
-For machine learning aspect I had to make a model that would detect so-called gibberish. This was part of a statistical research project where I was looking for a correlation between malicious URL's and gibberish. Since there was no open source model that would detect gibberish I had to make one myself. This was a challenge but I managed to make it work. After I got the model working I was able to write my research document for my statistical course. So these courses are connected to each other and have a cyber aspect to them. I also did some side project to further broaden my knowledge about other topics relating to cyber.  
+For machine learning aspect I had to make a model that would detect so-called gibberish. This was part of a statistical research project where I was looking for a correlation between malicious URL's and gibberish. Since there was no open source model that would detect gibberish I had to make one myself. This was a challenge but I managed to make it work. After I got the model working I was able to write my research document for my statistical course. So these courses are connected to each other and have a cyber aspect to them. I also did some side project to further broaden my knowledge about other topics relating to cyber. As you can see above these topics have a wide range from configuring my linux tooling like vim and my .dotfiles to statistical research. This is a little out of line but I can say with certainty that I have done things that really interest me.  
 
 ### Nontechnical learning activities
 
-The non-technical learning activities are methodologies about different aspects within the Cyber security atmosphere. I also did some ethical research on topics of my interest. This gave me a broad view of what I can and can not do within my professional field.
+The non-technical learning activities are methodologies about different aspects within the Cyber security atmosphere. I also did some ethical research on topics of my interest. This gave me a broad view of what I can and can not do within my professional field. 
 
 ### Conclusion 
 
-As of now I have gained knowlegde in a number of technical learning objectives. I made this measurable by documenting the steps I took to get to my learning objectives. Before this, I did not have any prior knowledge in any of these topics so I have gained most of my knowledge during the execution of the assignments. It is fair to say that I have created a steady basis for myself to build up more knowledge regarding cyber related aspects.  
+As of now I have gained knowlegde in a number of technical learning objectives. I made this measurable by documenting the steps I took to get to my learning objectives. Before this, I did not have any prior knowledge in a wide range of these topics so I have gained most of my knowledge during the execution of the assignments. It is fair to say that I have created a steady basis for myself to build up more knowledge regarding cyber related aspects. I'm very happy that the tutors allowed us within this semester to do what really interests you. 
 
 ## LO2
 
@@ -125,7 +133,7 @@ This chapter will address how I personally developed within the group project. I
 
 ### Project setting
 
-OSINT is an important part of the current state of the world. With OSINT, you can find a lot of information that is publicly known. Think about news websites, articles, social media and so on. Since Fontys wants to make their students more familiar with OSINT and the dangers and possibilities of it, we set up this project plan. The idea is to develop a CTF environment where students and government students can gain knowledge on how to use OSINT and what the possibilities and dangers are.  
+OSINT is an important part of the current state of the world. With OSINT, you can find a lot of information that is publicly known. Think about news websites, articles, social media and so on. Since Fontys wants to make their students more familiar with OSINT and the dangers and possibilities of it, we set up a project plan. The idea is to develop a CTF environment where students and government students can gain knowledge on how to use OSINT and what the possibilities and dangers are.  
 At Fontys, government trainees and students come to learn what OSINT is all about. To keep this topic interesting, a fun and interactive way to demonstrate OSINT must be found. One way to accomplish this is a CTF related to OSINT. Capture the flags are a fun and interactive way to accomplish this.  
 The goal is to develop a running, stable and reachable CTF system. Users should be able to play challenges independently and these challenges should have a storyline/goal. Challenges are exercises that a user will have to perform in order to learn more about OSINT. Challenges should be fun and encouraging in order to motivate users to learn more. We also need to describe ethics and scenarios. With scenarios you can think of the Bellingcat and MH17 example. In challenges, users learn what tooling is applied, when it is applied and what tooling is available.
 
@@ -135,7 +143,7 @@ I was the scrum leader during the definition phase of the project. This meant th
 
 ### Conclusion 
 
-Finally, in terms of my growth as an innovator, I have had experience expressing my ideas in the early stages of project development and sharing them with my colleagues. In addition, I have interacted with clients through interviews, meetings, a presentation, and reports.
+Finally, in terms of my growth as an innovator, I have had experience expressing my ideas in the early stages of project development and sharing them with my colleagues. In addition, I have interacted with clients through interviews, meetings, a presentation, and reports. I also learned a lot about the topic we had to cover and I can say that I can now call myself a professional in the field 
 
 ## LO3
 
@@ -171,6 +179,7 @@ table th:nth-of-type(5) {
     width: 12%;
 }
 </style>
+Peerassesment One: 04-11-2021
 
 #### Strengths
 
@@ -250,8 +259,8 @@ For the professional writing I chose to write my portfolio in English. Currently
 
 ### Ethical aspect. 
 
-I have delved quite deeply into the ethical processes within the topics I cover. I have also done this for the group project. This has taught me how to approach certain things and what things cannot be done within the field and specialization. 
+I have delved quite deeply into the ethical processes within the topics I cover. I have also done this for the group project. This has taught me how to approach certain things and what things cannot be done within the field and specialization. The line between right and wrong is sometimes very thin. 
 
-## General Conslusion 
+## General Conclusion 
 
 Overall, I think I learned a lot in this minor. In doing so, I placed my focus mainly on performing machine learning in the area of cyber. I had no prior knowledge of this. Now I have a broad scale of knowledge both technical and non technical aspects. I was happy in the way this minor was structured. It was very open minded I was free in learning about things of interest what I personally find very motivating. It was also allowed to combined different aspects within the cyber atmosphere. I did a lot of side projects that interested me I learned a lot about all of them and besides you really benefit if you are free in what you want to learn because you only learn what you are interested in. Finally, I would like to conclude this minor by thanking all the teachers, especially Stefan and Peter, for their great guidance. 

@@ -17,6 +17,7 @@
     social:
       twitter: rikp777
   slug: minor_code-review
+  createdAt: 2021-11-14
 ---
 # Course code cyber analysis  (Secure code review)
 

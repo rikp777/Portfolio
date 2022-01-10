@@ -10,6 +10,7 @@
     - name: .dotfiles
   category:
     - name: body of knowledge
+    - name: minor
   author:
     name: Rik Peeters
     image: /images/me.jpg
@@ -17,6 +18,7 @@
       twitter: rikp777
   slug: other_dotfiles
   github: https://github.com/rikp777/.dotfiles
+  createdAt: 2021-12-07
 ---
 
 # .dotfiles

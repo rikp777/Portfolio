@@ -9,7 +9,7 @@
     - name: regex
   category:
     - name: body of knowledge 
-    - name: Software engineering
+    - name: software-engineering
     - name: cyber
     - name: minor
   author:
@@ -18,6 +18,7 @@
     social:
       twitter: rikp777
   slug: software-engineering_regular-expressions
+  createdAt: 2021-11-6
 ---
 
 # Regular expressions

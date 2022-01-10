@@ -17,6 +17,7 @@
     social:
       twitter: rikp777
   slug: minor_digital-forensic-report
+  createdAt: 2021-10-31
 ---
 
 https://www.rnyte-cyber.com/uploads/9/8/5/9/98595764/exampledigiforensicsrprt_by_ryan_nye.pdf
