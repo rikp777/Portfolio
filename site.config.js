@@ -730,7 +730,7 @@ export default {
         friendlyNeighborhood: 'your friendly neighborhood',
         description: '' +
           'Hey there it\'s me Rik Peeters 👋👀. ' +
-          'I am a Software Engineer and Cyber Security specialist. On this website you can read all about projects and assignments I did during my studies.' +
+          'I am a Software Engineer and Cyber Security specialist. On this website you can read all about projects and assignments I did during my studies. ' +
           'In doing so, you can read what my approach is to projects and my knowledge for these topics becomes clear.',
         intro: ['hey there i\'m...', 'I build things for the \nweb and i\'m..'],
         words: ['web-developer', 'software-engineer', 'programmer', 'encoder', 'data analysis', 'cyber security specialist'],
