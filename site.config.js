@@ -493,6 +493,10 @@ export default {
 
   strings: {
     NL: {
+      workedAt: {
+        header: "werkte bij",
+        subtext: "in het verleden heb ik bij de volgende bedrijven gewerkt"
+      },
       technologies: {
         header: "technologieën",
         subtext: "technologieën die ik heb toegepast binnen mijn projecten"
@@ -683,6 +687,10 @@ export default {
 
 
     en_US: {
+      workedAt: {
+        header: "worked at",
+        subtext: "in the past I worked at the following companies"
+      },
       technologies: {
         header: "technologies",
         subtext: "Here are a few technologies I’ve been working with recently:"
