@@ -144,7 +144,7 @@ export default {
       }
     },
     sortCompanies(){
-      let array = this.$config.workedAt.sort((a,b) => {
+      let array = this.$config.workedAt.meta.sort((a,b) => {
         let aStartAt = b.positions[b.positions.length -1].startAt
         let bStartAt = a.positions[a.positions.length -1].startAt
         return new Date(aStartAt) - new Date(bStartAt)

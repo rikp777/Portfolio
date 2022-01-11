@@ -119,6 +119,13 @@ export default {
       {
         id: "python",
         name: "Python",
+        frameworks: [
+          {
+            id: 'django',
+            name: 'Django',
+            url: 'https://github.com/django/django'
+          }
+        ],
         subs: [
           {
             id: "project-jupyter",
@@ -170,6 +177,11 @@ export default {
             id: "hibernate-orm",
             name: "Hibernate ORM",
             url: "https://hibernate.org/"
+          },
+          {
+            id: 'jpa',
+            name: 'Spring Data JPA',
+            url: 'https://spring.io/projects/spring-data-jpa'
           },
           {
             id: "lombok",
@@ -231,6 +243,11 @@ export default {
         ],
         subs: [
           {
+            id: 'nodejs',
+            name: 'Node.js',
+            url: 'https://nodejs.org/en/'
+          },
+          {
             id: "msw",
             name: "MSW js",
             url: "https://mswjs.io"
@@ -241,6 +258,64 @@ export default {
             url: "https://github.com/axios/axios"
           }
         ]
+      },
+      {
+        id: 'software',
+        name: 'software',
+        url: null,
+        frameworks: [
+          {
+            id: 'operating',
+            name: 'Operating system',
+            url: null,
+            subs: [
+              {
+                id: 'linux arch',
+                name: 'Linux Arch',
+                url: 'https://archlinux.org/',
+              },
+              {
+                id: 'windows',
+                name: 'Windows 11',
+                url: 'https://www.microsoft.com/en-us/windows/windows-11',
+              }
+            ]
+          },
+          {
+            id: 'tooling',
+            name: 'Tooling',
+            url: null,
+            subs: [
+              {
+                id: 'git',
+                name: 'Git',
+                url: 'https://git-scm.com/'
+              },
+              {
+                id: 'docker',
+                name: 'Docker',
+                url: 'https://www.docker.com/'
+              }
+            ]
+          },
+          {
+            id: 'databases',
+            name: 'databases',
+            url: null,
+            subs: [
+              {
+                id: 'mssql',
+                name: 'MSSQL',
+                url: 'https://www.microsoft.com/en-us/sql-server'
+              },
+              {
+                id: 'mysql',
+                name: 'MySQL',
+                url: 'https://www.mysql.com/'
+              }
+            ]
+          }
+        ]
       }
     ],
   },
@@ -249,169 +324,172 @@ export default {
 
 
 
-  workedAt: [
-    {
-      id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
-      name: "Energy essentials",
-      src: '/images/jobs/energyessentials-logo.png',
-      url: "https://www.energyessentials.nl/",
-      description: null,
-      positions: [
-        {
-          type: "internship",
-          title: "Software Engineer",
-          description: null,
-          startAt: "01-02-2022",
-          endAt: "01-08-2022",
-          technologies: [
-            "c#",
-            "asp.net",
-            "entity-framework"
-          ]
-        }
-      ],
-      profession: true
-    },
-    {
-      id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
-      name: "Cre8media",
-      src: '/images/jobs/cre8media-logo.png',
-      url: "https://www.cre8media.nl/",
-      description: null,
-      positions: [
-        {
-          type: "internship",
-          title: "Application Developer",
-          description: null,
-          startAt: "01-09-2016",
-          endAt: "01-03-2017",
-          technologies: [
-            "php",
-            "laravel",
-            "eloquent-orm"
-          ]
-        }
-      ],
-      profession: true
-    },
-    {
-      id: "dccf1a31-2abf-48a6-8055-8dc4b0374c4e",
-      name: "Jumbo Supermarkten",
-      src: '/images/jobs/jumbo.png',
-      url: 'https://www.jumbo.com/winkel/jumbo-panningen-jumbo-harald-en-ilse-van-beek',
-      description: null,
-      positions: [
-        {
-          type: "part-time",
-          title: "Vakkenvuller",
-          description: null,
-          startAt: "01-06-2015",
-          endAt: "01-05-2018"
-        }
-      ],
-      profession: false
-    },
-    {
-      id: "37bd13ed-ce8d-4693-b092-121448216d96",
-      name: "De maris B.V.",
-      src: '/images/jobs/maris-logo.png',
-      url: 'https://kwekerij-demaris.nl/',
-      description: null,
-      positions: [
-        {
-          type: "part-time",
-          title: "Functioneel medewerker",
-          description: null,
-          startAt: "01-10-2012",
-          endAt: "01-08-2018"
-        }
-      ],
-      profession: false
-    },
-    {
-      id: "59303b9b-3348-4f0c-9fb3-5a595a8381de",
-      name: "CytoSMART Technologies B.V.",
-      src: '/images/jobs/cytosmart-logo.svg',
-      url: 'https://cytosmart.com/',
-      description: null,
-      positions: [
-        {
-          type: "internship",
-          title: "Software Engineer",
-          description: "e00e7a0e-2ab8-4f68-bce2-cb746535c802",
-          startAt: "01-09-2020",
-          endAt: "01-03-2021",
-          technologies: [
-            "c#",
-            "asp.net",
-            "entity-framework"
-          ]
-        }
-      ],
-      profession: true
-    },
-    {
-      id: "16c6a7ed-e4e2-428f-8fd1-da8cd55b4564",
-      name: "GoStudent",
-      src: '/images/jobs/gostudent-logo.png',
-      url: 'https://www.gostudent.org/en',
-      description: null,
-      positions: [
-        {
-          type: "freelance",
-          title: "Bijlesdocent informatica",
-          description: null,
-          startAt: "01-08-2021",
-          endAt: null,
-          technologies: [
-            "java"
-          ]
-        }
-      ],
-      profession: true
-    },
-    {
-      id: "bf781026-28a1-4b80-a683-1673b5da2522",
-      name: "Limax",
-      description: null,
-      src: '/images/jobs/limax-logo.png',
-      url: 'https://www.limax.nl/',
-      positions: [
-        {
-          type: "internship",
-          title: "Software Engineer",
-          description: "869e88ce-7a17-4aab-8495-eba997c9e146",
-          startAt: "01-02-2018",
-          endAt: "01-08-2018",
-          technologies: [
-            "php",
-            "laravel",
-            "eloquent-orm",
-            "blade",
-            "javascript"
-          ]
-        },
-        {
-          type: "part-time",
-          title: "Junior Employee Supply Chain / IT",
-          description: "69bf0516-5a12-4e45-8171-0034488c90ef",
-          startAt: "01-08-2018",
-          endAt: null,
-          technologies: [
-            "java",
-            "spring-boot",
-            "hibernate-orm",
-            "typescript",
-            "vue-js",
-            "vuex",
-            "axios",
-            "msw"
-          ]
-        }
-      ],
-      profession: true
-    },
-  ],
+  workedAt: {
+    enabled: true,
+    meta: [
+      {
+        id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
+        name: "Energy essentials",
+        src: '/images/jobs/energyessentials-logo.png',
+        url: "https://www.energyessentials.nl/",
+        description: null,
+        positions: [
+          {
+            type: "internship",
+            title: "Software Engineer",
+            description: null,
+            startAt: "01-02-2022",
+            endAt: "01-08-2022",
+            technologies: [
+              "c#",
+              "asp.net",
+              "entity-framework"
+            ]
+          }
+        ],
+        profession: true
+      },
+      {
+        id: "63fc3e66-5ae2-4a33-a620-5d49f06f1599",
+        name: "Cre8media",
+        src: '/images/jobs/cre8media-logo.png',
+        url: "https://www.cre8media.nl/",
+        description: null,
+        positions: [
+          {
+            type: "internship",
+            title: "Application Developer",
+            description: null,
+            startAt: "01-09-2016",
+            endAt: "01-03-2017",
+            technologies: [
+              "php",
+              "laravel",
+              "eloquent-orm"
+            ]
+          }
+        ],
+        profession: true
+      },
+      {
+        id: "dccf1a31-2abf-48a6-8055-8dc4b0374c4e",
+        name: "Jumbo Supermarkten",
+        src: '/images/jobs/jumbo-logo.png',
+        url: 'https://www.jumbo.com/winkel/jumbo-panningen-jumbo-harald-en-ilse-van-beek',
+        description: null,
+        positions: [
+          {
+            type: "partTime",
+            title: "Vakkenvuller",
+            description: null,
+            startAt: "01-06-2015",
+            endAt: "01-05-2018"
+          }
+        ],
+        profession: false
+      },
+      {
+        id: "37bd13ed-ce8d-4693-b092-121448216d96",
+        name: "De maris B.V.",
+        src: '/images/jobs/maris-logo.png',
+        url: 'https://kwekerij-demaris.nl/',
+        description: null,
+        positions: [
+          {
+            type: "partTime",
+            title: "Functioneel medewerker",
+            description: null,
+            startAt: "01-10-2012",
+            endAt: "01-08-2018"
+          }
+        ],
+        profession: false
+      },
+      {
+        id: "59303b9b-3348-4f0c-9fb3-5a595a8381de",
+        name: "CytoSMART Technologies B.V.",
+        src: '/images/jobs/cytosmart-logo.svg',
+        url: 'https://cytosmart.com/',
+        description: null,
+        positions: [
+          {
+            type: "internship",
+            title: "Software Engineer",
+            description: "e00e7a0e-2ab8-4f68-bce2-cb746535c802",
+            startAt: "01-09-2020",
+            endAt: "01-03-2021",
+            technologies: [
+              "c#",
+              "asp.net",
+              "entity-framework"
+            ]
+          }
+        ],
+        profession: true
+      },
+      {
+        id: "16c6a7ed-e4e2-428f-8fd1-da8cd55b4564",
+        name: "GoStudent",
+        src: '/images/jobs/gostudent-logo.png',
+        url: 'https://www.gostudent.org/en',
+        description: null,
+        positions: [
+          {
+            type: "freelance",
+            title: "Bijlesdocent informatica",
+            description: null,
+            startAt: "01-08-2021",
+            endAt: null,
+            technologies: [
+              "java"
+            ]
+          }
+        ],
+        profession: true
+      },
+      {
+        id: "bf781026-28a1-4b80-a683-1673b5da2522",
+        name: "Limax",
+        description: 'We are Limax and we want as many people as possible to enjoy our fresh, super tasty and extremely healthy products on a daily basis: our vitality boosters.',
+        src: '/images/jobs/limax-logo.png',
+        url: 'https://www.limax.nl/',
+        positions: [
+          {
+            type: "internship",
+            title: "Software Engineer",
+            description: "869e88ce-7a17-4aab-8495-eba997c9e146",
+            startAt: "01-02-2018",
+            endAt: "01-08-2018",
+            technologies: [
+              "php",
+              "laravel",
+              "eloquent-orm",
+              "blade",
+              "javascript"
+            ]
+          },
+          {
+            type: "partTime",
+            title: "Junior Employee Supply Chain / IT",
+            description: "69bf0516-5a12-4e45-8171-0034488c90ef",
+            startAt: "01-08-2018",
+            endAt: null,
+            technologies: [
+              "java",
+              "spring-boot",
+              "hibernate-orm",
+              "typescript",
+              "vue-js",
+              "vuex",
+              "axios",
+              "msw"
+            ]
+          }
+        ],
+        profession: true
+      },
+    ]
+  },
 
   strings: {
     NL: {
@@ -426,9 +504,14 @@ export default {
         freelance: "freelance"
       },
       position: {
-        "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Onderzoek en implementatie van functies/modules om CytoSMART's celteller te laten voldoen aan FDA 21 CFR part 11 regelgeving. Eindcijfer: 8,9",
+        "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Onderzoek en implementatie van functies/modules om CytoSMART's celteller te laten voldoen aan FDA 21 CFR part 11 regelgeving. Daartoe heb ik mij moeten verdiepen in uitgebreide documentatie en wetgeving. Eindcijfer: 8,9",
         "869e88ce-7a17-4aab-8495-eba997c9e146": "Digitalisering van distributie- en productieprocessen. Eindcijfer: 8",
         "69bf0516-5a12-4e45-8171-0034488c90ef": "Ontwikkeling van de digitalisering van de distributieprocessen met de nieuwste technieken.",
+      },
+      jobTitle: {
+        "9a1673e1-3897-4ea5-8e83-bf34b87f2a23": "",
+        "052d778d-181c-470a-968d-bfe0875586f4": "",
+        "07c62229-4383-4d3c-950c-32620b1d07b1": ""
       },
       download: 'download',
       cookies: {
@@ -464,7 +547,7 @@ export default {
           'Hey daar, mijn naam is Rik Peeters 👋👀. ' +
           'Ik ben Software Engineer en Cyber Security specialist. Op deze site kun je alles lezen over projecten en opdrachten die ik tijdens mijn studie heb gedaan. ' +
           'Zo kun je bijvoorbeeld lezen hoe ik mijn projecten heb aangepakt en wordt mijn kennis in deze onderwerpen duidelijk.',
-        intro: ['hey daar ik ben...','ik bouw dingen voor op \nhet web en ik ben..'],
+        intro: ['hey daar ik ben...','ik bouw dingen voor \nop het web en ik ben..'],
         words: ['web-ontwikkelaar', 'software-ingenieur', 'programmeur', 'encoder', 'gegevens analist', 'cyber security specialist'],
       },
       githubCalendar: {
@@ -611,7 +694,7 @@ export default {
         freelance: "freelance"
       },
       position: {
-        "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Research and implementation of features/modules in order to make CytoSMART’s cell counter comply to FDA 21 CFR part 11 regulations. Final grade: 8,9",
+        "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Research and implementation of features/modules in order to make CytoSMART’s cell counter comply to FDA 21 CFR part 11 regulations. In order to do so, I had to delve myself in extensive documentation and law legislation's. Final grade: 8,9",
         "869e88ce-7a17-4aab-8495-eba997c9e146": "Digitization of distribution and production processes. Final grade: 8",
         "69bf0516-5a12-4e45-8171-0034488c90ef": "Developing the digitalization of the distribution processes with the latest techniques ",
       },
