@@ -28,7 +28,7 @@
 | Name             | Ralph Jansen                                                 |
 | Department       | Software Engineering                                         |
 | Position         | Senior developer                                             |
-| Background study | Eindhoven University of Technology (TU/e)                    |
+| Background study | Zuyd Hogeschool \| University of Applied Sciences            |
 | Linked-in        | https://www.linkedin.com/in/ralph-jansen-58547716/           |
 | Phone number     | +31 6 /                                                      |
 | Email            | [Ralph.jansen@energyessentials.nl](mailto:Ralph.jansen@energyessentials.nl) |
@@ -60,30 +60,31 @@ Currently Energy Essentials has a software called Vertex which consists out of m
 
 Energy Essentials wants to change the architecture of their Vertex software which is currently monolithic to cloud native architecture, also known as micro services. Their main reason to want to change the current architecture is to make the software solution more scalable. They need to change the way components interact with one another. At the moment they communicate in a synchronized matter (monolithic) but that needs to be changed into asynchronized (micro services). This transition poses different challenges. For example a micro service architecture needs a gateway that knows about all the instances which are the actual micro services. A gateway gives you as a client access to the software by redirecting you to the right service and instance, it is basically the entry point into the system. There are different frameworks for a gateway solution so my job in this project is to find the one that fits the best for this problem. To find the right one I need to do some research first.  
 
-There are also some things to take in consideration when you want to change a software to a microservice architecture:
+There are also some things to take into consideration when you want to change a software to a microservice architecture:
 
 - security
-
 - robustness resiliency testing
-
 - debugging
-
 - versioning
+
+
 
 
 ## Purpose of the project
 
 The purpose of  this project became pretty clear when I visited the company for the first time in person. Yorick and Justin introduced me to their idea for my internship. They want to change their current architecture which is monolithic to a cloud native one. Their reason to do this is because cloud native is way more flexible, scalable, resilient and less prone to problems. Monolithic architecture is a little bit out dated and does not fit their current solution any longer so they would prefer a cloud native architecture. An architecture like this is better for a bigger company and ofcourse, Energy Essentials is a lot bigger now than when they started. 
 
-To help me understand the assignment of this internship they had to explain the functionalities and architecture of the current software which is called Vertex. My key purpose is to change the current Vertex architecture (monolithic) into cloud native architecture. As stated above being cloud native has multiple advantages. If, for example, one of the modules fail for whatever reason the other modules will still keep working which means high availability for their users/customers.    
+To help me understand the assignment of this internship they had to explain the functionalities and architecture of the current software which is called Vertex. The main purpose is to change the current Vertex architecture (monolithic) into cloud native architecture. As stated above being cloud native has multiple advantages. If, for example, one of the modules fail for whatever reason the other modules will still keep working which means high availability for their users/customers. 
+
+My part of the project will be mainly focused on the connections between the cloud native modules with usage of a so called message bus. For Vertex Energy Essentails wishes to make use of the message bus Kafka. Currently they use direct calls. With Kafka these direct calles are replaced by a storage which will be updated based on events (event-driven).  The structure in which the data will be saved is JSON.
 
 ## Research
 
-To lead this project to a good end I have to do some research first. I need to get a clear view about what to do and how to achieve this. Therefore it is important learn more about microservice architecture and what is involved in a transition to a microservice like architecture. Lately, many companies are changing their architecture to microservice so I think looking at how other companies achieved this transition will give me pretty good idea about how I can make this change for Energy Essentials. 
+To bring this project to a good end I have to do some research first. I need to get a clear view about what to do and how to achieve this. Therefore it is important learn more about microservice architecture and what is involved in a transition to a microservice like architecture. Lately, many companies are changing their architecture to microservice so I think looking at how other companies achieved this transition will give me pretty good idea about how I can make this change for Energy Essentials. 
 
 ### Research questions 
 
-***How to convert monolithic architecture to cloud native solution?*** *
+***How to convert monolithic architecture to the cloud native solution Vertex?*** *
 
 Which cloud native solution is the best for Energy Essentials? 
 
@@ -119,12 +120,11 @@ Because my personal development is also very important, during my internship I w
 
 - Improve my English. I want to see if I can write this internship report without problems since it is a little bit of a challenge for me to write it fully in English. 
 
-- Writing in a professional matter is difficult for me so I want to improve this. I find it difficult to get my ideas out on paper. Maybe this is due to my dyslexia but nevertheless I want to improve this skill because this is important for any further studies. 
+- Writing in a professional matter is difficult for me so I want to improve this. I find it difficult to get my ideas on paper. Maybe this is due to my dyslexia but nevertheless I want to improve this skill because this is important for any further studies. 
 
 - Applying techniques that I have learned during my studies at Fontys on situations in the real business world. I want to get hands-on experience with the things I learned during my studies since this is also really important once I finish my studies so I will be confident enough in my quality of work. 
 
-- Accepting flaws within an architectural design. Sometimes when I need to work on a software I get frustrated by the way it is build even if it does not interfere with what I need to work on within the software. I always have the urge to rewrite the whole architecture but this is not needed since the software works for the given solution. 
-
+- Accepting flaws within an architectural design. Sometimes when I need to work on software I get frustrated by the way it is built even if it does not interfere with what I need to work on within the software. I always have the urge to rewrite the whole architecture but this is not needed since the software works for the given solution. 
 
 
 

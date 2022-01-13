@@ -323,6 +323,51 @@ export default {
 
 
 
+  studies: {
+    enabled: true,
+    meta: [
+      {
+        id: "c0471990-f7f9-4299-988a-ec39ec573a64",
+        name: "Fontys University",
+        src: "/images/studies/fontysuni-logo.png",
+        url: "https://fontys.edu/",
+        description: "fontys",
+        subs: [
+          {
+            type: "minor",
+            title: "Cyber Security",
+            description: "minor-cyber-security",
+            startAt: "01-09-2021",
+            endAt: "01-02-2022"
+          },
+          {
+            type: "bachelor",
+            title: "Software-engineering",
+            description: "bachelor",
+            startAt: "01-09-2018",
+            endAt: "01-09-2022"
+          },
+
+        ]
+      },
+      {
+        id: "61e4342e-9a66-4da2-94af-68c0b7663442",
+        name: "Gilde Opleidingen",
+        src: "/images/studies/gilde-logo.png",
+        url: "https://www.gildeictcollege.nl//",
+        description: "gilde",
+        subs: [
+          {
+            type: "mbo",
+            title: "Applicatie Ontwikkelaar",
+            description: "applicatie-ontwikkelaar",
+            startAt: "01-09-2015",
+            endAt: "01-09-2018"
+          },
+        ]
+      }
+    ]
+  },
 
   workedAt: {
     enabled: true,
@@ -332,7 +377,7 @@ export default {
         name: "Energy essentials",
         src: '/images/jobs/energyessentials-logo.png',
         url: "https://www.energyessentials.nl/",
-        description: null,
+        description: "energy-essentials",
         positions: [
           {
             type: "internship",
@@ -410,7 +455,7 @@ export default {
         name: "CytoSMART Technologies B.V.",
         src: '/images/jobs/cytosmart-logo.svg',
         url: 'https://cytosmart.com/',
-        description: null,
+        description: "cytosmart",
         positions: [
           {
             type: "internship",
@@ -432,7 +477,7 @@ export default {
         name: "GoStudent",
         src: '/images/jobs/gostudent-logo.png',
         url: 'https://www.gostudent.org/en',
-        description: null,
+        description: "gostudent",
         positions: [
           {
             type: "freelance",
@@ -450,7 +495,7 @@ export default {
       {
         id: "bf781026-28a1-4b80-a683-1673b5da2522",
         name: "Limax",
-        description: 'We are Limax and we want as many people as possible to enjoy our fresh, super tasty and extremely healthy products on a daily basis: our vitality boosters.',
+        description: "limax",
         src: '/images/jobs/limax-logo.png',
         url: 'https://www.limax.nl/',
         positions: [
@@ -493,6 +538,10 @@ export default {
 
   strings: {
     NL: {
+      studies: {
+        header: "heeft gestudeerd aan",
+        subtext: "scholen waar ik mijn studie heb gevolgd"
+      },
       workedAt: {
         header: "werkte bij",
         subtext: "in het verleden heb ik bij de volgende bedrijven gewerkt"
@@ -505,17 +554,28 @@ export default {
       workTypes: {
         internship: "Stage",
         partTime: "Part-time",
-        freelance: "freelance"
+        freelance: "freelance",
+        minor: "Minor",
+        bachelor: "Bachelor",
+        mbo: "MBO"
       },
-      position: {
+      descriptions: {
         "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Onderzoek en implementatie van functies/modules om CytoSMART's celteller te laten voldoen aan FDA 21 CFR part 11 regelgeving. Daartoe heb ik mij moeten verdiepen in uitgebreide documentatie en wetgeving. Eindcijfer: 8,9",
         "869e88ce-7a17-4aab-8495-eba997c9e146": "Digitalisering van distributie- en productieprocessen. Eindcijfer: 8",
         "69bf0516-5a12-4e45-8171-0034488c90ef": "Ontwikkeling van de digitalisering van de distributieprocessen met de nieuwste technieken.",
-      },
-      jobTitle: {
         "9a1673e1-3897-4ea5-8e83-bf34b87f2a23": "",
         "052d778d-181c-470a-968d-bfe0875586f4": "",
-        "07c62229-4383-4d3c-950c-32620b1d07b1": ""
+        "07c62229-4383-4d3c-950c-32620b1d07b1": "",
+
+        "gostudent": "GoStudent brengt studenten in contact met geschikte deskundigen in verschillende schoolvakken.",
+        "limax": "Wij zijn Limax en wij willen dat zoveel mogelijk mensen dagelijks kunnen genieten van onze verse, superlekkere en uiterst gezonde producten: onze vitaliteitsboosters",
+        "cytosmart": "CytoSMART heeft celgebaseerde labelvrije assays ontwikkeld die worden ondersteund door beeldanalyse-algoritmen. Verkrijg whole-well gegevens over levende cellen. CytoSMART-softwarepakketten ondersteunen wondgenezingstests, confluentiedetectie, kolonietelling en meer.",
+        "energy-essentials": "Energy Essentials levert passende oplossingen op het gebied van markt- en bedrijfsprocessen in de energiesector door middel van applicatieontwikkeling, procesautomatisering en consultancy.",
+        "minor-cyber-security": "In dit cyber security semester kun je je verder specialiseren als cyber security professional. De focus in het semester ligt op je persoonlijke security specialisatie en op cyber security gerelateerde innovatie door onderzoek en ontwikkeling.",
+        "fontys": "Fontys is een van de grootste hogescholen van Nederland en ligt in de meest innovatieve regio van ons land en misschien wel van heel Europa. Het is de spannendst mogelijke plek voor iedereen met interesse in technologie, ondernemerschap en creativiteit. Studenten van meer dan 100 nationaliteiten studeren op een van onze campussen.",
+        "bachelor": "Software Engineering gaat over het proces van het maken en verbeteren van softwaresystemen, van het eerste idee tot de implementatie en het beheer van het systeem. Je leert hoe je hoogwaardige softwaresystemen produceert in plaats van spaghetticode met bugs erin. Het soort systeem dat ontwikkeld moet worden, het besturingssysteem waarvoor ontwikkeld moet worden en de omgeving waarin ontwikkeld moet worden spelen geen rol, want een software engineer is gekwalificeerd voor al deze systemen.",
+        "gilde": "Het ontwikkelen van vakmensen met een stevige basis voor de toekomst. Dát is waar we bij Gilde Opleidingen met toegewijde en inspirerende professionals aan werken. Maar ook samen met jou en jouw toekomstige werkgevers. Want jij als student staat bij ons centraal. We bereiden je voor op een toekomst in de maatschappij, als werknemer, ondernemer en burger. Samen geven we vorm en inhoud aan een leven lang ontwikkelen. Om dit te bereiken, werken we volgens drie ambities.",
+        "applicatie-ontwikkelaar": "Tijdens de opleiding leer je onder andere met programmeertools en besturingssystemen werken. Je krijgt bijvoorbeeld de opdracht om een game te maken. Daarom ga je veel leren op ICT-gebied.",
       },
       download: 'download',
       cookies: {
@@ -540,6 +600,8 @@ export default {
         title: "Stages bij"
       },
       resume:{
+        header: "curriculum vitae",
+        subtext: "werkervaring en kennis",
         password: 'wachtwoord',
         provide: 'Voer het opgegeven wachtwoord in'
       },
@@ -687,6 +749,10 @@ export default {
 
 
     en_US: {
+      studies: {
+        header: "has studied at",
+        subtext: "schools where I did my studies"
+      },
       workedAt: {
         header: "worked at",
         subtext: "in the past I worked at the following companies"
@@ -699,12 +765,25 @@ export default {
       workTypes: {
         internship: "Internship",
         partTime: "Part-time",
-        freelance: "freelance"
+        freelance: "freelance",
+        minor: "Minor",
+        bachelor: "Bachelor",
+        mbo: "MBO"
       },
-      position: {
+      descriptions: {
         "e00e7a0e-2ab8-4f68-bce2-cb746535c802": "Research and implementation of features/modules in order to make CytoSMART’s cell counter comply to FDA 21 CFR part 11 regulations. In order to do so, I had to delve myself in extensive documentation and law legislation's. Final grade: 8,9",
         "869e88ce-7a17-4aab-8495-eba997c9e146": "Digitization of distribution and production processes. Final grade: 8",
         "69bf0516-5a12-4e45-8171-0034488c90ef": "Developing the digitalization of the distribution processes with the latest techniques ",
+
+        "gostudent": "GoStudent connects students with suitable experts in different school subjects.",
+        "limax": 'We are Limax and we want as many people as possible to enjoy our fresh, super tasty and extremely healthy products on a daily basis: our vitality boosters.',
+        "cytosmart": "CytoSMART has developed cell based label-free assays that are supported by image analysis algorithms. Obtain whole-well data on live-cells. CytoSMART software packages support wound healing assays, confluence detection, colony counting and more.",
+        "energy-essentials": "Energy Essentials provides appropriate solutions in the field of market and business processes in the energy sector through application development, process automation and consultancy.",
+        "minor-cyber-security": "In this cyber security semester you can specialize further as a cyber security professional. The focus in the semester is on your personal security specialization and on cyber security related innovation through research and development.",
+        "fontys": "Fontys is one of the largest universities of applied sciences in the Netherlands and located in the most innovative region of our country and perhaps the whole of Europe. It is the most exciting possible place to be for anyone with an interest in technology, entrepreneurship and creativity. Students of more than 100 nationalities study at one of our campuses.",
+        "bachelor": "Software Engineering is about the process of making and improving software systems, from the initial idea to implementation and management of the system. You’ll learn how to produce high-quality software systems instead of spaghetti-code with bugs in it. The type of system to develop, the operating system to develop for and the environment to develop in do not play a role, as a software engineer is qualified for all of them.",
+        "gilde": "Developing professionals with a solid foundation for the future. That is what we at Gilde Opleidingen work on with dedicated and inspiring professionals. But also together with you and your future employers. Because you, the student, are central to us. We prepare you for a future in society, as an employee, entrepreneur and citizen. Together we give shape and substance to lifelong development. To achieve this, we work according to three ambitions.",
+        "applicatie-ontwikkelaar": "During the course you will learn to work with programming tools and operating systems, among other things. For example, you will be asked to make a game. Therefore you will learn a lot in the field of ICT.",
       },
       download: 'download',
       cookies: {
@@ -729,6 +808,8 @@ export default {
         title: "Internships at"
       },
       resume:{
+        header: "curriculum vitae",
+        subtext: "work experience and knowledge",
         password: 'password',
         provide: 'Enter provided password'
       },

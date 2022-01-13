@@ -228,7 +228,7 @@ From there, I needed to configure LXD, so I started the LXD initialization proce
 lxc image import ./apline-v3.10-x86_64-20191008_1227.tar.gz --alias hotshoto
 ```
 
-Now that I have created a new lxd container, as a final step I needed to give the container security privileges and then set its mount path as `/mnt` using the following commands:
+Now that I have created a new lxd container, as a final step I needed to give the container security privileges and then set its mount path as "/mnt" using the following commands:
 
 ```
 lxc init newalpine hotshoto -c security.privileged=true
@@ -249,7 +249,7 @@ root
 # echo " "; echo "uname -a:";uname -a;echo " ";echo "hostname:";hostname;echo "";echo "id";echo; " ";echo "ifconfig:";/sbin/ifconfig -a; echo " ";echo "groups:";groups;
 
 uname -a:
-Linux hotshoto 5.4.0.31-generic #35-Ubuntu SMP Thu May 7 20:20:34 UTCH 2020 x86_64 Linux
+Linux hotshoto 5.4.0.31-generic #35-Ubuntu SMP Thu Jan 11 20:20:34 UTCH 2022 x86_64 Linux
 
 hostname:
 hotshoto

@@ -73,7 +73,7 @@
                                     </span>
                                   </div>
                                   <div class="text-sm text-gray-300 font-medium px-3 mt-2" v-show="position.description">
-                                    {{ $t(`position.${position.description}`) }}
+                                    {{ $t(`descriptions.${position.description}`) }}
                                   </div>
                                 </div>
                               </template>
