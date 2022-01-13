@@ -9,6 +9,13 @@
       <div v-for="(company, index) in companies" :key="`rec-${index}`" class="relative h-full bg-gray-900 rounded-lg shadow-lg text-base w-full">
         <blockquote class="relative">
           <div class="rounded-t-lg px-5 py-5 sm:px-8 sm:py-8y">
+            <div class="relative" v-if="!company.profession">
+              <div class="absolute top-0 right-0">
+<!--                <span class="inline-flex items-center justify-end px-2 py-1 mr-2 text-xs font-bold leading-none text-red-200 bg-red-800 rounded-full show md:hidden">non prof</span>-->
+
+                <span  class="inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-red-200 bg-red-800 rounded-full hidden md:block">non prof</span>
+              </div>
+            </div>
             <div class="flex flex-row">
               <a :href="company.url" target="_blank" rel="noreferrer">
                 <cite class="flex items-center rounded-b-lg not-italic">
@@ -19,10 +26,11 @@
                     <strong class="text-gray-200 font-semibold" v-show="!company.src">{{ company.name}}</strong>
                     {{getDateFormat(company.positions[company.positions.length -1].startAt).format('MMM YYYY')}} - {{ showStringDiffTotal(company.positions) }}
                   </span>
-                  <span v-if="!company.profession" class="ml-5 inline-flex items-center justify-center px-2 py-1 mr-2 text-xs font-bold leading-none text-gray-800 bg-red-300 rounded-full hidden md:show">non prof</span>
+
                 </cite>
                 </a>
             </div>
+
             <div class="relative text-sm text-gray-300 font-medium mt-4" v-show="company.description">
               <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-800" fill="currentColor" viewBox="0 0 32 32">
                 <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
