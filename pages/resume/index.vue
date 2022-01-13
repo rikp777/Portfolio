@@ -41,6 +41,7 @@
     </div>
     <WorkExperience/>
     <Studies/>
+    <Technologies/>
   </div>
 </template>
 

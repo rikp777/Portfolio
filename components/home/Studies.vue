@@ -102,9 +102,12 @@ export default {
       b.add(months, 'months');
 
       if(years == 0){
-        return `${months} mos`
+        return `${months} ${this.$t(`monthsShort`)}`
       }
-      return `${years} yrs ${months} mos`
+      if(months == 0){
+        return `${years} ${this.$t(`yearsShort`)}`
+      }
+      return `${years} ${this.$t(`yearsShort`)} ${months} ${this.$t(`monthsShort`)} `
     },
     showStringDiff(possition){
       var a = this.getDateFormat(possition.endAt)
@@ -117,9 +120,12 @@ export default {
       b.add(months, 'months');
 
       if(years == 0){
-        return `${months} mos`
+        return `${months} ${this.$t(`monthsShort`)}`
       }
-      return `${years} yrs ${months} mos`
+      if(months == 0){
+        return `${years} ${this.$t(`yearsShort`)}`
+      }
+      return `${years} ${this.$t(`yearsShort`)} ${months} ${this.$t(`monthsShort`)}`
     }
   },
   created() {

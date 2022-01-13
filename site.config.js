@@ -342,7 +342,7 @@ export default {
           },
           {
             type: "bachelor",
-            title: "Software-engineering",
+            title: "Bachelor of Applied Science – BASc, Software Engineering",
             description: "bachelor",
             startAt: "01-09-2018",
             endAt: "01-09-2022"
@@ -538,6 +538,10 @@ export default {
 
   strings: {
     NL: {
+      monthsShort: "mdn",
+      maanden: "maanden",
+      yearsShort: "jrn",
+      years: "jaren",
       studies: {
         header: "heeft gestudeerd aan",
         subtext: "scholen waar ik mijn studie heb gevolgd"
@@ -749,6 +753,10 @@ export default {
 
 
     en_US: {
+      monthsShort: "mos",
+      months: "months",
+      yearsShort: "yrs",
+      years: "years",
       studies: {
         header: "has studied at",
         subtext: "schools where I did my studies"
