@@ -14,7 +14,7 @@ export default {
     domain: 'https://rikp777.github.io/',
     trackLocalhost: true,
     // leave it empty if plausible is not self hosted
-    apiHost: 'https://rikp777.github.io/stats' // default: https://plausible.io
+    apiHost: 'https://plausible.io' // default: https://plausible.io
   },
   // enable if you want comments and likes on posts
   firebase: {
@@ -600,7 +600,7 @@ export default {
         signIn: 'log in',
         signOut: 'log uit',
         learning: {
-          languages: "Taal"
+          languages: "taal"
         }
       },
       internships: {
@@ -810,7 +810,7 @@ export default {
         signIn: 'sign in',
         signOut: 'sign out',
         learning: {
-          languages: "Language"
+          languages: "language"
         }
       },
       internships: {

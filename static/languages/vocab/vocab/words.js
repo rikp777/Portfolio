@@ -20,6 +20,10 @@ export default [
       {
         language: "de",
         word: "ja"
+      },
+      {
+        language: "it",
+        word: "sì"
       }
     ]
   },
@@ -43,6 +47,10 @@ export default [
       {
         language: "de",
         word: "dankeschön"
+      },
+      {
+        language: "it",
+        word: "grazie"
       }
     ]
   },
@@ -66,6 +74,10 @@ export default [
       {
         language: "de",
         word: "nein"
+      },
+      {
+        language: "it",
+        word: "no"
       }
     ]
   },
@@ -89,6 +101,10 @@ export default [
       {
         language: "de",
         word: "fein"
+      },
+      {
+        language: "it",
+        word: "bene"
       }
     ]
   },
@@ -112,6 +128,10 @@ export default [
       {
         language: "de",
         word: "sie"
+      },
+      {
+        language: "it",
+        word: "loro"
       }
     ]
   },
@@ -136,6 +156,10 @@ export default [
       {
         language: "de",
         word: "er"
+      },
+      {
+        language: "it",
+        word: "egli"
       }
     ]
   },
@@ -159,6 +183,10 @@ export default [
       {
         language: "de",
         word: "ich"
+      },
+      {
+        language: "it",
+        word: "io"
       }
     ]
   },
@@ -182,6 +210,10 @@ export default [
       {
         language: "de",
         word: "Ich heiße Alice."
+      },
+      {
+        language: "it",
+        word: "Il mio nome è Alice."
       }
     ]
   },
@@ -205,6 +237,10 @@ export default [
       {
         language: "de",
         word: "sie"
+      },
+      {
+        language: "it",
+        word: "lei"
       }
     ]
   },
@@ -228,6 +264,10 @@ export default [
       {
         language: "de",
         word: "du"
+      },
+      {
+        language: "it",
+        word: "voi"
       }
     ]
   },
@@ -251,6 +291,10 @@ export default [
       {
         language: "de",
         word: "wir"
+      },
+      {
+        language: "it",
+        word: "noi"
       }
     ]
   },
@@ -274,6 +318,10 @@ export default [
       {
         language: "de",
         word: "grüß gott, Hallo/tschüss"
+      },
+      {
+        language: "it",
+        word: "ciao"
       }
     ]
   },
@@ -297,6 +345,10 @@ export default [
       {
         language: "de",
         word: "Vielen Dank."
+      },
+      {
+        language: "it",
+        word: "Grazie mille."
       }
     ]
   },
@@ -320,6 +372,10 @@ export default [
       {
         language: "de",
         word: "Es ist Jeremia."
+      },
+      {
+        language: "it",
+        word: "Questo è Geremia."
       }
     ]
   },
@@ -345,6 +401,10 @@ export default [
       {
         language: "de",
         word: "Wir arbeiten zusammen."
+      },
+      {
+        language: "it",
+        word: "Lavoriamo insieme."
       }
     ]
   },
@@ -368,6 +428,10 @@ export default [
       {
         language: "de",
         word: "Bist du Amerikaner?"
+      },
+      {
+        language: "it",
+        word: "Sei americano?"
       }
     ]
   },
@@ -391,6 +455,10 @@ export default [
       {
         language: "de",
         word: "Wo wohnst du?"
+      },
+      {
+        language: "it",
+        word: "Dove vivi ?"
       }
     ]
   },
@@ -414,6 +482,10 @@ export default [
       {
         language: "de",
         word: "Wie viel kostet es?"
+      },
+      {
+        language: "it",
+        word: "Quanto costa?"
       }
     ]
   },
@@ -437,6 +509,10 @@ export default [
       {
         language: "de",
         word: "Spanisch"
+      },
+      {
+        language: "it",
+        word: "Spagnolo"
       }
     ]
   },
@@ -460,6 +536,10 @@ export default [
       {
         language: "de",
         word: "ein Bier"
+      },
+      {
+        language: "it",
+        word: "una birra"
       }
     ]
   },
@@ -483,6 +563,10 @@ export default [
       {
         language: "de",
         word: "der Junge"
+      },
+      {
+        language: "it",
+        word: "il ragazzo"
       }
     ]
   },
@@ -506,6 +590,10 @@ export default [
       {
         language: "de",
         word: "Englisch"
+      },
+      {
+        language: "it",
+        word: "Inglese"
       }
     ]
   },
@@ -529,6 +617,10 @@ export default [
       {
         language: "de",
         word: "sieben"
+      },
+      {
+        language: "it",
+        word: "sette"
       }
     ]
   },
@@ -552,6 +644,10 @@ export default [
       {
         language: "de",
         word: "das Mädchen"
+      },
+      {
+        language: "it",
+        word: "la ragazza"
       }
     ]
   },
@@ -575,6 +671,10 @@ export default [
       {
         language: "de",
         word: "Ich lebe in San Francisco."
+      },
+      {
+        language: "it",
+        word: "Vivo a San Francisco."
       }
     ]
   },
@@ -598,6 +698,10 @@ export default [
       {
         language: "de",
         word: "Meine Tochter wohnt hier."
+      },
+      {
+        language: "it",
+        word: "Mia figlia vive qui."
       }
     ]
   },
@@ -621,6 +725,10 @@ export default [
       {
         language: "de",
         word: "Oliven"
+      },
+      {
+        language: "it",
+        word: "olive"
       }
     ]
   },
@@ -644,6 +752,10 @@ export default [
       {
         language: "de",
         word: "Wir haben vier Engländer im Team."
+      },
+      {
+        language: "it",
+        word: "Abbiamo quattro inglesi persone nella squadra."
       }
     ]
   },
@@ -667,6 +779,10 @@ export default [
       {
         language: "de",
         word: "zehn"
+      },
+      {
+        language: "it",
+        word: "dieci"
       }
     ]
   },
@@ -690,6 +806,10 @@ export default [
       {
         language: "de",
         word: "acht"
+      },
+      {
+        language: "it",
+        word: "otto"
       }
     ]
   },
@@ -713,6 +833,10 @@ export default [
       {
         language: "de",
         word: "neunzehn"
+      },
+      {
+        language: "it",
+        word: "diciannove"
       }
     ]
   },
@@ -736,6 +860,10 @@ export default [
       {
         language: "de",
         word: "Wohnst du hier?"
+      },
+      {
+        language: "it",
+        word: "Lei vive qui?"
       }
     ]
   },
@@ -759,6 +887,10 @@ export default [
       {
         language: "de",
         word: "Französisch"
+      },
+      {
+        language: "it",
+        word: "Francese"
       }
     ]
   },
@@ -769,7 +901,7 @@ export default [
     languages: [
       {
         language: "en",
-        word: "I'm (a) teacher.\t",
+        word: "I'm (a) teacher.",
       },
       {
         language: "fr",
@@ -782,6 +914,10 @@ export default [
       {
         language: "de",
         word: "Ich bin Lehrerin."
+      },
+      {
+        language: "it",
+        word: "Sono un insegnante."
       }
     ]
   },
@@ -805,6 +941,10 @@ export default [
       {
         language: "de",
         word: "Ich bin Deutsch."
+      },
+      {
+        language: "it",
+        word: "Sono tedesco."
       }
     ]
   },
@@ -828,6 +968,10 @@ export default [
       {
         language: "de",
         word: "fünf"
+      },
+      {
+        language: "it",
+        word: "cinque"
       }
     ]
   },
@@ -851,6 +995,10 @@ export default [
       {
         language: "de",
         word: "neun"
+      },
+      {
+        language: "it",
+        word: "nove"
       }
     ]
   },
@@ -874,6 +1022,10 @@ export default [
       {
         language: "de",
         word: "Sie ist Italienerin."
+      },
+      {
+        language: "it",
+        word: "È italiana."
       }
     ]
   },
@@ -897,6 +1049,10 @@ export default [
       {
         language: "de",
         word: "siebzehn"
+      },
+      {
+        language: "it",
+        word: "diciassette"
       }
     ]
   },
@@ -920,6 +1076,10 @@ export default [
       {
         language: "de",
         word: "elf"
+      },
+      {
+        language: "it",
+        word: "undici"
       }
     ]
   },
@@ -943,6 +1103,10 @@ export default [
       {
         language: "de",
         word: "das Kind"
+      },
+      {
+        language: "it",
+        word: "il ragazzo"
       }
     ]
   },
@@ -966,6 +1130,10 @@ export default [
       {
         language: "de",
         word: "Eins, zwei, drei ... Willkommen!"
+      },
+      {
+        language: "it",
+        word: "Uno, due, tre... Benvenuti!"
       }
     ]
   },
@@ -989,6 +1157,10 @@ export default [
       {
         language: "de",
         word: "achtzehn"
+      },
+      {
+        language: "it",
+        word: "diciotto"
       }
     ]
   },
@@ -1012,6 +1184,10 @@ export default [
       {
         language: "de",
         word: "sechs"
+      },
+      {
+        language: "it",
+        word: "sei"
       }
     ]
   },
@@ -1035,6 +1211,10 @@ export default [
       {
         language: "de",
         word: "Ich bin Student."
+      },
+      {
+        language: "it",
+        word: "Sono uno studente."
       }
     ]
   },
@@ -1058,6 +1238,10 @@ export default [
       {
         language: "de",
         word: "zwölf"
+      },
+      {
+        language: "it",
+        word: "dodici"
       }
     ]
   },
@@ -1081,6 +1265,10 @@ export default [
       {
         language: "de",
         word: "einen Rotwein"
+      },
+      {
+        language: "it",
+        word: "un vino rosso"
       }
     ]
   },
@@ -1104,6 +1292,10 @@ export default [
       {
         language: "de",
         word: "Nein, ich wohne nicht in Paris."
+      },
+      {
+        language: "it",
+        word: "No, non vivo a Parigi."
       }
     ]
   },
@@ -1127,6 +1319,10 @@ export default [
       {
         language: "de",
         word: "zwanzig"
+      },
+      {
+        language: "it",
+        word: "venti"
       }
     ]
   },
@@ -1150,6 +1346,10 @@ export default [
       {
         language: "de",
         word: "eine Freundin"
+      },
+      {
+        language: "it",
+        word: "un amico"
       }
     ]
   },
@@ -1173,6 +1373,10 @@ export default [
       {
         language: "de",
         word: "Wir arbeiten mit zwei Italienern zusammen."
+      },
+      {
+        language: "it",
+        word: "Lavoriamo con due italiani."
       }
     ]
   },
@@ -1196,6 +1400,10 @@ export default [
       {
         language: "de",
         word: "Ich mache ein Praktikum."
+      },
+      {
+        language: "it",
+        word: "Sto facendo uno stage."
       }
     ]
   },
@@ -1219,6 +1427,10 @@ export default [
       {
         language: "de",
         word: "Ich bitte um die Rechnung."
+      },
+      {
+        language: "it",
+        word: "Chiederò l'assegno."
       }
     ]
   },
@@ -1242,6 +1454,10 @@ export default [
       {
         language: "de",
         word: "Erdnüsse"
+      },
+      {
+        language: "it",
+        word: "arachidi"
       }
     ]
   },
@@ -1265,6 +1481,10 @@ export default [
       {
         language: "de",
         word: "Das ist spannend."
+      },
+      {
+        language: "it",
+        word: "È eccitante."
       }
     ]
   },
@@ -1288,6 +1508,10 @@ export default [
       {
         language: "de",
         word: "Insgesamt dreizehn oder vierzehn Euro?"
+      },
+      {
+        language: "it",
+        word: "Tredici o quattordici euro in totale?"
       }
     ]
   },
@@ -1311,6 +1535,10 @@ export default [
       {
         language: "de",
         word: "Bist du noch Informatiker?"
+      },
+      {
+        language: "it",
+        word: "Sei ancora (un) specialista informatico?"
       }
     ]
   },
@@ -1334,6 +1562,10 @@ export default [
       {
         language: "de",
         word: "Sie wohnen in Montreal."
+      },
+      {
+        language: "it",
+        word: "Vivono a Montreal."
       }
     ]
   },
@@ -1357,6 +1589,10 @@ export default [
       {
         language: "de",
         word: "Sie sind Kollegen!"
+      },
+      {
+        language: "it",
+        word: "Siete colleghi!"
       }
     ]
   },
@@ -1380,6 +1616,10 @@ export default [
       {
         language: "de",
         word: "Was machst du beruflich?"
+      },
+      {
+        language: "it",
+        word: "Cosa fai per vivere?"
       }
     ]
   },
@@ -1403,6 +1643,10 @@ export default [
       {
         language: "de",
         word: "Das kostet sechzehn Euro fünfzehn."
+      },
+      {
+        language: "it",
+        word: "Questo costa sedici euro e quindici."
       }
     ]
   },
@@ -1429,6 +1673,10 @@ export default [
       {
         language: "de",
         word: "Ich liebe es!"
+      },
+      {
+        language: "it",
+        word: "Lo adoro!"
       }
     ]
   },
@@ -1452,6 +1700,10 @@ export default [
       {
         language: "de",
         word: "Wie lautet deine Telefonnummer?"
+      },
+      {
+        language: "it",
+        word: "Qual è il suo numero di telefono?"
       }
     ]
   },
@@ -1475,6 +1727,10 @@ export default [
       {
         language: "de",
         word: "dünn"
+      },
+      {
+        language: "it",
+        word: "sottile"
       }
     ]
   },
@@ -1498,6 +1754,10 @@ export default [
       {
         language: "de",
         word: "hübsch"
+      },
+      {
+        language: "it",
+        word: "carino, bello"
       }
     ]
   },
@@ -1521,6 +1781,10 @@ export default [
       {
         language: "de",
         word: "Ich liebe dich ..."
+      },
+      {
+        language: "it",
+        word: "Ti amo..."
       }
     ]
   },
@@ -1544,6 +1808,10 @@ export default [
       {
         language: "de",
         word: "der Kaffee"
+      },
+      {
+        language: "it",
+        word: "il caffè"
       }
     ]
   },
@@ -1567,6 +1835,10 @@ export default [
       {
         language: "de",
         word: "der Platz"
+      },
+      {
+        language: "it",
+        word: "la piazza"
       }
     ]
   },
@@ -1590,6 +1862,10 @@ export default [
       {
         language: "de",
         word: "Wie alt bist du?"
+      },
+      {
+        language: "it",
+        word: "Quanti anni hai (lett.: che età hai)?"
       }
     ]
   },
@@ -1613,6 +1889,10 @@ export default [
       {
         language: "de",
         word: "fünfzig"
+      },
+      {
+        language: "it",
+        word: "cinquanta"
       }
     ]
   },
@@ -1636,6 +1916,10 @@ export default [
       {
         language: "de",
         word: "glücklich, zufrieden"
+      },
+      {
+        language: "it",
+        word: "felice, soddisfatto"
       }
     ]
   },
@@ -1659,6 +1943,10 @@ export default [
       {
         language: "de",
         word: "große"
+      },
+      {
+        language: "it",
+        word: "alto, grande"
       }
     ]
   },
@@ -1682,6 +1970,10 @@ export default [
       {
         language: "de",
         word: "das Museum"
+      },
+      {
+        language: "it",
+        word: "il museo"
       }
     ]
   },
@@ -1705,6 +1997,10 @@ export default [
       {
         language: "de",
         word: "der Flughafen"
+      },
+      {
+        language: "it",
+        word: "l'aeroporto"
       }
     ]
   },
@@ -1728,6 +2024,10 @@ export default [
       {
         language: "de",
         word: "Mein Schatz…"
+      },
+      {
+        language: "it",
+        word: "Mia cara..."
       }
     ]
   },
@@ -1751,6 +2051,10 @@ export default [
       {
         language: "de",
         word: "mit dem Zug"
+      },
+      {
+        language: "it",
+        word: "in treno"
       }
     ]
   },
@@ -1774,6 +2078,10 @@ export default [
       {
         language: "de",
         word: "zu Fuß"
+      },
+      {
+        language: "it",
+        word: "a piedi"
       }
     ]
   },
@@ -1797,6 +2105,10 @@ export default [
       {
         language: "de",
         word: "Der Bus"
+      },
+      {
+        language: "it",
+        word: "l'autobus"
       }
     ]
   },
@@ -1820,6 +2132,10 @@ export default [
       {
         language: "de",
         word: "mit dem Auto"
+      },
+      {
+        language: "it",
+        word: "in auto"
       }
     ]
   },
@@ -1843,6 +2159,10 @@ export default [
       {
         language: "de",
         word: "die U-Bahn"
+      },
+      {
+        language: "it",
+        word: "la metropolitana"
       }
     ]
   },
@@ -1866,6 +2186,10 @@ export default [
       {
         language: "de",
         word: "mit dem Fahrrad"
+      },
+      {
+        language: "it",
+        word: "in bicicletta"
       }
     ]
   },
@@ -1889,6 +2213,10 @@ export default [
       {
         language: "de",
         word: "vierzig"
+      },
+      {
+        language: "it",
+        word: "quaranta"
       }
     ]
   },
@@ -1912,6 +2240,10 @@ export default [
       {
         language: "de",
         word: "der Hafen"
+      },
+      {
+        language: "it",
+        word: "il porto"
       }
     ]
   },
@@ -1935,6 +2267,10 @@ export default [
       {
         language: "de",
         word: "Wie lautet deine Adresse?"
+      },
+      {
+        language: "it",
+        word: "Qual è il suo indirizzo?"
       }
     ]
   },
@@ -1958,6 +2294,10 @@ export default [
       {
         language: "de",
         word: "Ich bin dreißig Jahre alt."
+      },
+      {
+        language: "it",
+        word: "Ho trent'anni."
       }
     ]
   },
@@ -1981,6 +2321,10 @@ export default [
       {
         language: "de",
         word: "die Stadt"
+      },
+      {
+        language: "it",
+        word: "la città"
       }
     ]
   },
@@ -2004,6 +2348,10 @@ export default [
       {
         language: "de",
         word: "das Meer"
+      },
+      {
+        language: "it",
+        word: "il vedere"
       }
     ]
   },
@@ -2027,6 +2375,10 @@ export default [
       {
         language: "de",
         word: "sechzig"
+      },
+      {
+        language: "it",
+        word: "sessanta"
       }
     ]
   },
@@ -2050,6 +2402,10 @@ export default [
       {
         language: "de",
         word: "Ich gebe dir meine Handynummer."
+      },
+      {
+        language: "it",
+        word: "Ti darò il mio numero di cellulare."
       }
     ]
   },
@@ -2073,6 +2429,10 @@ export default [
       {
         language: "de",
         word: "die Linie"
+      },
+      {
+        language: "it",
+        word: "la linea"
       }
     ]
   },
@@ -2096,6 +2456,10 @@ export default [
       {
         language: "de",
         word: "das Taxi"
+      },
+      {
+        language: "it",
+        word: "il taxi"
       }
     ]
   },
@@ -2119,6 +2483,10 @@ export default [
       {
         language: "de",
         word: "Ich trinke gerade einen Aperitif."
+      },
+      {
+        language: "it",
+        word: "Sto prendendo un aperitivo."
       }
     ]
   },
@@ -2142,6 +2510,10 @@ export default [
       {
         language: "de",
         word: "Du magst keine Komplimente?"
+      },
+      {
+        language: "it",
+        word: "Non ti piacciono i complimenti?"
       }
     ]
   },
@@ -2165,6 +2537,10 @@ export default [
       {
         language: "de",
         word: "die Nachbarschaft"
+      },
+      {
+        language: "it",
+        word: "il quartiere, la zona"
       }
     ]
   },
