@@ -231,27 +231,6 @@ const nuxtConfig = {
         document.readingTime = text
       }
     },
-    generate: {
-      async done(builder) {
-        const appModule = await import('./.nuxt/firebase/app.js')
-        const { session } = await appModule.default(
-          builder.options.firebase.config,
-          {
-            res: null,
-          }
-        )
-        try {
-          session.database().goOffline()
-        } catch (e) {
-          console.log(e)
-        }
-        try {
-          session.firestore().terminate()
-        } catch (e) {
-          console.log(e)
-        }
-      },
-    },
   }
 }
 
