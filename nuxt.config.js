@@ -120,6 +120,7 @@ const nuxtConfig = {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    // 'vue-plausible',
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
@@ -229,7 +230,24 @@ const nuxtConfig = {
         const { text } = require('reading-time')(document.text)
         document.readingTime = text
       }
-    }
+    },
+    generate: {
+      async done(builder) {
+        const appModule = await import('./.nuxt/firebase/app.js')
+        const { session } = await appModule.default(
+          builder.options.firebase.config,
+          {
+            res: null,
+          }
+        )
+        try {
+          session.database().goOffline()
+        } catch (e) { }
+        try {
+          session.firestore().terminate()
+        } catch (e) { }
+      },
+    },
   }
 }
 

@@ -35,7 +35,7 @@ jobs:
 #            ${{ runner.os }}-yarn-
 
       - name: Install dependencies 🔧
-        run: yarn
+        run: yarn install
 
       - name: Generate 🔧
         run: yarn generate --fail-on-error

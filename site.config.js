@@ -14,7 +14,7 @@ export default {
     domain: 'https://rikp777.github.io/',
     trackLocalhost: true,
     // leave it empty if plausible is not self hosted
-    apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
+    apiHost: 'https://rikp777.github.io/stats' // default: https://plausible.io
   },
   // enable if you want comments and likes on posts
   firebase: {
