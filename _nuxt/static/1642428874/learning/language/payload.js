@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/learning/language", {data:[{_img:{}}],fetch:{},mutations:[]});
