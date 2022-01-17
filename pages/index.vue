@@ -7,28 +7,29 @@
     <Technologies v-if="$config.technologies.enabled"/>
     <WorkExperience v-if="$config.workedAt.enabled"/>
     <LazyRecentBlog v-if="$config.projects.enabled && posts" :posts="posts"/>
-    <div v-if="isOpen"
-         class="fixed bottom-0 left-0 lg:flex items-center p-4 bg-gray-100 shadow-sm justify-center w-full">
-      <div class="text-5xl pb-2 leading-none">
-        🍪
-      </div>
-      <div class="lg:mx-8">
+    <client-only>
+      <div v-if="isOpen" class="fixed bottom-0 left-0 lg:flex items-center p-4 bg-gray-100 shadow-sm justify-center w-full">
+        <div class="text-5xl pb-2 leading-none">
+          🍪
+        </div>
+        <div class="lg:mx-8">
 
-        <h1 class="font-medium ">{{ $t('cookies.title') }}</h1>
-        <p class="mt-2">
-          {{ $t('cookies.dueTo') }}<a class="hover:text-blue-600 text-blue-400" :href="$t('cookies.moreInfo')">info</a><br>
-          {{ $t('cookies.settings') }}<br>
-        </p>
-      </div>
-      <div class="flex justify-center mt-4 lg:mt-0 text-center">
-        <div class="button ml-2 md:ml-0 hover:text-green-600 cursor-pointer bg-green-600 md:bg-gray-100 rounded-md text-center text-gray-100 md:text-black h-auto mr-2 py-1 px-2"
-             @click="accept">{{ $t('cookies.ok') }}
+          <h1 class="font-medium ">{{ $t('cookies.title') }}</h1>
+          <p class="mt-2">
+            {{ $t('cookies.dueTo') }}<a class="hover:text-blue-600 text-blue-400" :href="$t('cookies.moreInfo')">info</a><br>
+            {{ $t('cookies.settings') }}<br>
+          </p>
         </div>
-        <div class="button md:ml-2 hover:text-red-600 cursor-not-allowed bg-red-600 md:bg-gray-100 rounded-md text-center text-gray-100 md:text-black h-auto py-1 px-2 "
-             @click="deny">{{ $t('cookies.no') }}
+        <div class="flex justify-center mt-4 lg:mt-0 text-center">
+          <div class="button ml-2 md:ml-0 hover:text-green-600 cursor-pointer bg-green-600 md:bg-gray-100 rounded-md text-center text-gray-100 md:text-black h-auto mr-2 py-1 px-2"
+               @click="accept">{{ $t('cookies.ok') }}
+          </div>
+          <div class="button md:ml-2 hover:text-red-600 cursor-not-allowed bg-red-600 md:bg-gray-100 rounded-md text-center text-gray-100 md:text-black h-auto py-1 px-2 "
+               @click="deny">{{ $t('cookies.no') }}
+          </div>
         </div>
       </div>
-    </div>
+    </client-only>
   </div>
 </template>
 
