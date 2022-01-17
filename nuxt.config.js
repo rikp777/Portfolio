@@ -48,7 +48,7 @@ const nuxtConfig = {
   publicRuntimeConfig: config,
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -113,7 +113,9 @@ const nuxtConfig = {
   buildModules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/moment',
-    '@nuxt/image',
+    ['@nuxt/image', {
+      provider: 'static',
+    }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -252,7 +254,7 @@ if (config.firebase.enabled) {
           onAuthStateChangedAction: 'authAction',
           subscribeManually: false
         },
-        ssr: false,
+        ssr: true,
       },
       firestore: true
     }
