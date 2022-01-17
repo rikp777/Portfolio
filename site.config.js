@@ -728,8 +728,8 @@ export default {
         meta: [
           {
             name: 'Saray Rond',
-            designation: 'Psychologie student',
-            image: 'images/saray.jfif',
+            designation: 'Psychologie student / gf',
+            image: './images/saray.jfif',
             linkedin: 'https://www.linkedin.com/in/saray-r-672049212/',
             content: 'Als Rik ✨gemotiveerd✨ is, blijft hij aan een taak werken totdat die klaar is. ' +
               'Dat is een waardevolle skill om te hebben, aangezien sommige taken moeilijk of veel werk kunnen zijn. ' +
