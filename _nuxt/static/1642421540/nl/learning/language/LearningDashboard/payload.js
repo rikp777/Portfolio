@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/nl/learning/language/LearningDashboard", {data:[{_img:{}}],fetch:{},mutations:[]});
