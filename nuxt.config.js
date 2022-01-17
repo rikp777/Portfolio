@@ -45,7 +45,12 @@ const create = async (feed) => {
 
 const nuxtConfig = {
 
-  publicRuntimeConfig: config,
+  publicRuntimeConfig: {
+    plausible: {
+      domain: process.env.PLAUSIBLE_DOMAIN,
+      apiHost: process.env.PLAUSIBLE_API_HOST
+    }
+  },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: true,
@@ -117,10 +122,13 @@ const nuxtConfig = {
       provider: 'static',
     }],
   ],
+  plausible: { // Use as fallback if no runtime config is available at runtime
+    domain: process.env.PLAUSIBLE_DOMAIN
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // 'vue-plausible',
+    'vue-plausible',
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
@@ -269,13 +277,13 @@ if (config.googleAnalyticsV4.enabled) {
   }
 }
 
-if (config.plausibleAnalytics.enabled) {
-  nuxtConfig.modules.unshift('vue-plausible')
-  nuxtConfig.plausible = {
-    ...config.plausibleAnalytics
-  }
-  nuxtConfig.router.middleware.push('analytics')
-}
+// if (config.plausibleAnalytics.enabled) {
+//   nuxtConfig.modules.unshift('vue-plausible')
+//   // nuxtConfig.plausible = {
+//   //   ...config.plausibleAnalytics
+//   // }
+//   nuxtConfig.router.middleware.push('analytics')
+// }
 
 if (config.blog.enabled) {
   // if blog enabled only then create feed
