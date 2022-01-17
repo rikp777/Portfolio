@@ -96,6 +96,7 @@ const nuxtConfig = {
     { src: '~/plugins/aos.js', ssr: false},
     { src: '~/plugins/vueGtag.js', ssr: false},
     { src: '~/plugins/vueClapButton.js', ssr: false},
+    { src: '~/plugins/vue-tailwind.js', ssr: false},
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -105,13 +106,14 @@ const nuxtConfig = {
     '@/components/logos',
     '@/components/blog',
     '@/components/projects',
-
+    '@/components/learning'
   ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/moment',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -122,7 +124,8 @@ const nuxtConfig = {
     'nuxt-i18n',
     '@nuxtjs/pwa',
     '@nuxtjs/toast',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxt/image',
   ],
 
   pwa: {

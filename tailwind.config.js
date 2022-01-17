@@ -4,6 +4,10 @@ module.exports = {
   purge: [
     './src/**/*.html',
     './src/**/*.vue',
+
+    "./public/**/*.html",
+    "./VueTailwindSettings.js",
+    "node_modules/vue-tailwind/dist/*.js"
   ],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
@@ -92,6 +96,8 @@ module.exports = {
   },
   variants: {
     extend: {
+      opacity: ["disabled"],
+      cursor: ["disabled"],
       fill: ['hover', 'focus'],
     },
   },

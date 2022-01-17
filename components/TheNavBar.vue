@@ -36,6 +36,11 @@
               class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
               {{ $t('nav.resume')}}
             </nuxt-link>
+            <nuxt-link
+              :to="localePath('/learning/language/vocab')"
+              class="mb-auto mt-auto active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">
+              {{ $t('nav.learning.languages')}}
+            </nuxt-link>
 <!--            <a v-show="$config.buyMeACoffee.enabled" :href="$config.buyMeACoffee.url" target="_blank" rel="noreferrer" class="active text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">{{ $t('nav.buyMeACoffee')}}</a>-->
             <a
               v-show="$config.buyMeACoffee.enabled"

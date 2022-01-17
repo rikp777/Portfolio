@@ -598,7 +598,10 @@ export default {
         resume: 'curriculum vitae',
         buyMeACoffee: 'koop mij een biertje 🍺',
         signIn: 'log in',
-        signOut: 'log uit'
+        signOut: 'log uit',
+        learning: {
+          languages: "Taal"
+        }
       },
       internships: {
         title: "Stages bij"
@@ -747,11 +750,6 @@ export default {
 
 
 
-
-
-
-
-
     en_US: {
       monthsShort: "mos",
       months: "months",
@@ -810,7 +808,10 @@ export default {
         resume: 'résumé',
         buyMeACoffee: 'buy me a beer 🍺',
         signIn: 'sign in',
-        signOut: 'sign out'
+        signOut: 'sign out',
+        learning: {
+          languages: "Language"
+        }
       },
       internships: {
         title: "Internships at"
@@ -948,5 +949,8 @@ export default {
         ]
       }
     }
+
+
+
   }
 }
