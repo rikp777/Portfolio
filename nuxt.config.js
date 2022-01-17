@@ -242,10 +242,14 @@ const nuxtConfig = {
         )
         try {
           session.database().goOffline()
-        } catch (e) { }
+        } catch (e) {
+          console.log(e)
+        }
         try {
           session.firestore().terminate()
-        } catch (e) { }
+        } catch (e) {
+          console.log(e)
+        }
       },
     },
   }
