@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/nl/resume", {data:[{_img:{}}],fetch:{},mutations:[]});
