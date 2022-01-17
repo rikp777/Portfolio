@@ -10,7 +10,7 @@ export default {
     id: 'G-22G4GKFTPR'
   },
   plausibleAnalytics: {
-    enabled: true,
+    enabled: false,
     domain: 'https://rikp777.github.io/',
     trackLocalhost: true,
     // leave it empty if plausible is not self hosted

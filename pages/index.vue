@@ -54,6 +54,7 @@ export default {
       }
     },
     accept() {
+      console.log("Accept cookies")
       if (process.browser) {
         bootstrap().then(gtag => {
           this.isOpen = false;
@@ -62,13 +63,14 @@ export default {
         })
       }
     },
-    getGDPR() {
+    getGDPR(key) {
       if (process.browser) {
         return localStorage.getItem('GDPR:accepted', true);
       }
     },
   },
   async created() {
+    console.log(this.getGDPR())
     if (!this.getGDPR() === true) {
       this.isOpen = true;
     }

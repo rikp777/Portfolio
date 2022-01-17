@@ -48,7 +48,7 @@ const nuxtConfig = {
   publicRuntimeConfig: config,
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: true,
+  ssr: false,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -120,7 +120,7 @@ const nuxtConfig = {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'vue-plausible',
+    // 'vue-plausible',
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
@@ -255,7 +255,7 @@ if (config.firebase.enabled) {
           onAuthStateChangedAction: 'authAction',
           subscribeManually: false
         },
-        ssr: true,
+        ssr: false,
       },
       firestore: true
     }
