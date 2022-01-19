@@ -109,17 +109,19 @@
            </div>
 
         </div>
-        <div v-if="$config.firebase.enabled">
-          <div class="my-6">
-            <Like :slug="project.slug" />
+        <client-only>
+          <div v-if="$config.firebase.enabled">
+            <div class="my-6">
+              <Like :slug="project.slug" />
+            </div>
+            <div id="comments" class="border-t border-gray-700 border-dashed mt-6 py-5">
+              <CommentInput :slug="project.slug"/>
+            </div>
+            <div class="space-y-4 max-w-7xl">
+              <Comment v-for="(comment, index) in comments" :comment="comment"  :key="index" />
+            </div>
           </div>
-          <div id="comments" class="border-t border-gray-700 border-dashed mt-6 py-5">
-            <CommentInput :slug="project.slug"/>
-          </div>
-          <div class="space-y-4 max-w-7xl">
-            <Comment v-for="(comment, index) in comments" :comment="comment"  :key="index" />
-          </div>
-        </div>
+        </client-only>
       </article>
     </div>
   </div>

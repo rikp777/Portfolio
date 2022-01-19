@@ -1,13 +1,13 @@
 <template>
 
   <div>
-    <HeroSection/>
-    <GithubCalendar v-if="$config.social.github" />
-    <Recommendations v-if="$config.recommendations.enabled"/>
-    <Technologies v-if="$config.technologies.enabled"/>
-    <WorkExperience v-if="$config.workedAt.enabled"/>
-    <LazyRecentBlog v-if="$config.projects.enabled && posts" :posts="posts"/>
     <client-only>
+      <HeroSection/>
+      <GithubCalendar v-if="$config.social.github" />
+      <Recommendations v-if="$config.recommendations.enabled"/>
+      <Technologies v-if="$config.technologies.enabled"/>
+      <WorkExperience v-if="$config.workedAt.enabled"/>
+      <LazyRecentBlog v-if="$config.projects.enabled && posts" :posts="posts"/>
       <div v-if="isOpen" class="fixed bottom-0 left-0 lg:flex items-center p-4 bg-gray-100 shadow-sm justify-center w-full">
         <div class="text-5xl pb-2 leading-none">
           🍪
