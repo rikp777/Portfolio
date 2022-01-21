@@ -2,873 +2,293 @@ export default [
   {
     name: "Doubling of consonants",
     type: ["B1", "B2", "C1"],
-    subs: [
-      {
-        name: "Bijvoeglijke naamwoorden",
-        rule:
-          `
-          Bijvoeglijke naamwoorden kunnen in de vergrotende en overtreffende trap een dubbele medeklinker krijgen.
-          Bijvoeglijk naamwoorden van één lettergreep met een korte klinker* gevolgd door een medeklinker krijgen een dubbele medeklinker tenzij de medeklinker een w, x of y is.
-          *Een klinker (a, e, i, o, u) kan kort of lang zijn. Dit ligt aan de lengte van het geluid van de klinker. De a in fat is kort; de a in fate is lang. De i in lick en quiz zijn kort; de i in like is lang.
-          `,
-        description:
-          `
-           big – bigger – biggest (verdubbeling want -i gevolgd door medeklinker -g)
-          new – newer – newest (geen verdubbeling want de laatste medeklinker is een -w)
-          `
-      },
-      {
-        name: "Werkwoorden",
-        rule:
-          `
-            Bij werkwoorden is het verdubbelen van de medeklinker afhankelijk van of het werkwoord eindigt op één klinker + medeklinker, het aantal lettergrepen, en op welke lettergreep de klemtoon valt.
-
-            • Werkwoorden van één lettergreep met een korte klinker gevolgd door een medeklinker krijgen een dubbele medeklinker als je de uitgang -ed of -ing toevoegt.
-            Er zijn twee uitzonderingen op deze regel:
-
-            De medeklinker wordt niet verdubbeld als er twee klinkerletters voor staan.
-            Er vindt geen verdubbeling plaats als de medeklinker een w, x of y is.
-          `,
-        description:
-          `
-            to stop – stopped – stopping
-            to cook – cooked – cooking (geen verdubbeling want het werkwoord eindigt op twee klinkerletters (oo) + een medeklinker)
-            to pay – payed – paying (geen verdubbeling want het werkwoord eindigt op -y)
-            to flow – flowed – flowing (geen verdubbeling want het werkwoord eindigt op -w)
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-          Woorden zoals calf, half, life, wife, knife, shelf, wolf, leaf, thief en loaf (of bread) krijgen -ves in het meervoud.
-          `,
-        description:
-          `
-          calf, half – calves, halves
-          life, wife, knife – lives, wives, knives
-          shelf, wolf – shelves, wolves
-          leaf, thief, loaf – leaves, thieves, loaves
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            Na een medeklinker verandert -y in -ie.
-            Maar na een klinker (a, e, i, o, u) verandert de -y niet.
-          `,
-        description:
-          `
-            twenty – twentieth
-            easy – easier – easiest
-            lady – ladies
-            to try – she tries – she tried
-            but: boy – boys; to play – played
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            De ‘stille -e’, een e aan het eind van een woord die je niet uitspreekt, valt weg voor de uitgangen -ed, -er/-est en -ing.
-          `,
-        description:
-          `
-            wise wordt niet wiseer, maar wiser
-            simple – simpler – simplest
-            to share – shared – sharing
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            De -ie aan het eind van een werkwoord verandert in -y voor de uitgang -ing.
-          `,
-        description:
-          `
-            to lie – lying
-          `
-      }
-    ],
     exercise: [
       {
-        question: "What would happen if the two biggest … (army) in the world fought a war against each other?",
+        question: "The rain … as quickly as it had started and soon the track was dry again.",
+        tip: "Het éénlettergrepige werkwoord stop heeft een korte klinker (-o) gevolgd door een medeklinker (-p). Daarom vindt er verdubbeling van de -p plaats bij de uitgang -ed, dus stopped.",
         type: "multiple_choice",
         options: [
           {
-            question: "armies",
-            correct: true,
-          },
-          {
-            question: "armys",
+            question: "stoped",
             correct: false,
           },
           {
-            question: "armys's",
-            correct: false,
-          }
-        ]
-      },
-      {
-        question: "Ahmed quickly threw the … in the dishwasher before leaving the house.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "dishes",
-            correct: true,
-          },
-          {
-            question: "dishs",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "Everywhere I go, I see young women pushing … around in prams.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "babies",
-            correct: true,
-          },
-          {
-            question: "baby's",
-            correct: false,
-          },
-          {
-            question: "babys",
-            correct: false,
-          }
-        ]
-      },
-      {
-        question: "There's a difference between … and not telling certain things, but both actions are insincere.",
-        tip: "The word share ends in a silent -e. We drop the silent -e before the endings -ed, -er/-est and -ing, so it becomes sharing.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "lying",
-            correct: true,
-          },
-          {
-            question: "lieing",
-            correct: false,
-          },
-          {
-            question: "lieying",
-            correct: false,
-          }
-        ]
-      },
-      {
-        question: "I've asked the carpenter to install some extra … (shelf) for storage.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "shelfs",
-            correct: false,
-          },
-          {
-            question: "shelf's",
-            correct: false,
-          },
-          {
-            question: "shelves",
+            question: "stopped",
             correct: true,
           },
         ]
       },
       {
-        question: "According to witnesses, the robbery was carried out by three teenage … (boy).",
+        question: "When I was staying in Bristol, I … (to share) a dormitory with 11 other students.",
+        tip: "'Je gebruikt shared omdat het werkwoord to share eindigt op een klinker. Verdubbeling vindt alleen plaats bij werkwoorden die eindigen op een medeklinker.",
         type: "multiple_choice",
         options: [
           {
-            question: "boies",
-            correct: false,
-          },
-          {
-            question: "boyes",
-            correct: false,
-          },
-          {
-            question: "boy's",
-            correct: false,
-          },
-          {
-            question: "boys",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Quick, call the police! Some … (boy) are spraying graffiti on our walls.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "boies",
-            correct: false,
-          },
-          {
-            question: "boyes",
-            correct: false,
-          },
-          {
-            question: "boy's",
-            correct: false,
-          },
-          {
-            question: "boys",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "On the … I'm flying to New York to represent my company at a conference.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "twenteeth",
-            correct: false,
-          },
-          {
-            question: "twentieth",
+            question: "shared",
             correct: true,
           },
           {
-            question: "twentyth",
-            correct: false,
-          },
-          {
-            question: "twentietht",
+            question: "sharred",
             correct: false,
           },
         ]
       },
       {
-        question: "As a kid, Patricia loved shouting into wells to hear the … of her words.",
-        tip: "Het woord echo krijgt na de o in het meervoud -es in plaats van -s, dus je schrijft echoes.",
+        question: "The potential clients … our showroom last week. Unfortunately, they have just let us know that they are not interested in our current collection.",
+        tip: "When adding -ed or -ing to two-syllable verbs ending in one vowel + consonant, we only double the consonant if the stress is on the last syllable (unless that consonant is w, x, or y). Since we stress the first syllable of the verb visit, we do not double the consonant: visited.",
         type: "multiple_choice",
         options: [
           {
-            question: "echoes",
+            question: "visited",
             correct: true,
           },
           {
-            question: "echos",
+            question: "visitted",
             correct: false,
           },
         ]
       },
       {
-        question: "The store makes sure that the … are well-stocked every day.",
-        tip: "Je gebruikt shelves, want sommige woorden die op -f eindigen, zoals shelf, krijgen -ves in het meervoud.",
+        question: "Aisha was … the dog behind his ears when it started barking and ran to the front door.",
+        tip: "Het éénlettergrepige werkwoord rub heeft een korte klinker (u) gevolgd door een medeklinker (-b). Daarom vindt er verdubbeling van de -b plaats bij de uitgang -ing, dus rubbing.",
         type: "multiple_choice",
         options: [
           {
-            question: "shelfs",
-            correct: false,
-          },
-          {
-            question: "shelves",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Can I borrow your electric drill? I want to hang some … next to my desk.",
-        tip: "Je gebruikt bookshelves, want sommige woorden die op -f eindigen, zoals bookshelf, krijgen -ves in het meervoud.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "bookshelfes",
-            correct: false,
-          },
-          {
-            question: "bookshelfs",
-            correct: false,
-          },
-          {
-            question: "bookshelves",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Look at the … on those cars. They're painted so beautifully!",
-        tip: "Het zelfstandig naamwoord finish eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s, dus finishes.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "finish's",
-            correct: false,
-          },
-          {
-            question: "finishes",
+            question: "rubbing",
             correct: true,
           },
           {
-            question: "finishs",
+            question: "rubing",
             correct: false,
           },
         ]
       },
       {
-        question: "No … of the well-known organised crime groups were arrested.",
-        tip: "Het woord boss eindigt op een sisklank, dus dat krijgt -es in plaats van -s om er meervoud van te maken: bosses.",
+        question: "You can reword a negative message by ... (to direct – ing-vorm) less attention to the problem and more to the actions you are taking to solve the problem.",
+        tip: "Het tweelettergrepige werkwoord direct heeft een klemtoon op de tweede lettergreep, maar eindigt op een dubbele medeklinker (-ct) na een klinker (e). Daarom vindt er geen verdubbeling van de -t plaats bij de uitgang -ing, dus directing.",
         type: "multiple_choice",
         options: [
           {
-            question: "boses",
-            correct: false,
-          },
-          {
-            question: "boses",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Younger people are always trying to imitate the actions of their … in films and television series.",
-        tip: "Het woord hero krijgt na de -o in het meervoud -es in plaats van -s, dus heroes.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "horoes",
+            question: "directing",
             correct: true,
           },
           {
-            question: "heros",
-            correct: false,
-          },
-          {
-            question: "hero's",
+            question: "directting",
             correct: false,
           },
         ]
       },
       {
-        question: "How can the government ignore the ... of the majority of the population?",
-        tip: "Het woord wish eindigt op een sisklank en daarom krijgt het woord in het meervoud -es in plaats van -s.",
+        question: "Elizabeth's test results came back negative, so the doctor ... her to the hospital for additional tests.",
+        tip: "Het tweelettergrepige werkwoord refer heeft een klemtoon op de laatste lettergreep en eindigt op een -r na een klinker (e). Daarom vindt er verdubbeling van de -r plaats voor de uitgang -ed, dus referred.",
         type: "multiple_choice",
         options: [
           {
-            question: "wishes",
-            correct: true,
-          },
-          {
-            question: "wishs",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "The professor was frustrated by the number of typos in her students' …",
-        tip: "De -y verandert niet in -ie bij het woord essays omdat voor de -y een klinker staat.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "essay's",
+            question: "refered",
             correct: false,
           },
           {
-            question: "essaies",
-            correct: false,
-          },
-          {
-            question: "essays",
+            question: "referred",
             correct: true,
           },
         ]
       },
       {
-        question: "Please make sure you close the windows before it gets dark. Otherwise the … come in.",
-        tip: "Het woord mosquito krijgt na de o -es in plaats van -s, dus mosquitoes.",
+        question: "Sabille has ... the recurring issue with her computer to the company's IT department several times, but they have not looked into it yet.",
+        tip: "With two-syllable verbs ending in one vowel + consonant, we only double the consonant before adding -ed or -ing if the stress is on the last syllable (unless that consonant is w, x, or y). Since we stress the first syllable of mention – and it ends in a double vowel + consonant (ion) – we do not double the consonant: mentioned.",
         type: "multiple_choice",
         options: [
           {
-            question: "mosquito's",
-            correct: false,
-          },
-          {
-            question: "mosquitoes",
+            question: "mentioned",
             correct: true,
           },
           {
-            question: "mosquitos",
+            question: "mentionned",
             correct: false,
           },
         ]
       },
       {
-        question: "Yesterday evening, two ... broke into a house in the centre of Amsterdam.",
-        tip: "Het woord thief schrijf je in het meervoud met -ves, dus thieves.",
+        question: "A close inspection ... cracks in the aircraft's wings. (Brits-Engels)",
+        tip: "Het tweelettergrepige werkwoord reveal eindigt op een -l na twee klinkers (ea). Daarom vindt er geen verdubbeling van de -l plaats voor de uitgang -ed, dus revealed.",
         type: "multiple_choice",
         options: [
           {
-            question: "thiefs",
-            correct: false,
-          },
-          {
-            question: "thieves",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Many … (church) built today combine traditional and modern architectural styles.",
-        tip: "Het woord church eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "churches",
+            question: "revealed",
             correct: true,
           },
           {
-            question: "churchs",
+            question: "revealled",
             correct: false,
           },
         ]
       },
       {
-        question: "I never used to save money but now I'm a little older and … (wise), I can see the point of it.",
-        tip: "Het woord wise eindigt op een 'stille -e', daarom valt de -e weg voor de uitgangen -ed, -er/-est en -ing, dus wiser.",
+        question: "We ...  carefully as the lecturer explained the differences between the two economic theories.",
+        tip: "Het tweelettergrepige werkwoord listen heeft een klemtoon op de eerste lettergreep. Daarom vindt er geen verdubbeling van de -n plaats bij de uitgang -ed, dus listened.",
         type: "multiple_choice",
         options: [
           {
-            question: "wiseer",
-            correct: false,
-          },
-          {
-            question: "wiser",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "If you're fed up with your glasses getting dirty all the time, maybe you should consider contact …",
-        tip: "Het woord lens eindigt op een sisklank, dus dat krijgt -es in plaats van -s om er meervoud van te maken: lenses.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "lens's",
-            correct: false,
-          },
-          {
-            question: "lenses",
+            question: "listened",
             correct: true,
           },
           {
-            question: "lenzes",
+            question: "listenned",
             correct: false,
           },
         ]
       },
       {
-        question: "If you're fed up with your glasses getting dirty all the time, maybe you should consider contact …",
-        tip: "Het woord lens eindigt op een sisklank, dus dat krijgt -es in plaats van -s om er meervoud van te maken: lenses.",
+        question: "Security ... the doors to keep the climate protesters from entering the multinational's office building.",
+        tip: "We double the final consonant in one-syllable verbs before adding -ed or -ing if they end in a short vowel followed by a consonant (unless that consonant is w, x, or y). The verb bar has a short vowel followed by a consonant, so we double the consonant: barred. Note that bared is the past simple form of to bare, but that choice would not make sense in this sentence.",
         type: "multiple_choice",
         options: [
           {
-            question: "lens's",
+            question: "bared",
             correct: false,
           },
           {
-            question: "lenses",
-            correct: true,
-          },
-          {
-            question: "lenzes",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "My favourite thing about growing up on a farm was seeing the … going into the field for the first time.",
-        tip: "Je gebruikt calves, want sommige woorden die op -f eindigen, zoals calf, krijgen -ves in het meervoud.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "calfs",
-            correct: false,
-          },
-          {
-            question: "calves",
+            question: "barred",
             correct: true,
           },
         ]
       },
       {
-        question: "Yesterday morning, I spoke to some … (lady) at the travel agency.",
-        tip: "Het woord lady wordt ladies met -ie-, want na een medeklinker (hier d) verandert -y in -ie.",
+        question: "We have a replacement unit ready to be ... (to ship – ed-vorm) out to you tomorrow.",
+        tip: "Het éénlettergrepige werkwoord ship heeft een korte klinker (i) gevolgd door een medeklinker (-p). Daarom vindt er verdubbeling van de -p plaats bij de uitgang -ed, dus shipped.",
         type: "multiple_choice",
         options: [
           {
-            question: "ladies",
-            correct: true,
-          },
-          {
-            question: "ladys",
+            question: "shiped",
             correct: false,
           },
           {
-            question: "lady's",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "You should get your … sharpened. They are too dull to cut anything with.",
-        tip: "Het woord knife schrijf je in het meervoud met -ves, dus knives.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "knife's",
-            correct: true,
-          },
-          {
-            question: "knifes",
-            correct: false,
-          },
-          {
-            question: "knives",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "When I was a child, we always … board games at Christmas.",
-        tip: "Het werkwoord play krijgt gewoon de uitgang -ed in de verleden tijd. De -y verandert niet in -ie als er een klinker voor staat (hier a).",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "plaid",
-            correct: false,
-          },
-          {
-            question: "plaied",
-            correct: false,
-          },
-          {
-            question: "played",
+            question: "shipped",
             correct: true,
           },
         ]
       },
       {
-        question: "When I go to work, I usually take several … (sandwich) with me for lunch.",
-        tip: "Het woord sandwich eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s, dus sandwiches.",
+        question: "The school has kindly … us a temporary facility for our brass band.",
+        tip: "Bij het tweelettergrepige werkwoord offer valt de klemtoon op de eerste lettergreep. Daarom vindt er geen verdubbeling plaats voor de uitgang -ed, dus offered.",
         type: "multiple_choice",
         options: [
           {
-            question: "sandwiches",
-            correct: true,
-          },
-          {
-            question: "sandwichs",
-            correct: false,
-          }
-        ]
-      },
-      {
-        question: "This Italian recipe calls for a lot of … (tomato).",
-        tip: "Het woord tomato krijgt na de o -es in plaats van -s, dus tomatoes.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "tomatoes",
-            correct: true,
-          },
-          {
-            question: "tomatos",
-            correct: false,
-          }
-        ]
-      },
-      {
-        question: "Ragnar came from a musical family with three guitars and two … at home.",
-        tip: "Sommige woorden die eindigen op -o,krijgen ­-es in plaats van -s in het meervoud. Het woord piano is een uitzondering en krijgt gewoon een -s in het meervoud, dus pianos.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "pianoes",
+            question: "offered",
             correct: false,
           },
           {
-            question: "pianos",
-            correct: true,
-          }
-        ]
-      },
-      {
-        question: "Susan gives her children lots of … (kiss) before they go to bed every night.",
-        tip: "Het woord kiss eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "kiss",
-            correct: false,
-          },
-          {
-            question: "kisses",
-            correct: true,
-          }
-        ]
-      },
-      {
-        question: "I asked you to speak the truth! Why are you … (to lie) to me?",
-        tip: "Het werkwoord to lie eindigt op -ie. Deze -ie verandert in -y voor de uitgang -ing. Daarom wordt het lying.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "lieing",
-            correct: false,
-          },
-          {
-            question: "lying",
-            correct: true,
-          }
-        ]
-      },
-      {
-        question: "I wish my mother would stop … embarrassing childhood pictures of me on social media.",
-        tip: "Het woord share eindigt op een stille -e. Die valt weg voor de uitgang -ing, dus het goede antwoord is sharing.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "shareing",
-            correct: false,
-          },
-          {
-            question: "shareïng",
-            correct: false,
-          },
-          {
-            question: "sharing",
-            correct: true,
-          }
-        ]
-      },
-      {
-        question: "The second goal of the game came in the … (fifty) minute.",
-        tip: "Het woord fifty wordt fiftieth met -ie-, want na een medeklinker (hier t) verandert -y in -ie.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "fiftieth",
-            correct: true,
-          },
-          {
-            question: "fiftyeth",
-            correct: false,
-          },
-          {
-            question: "fifteeth",
-            correct: false,
-          }
-        ]
-      },
-      {
-        question: "Licking your companions is a form of social bonding, practised by many … (wolf) and wild dogs.",
-        tip: "Het woord wolf schrijf je in het meervoud met -ves, dus wolves.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "wolfs",
-            correct: false,
-          },
-          {
-            question: "wolves",
+            question: "offerred",
             correct: true,
           },
         ]
       },
       {
-        question: "Do you want to go to the zoo with me sometime soon? One of the … had a baby!",
-        tip: "Sommige woorden die eindigen op -f of -fe, krijgen -ves in het meervoud. Het woord giraffe is een uitzondering en krijgt gewoon een -s in het meervoud, dus giraffes.",
+        question: "The customer ... (to beg – ed-vorm) us to fast-track the procedure, so I promised him that we would be processing it as quickly as possible tomorrow morning.",
+        tip: "Het éénlettergrepige werkwoord beg heeft een korte klinker (e) gevolgd door een medeklinker (g). Daarom vindt er verdubbeling van de g plaats bij de uitgang -ed, dus begged.",
         type: "multiple_choice",
         options: [
           {
-            question: "giraffes",
-            correct: true,
-          },
-          {
-            question: "giraffs",
+            question: "beged",
             correct: false,
           },
           {
-            question: "giraves",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "My grandmother is in her … but still looks very glamorous.",
-        tip: "Het woord eighty wordt eighties met -ie-, want na een medeklinker (hier t) verandert -y in -ie.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "eighties",
-            correct: true,
-          },
-          {
-            question: "eightys",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "This street is one of the … streets in the city.",
-        tip: "Het woord busy wordt busiest met -ie-, want na een medeklinker (hier s) verandert -y in -ie.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "busiest",
-            correct: true,
-          },
-          {
-            question: "busyest",
-            correct: false,
-          },
-          {
-            question: "busyst",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "We couldn't find our … (hairbrush), but we still had our combs.",
-        tip: "Het woord hairbrush eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s, dus hairbrushes.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "hairbrushes",
-            correct: true,
-          },
-          {
-            question: "hairbrushs",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "Every Friday Jack ... to the bakery to buy a cake for his colleagues to enjoy during their coffee break.",
-        tip: "We zetten -es in plaats van -s achter het werkwoord go, dus goes.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "goes",
-            correct: true,
-          },
-          {
-            question: "gos",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "A lot of trees are … because there has been so little rain this year.",
-        tip: "Het werkwoord die eindigt op -ie. Deze -ie verandert in -y voor de uitgang -ing, dus dying.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "dieing",
-            correct: false,
-          },
-          {
-            question: "dying",
+            question: "begged",
             correct: true,
           },
         ]
       },
       {
-        question: "The walls threw back the … (echo) of Peter's footsteps.",
-        tip: "Het woord echo krijgt na de o -es in plaats van -s, dus echoes.",
+        question: "He was sad because Arsenal had lost; … than I'd ever seen him before.",
+        tip: "Het éénlettergrepige bijvoeglijke naamwoord sad heeft een korte klinker (a) en eindigt op een medeklinker (-d). Daarom vindt er verdubbeling van de -d plaats bij de vergrotende trap: sadder.",
         type: "multiple_choice",
         options: [
           {
-            question: "echoes",
-            correct: true,
-          },
-          {
-            question: "echos",
+            question: "sader",
             correct: false,
           },
           {
-            question: "echo's",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "The men sharpened their … (knife) before throwing them at the targets.",
-        tip: "Het woord knife schrijf je in het meervoud met -ves, dus knives.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "knives",
-            correct: true,
-          },
-          {
-            question: "knifes",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "In order for us to improve our service, it is important that customers fill in our ...",
-        tip: "Bij het woord survey verandert -y niet -ie omdat er een klinker voor de -y staat, dus je schrijft surveys.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "surveies",
-            correct: false,
-          },
-          {
-            question: "surveys",
-            correct: true,
-          },
-          {
-            question: "surveyes",
-            correct: false,
-          },
-        ]
-      },
-      {
-        question: "Some people try their hardest to come up with a complicated plan, but I think the … ideas are often the best.",
-        tip: "Het woord simple eindigt op een stille -e. Die valt weg voor de uitgang -est, dus het goede antwoord is simplest.",
-        type: "multiple_choice",
-        options: [
-          {
-            question: "simpelst",
-            correct: false,
-          },
-          {
-            question: "simpleest",
-            correct: false,
-          },
-          {
-            question: "simplest",
+            question: "sadder",
             correct: true,
           },
         ]
       },
       {
-        question: "I know it's … (easy) said than done, but at least it's something to aim for.",
-        tip: "Het woord easy wordt in de vergrotende trap easier met -ie-, want na een medeklinker (hier s) verandert -y in -ie.",
+        question: "One of Paula's … pet peeves is the fact that her brother and father never put down the toilet seat.",
+        tip: "Het éénlettergrepige bijvoeglijke naamwoord big heeft een korte klinker (-i) en eindigt op een medeklinker (-g). Daarom vindt er verdubbeling van de -g plaats als we -est toevoegen om de overtreffende trap te maken: biggest.",
         type: "multiple_choice",
         options: [
           {
-            question: "easier",
-            correct: true,
+            question: "bigest",
+            correct: false,
           },
           {
-            question: "easyer",
-            correct: false,
+            question: "biggest",
+            correct: true,
           },
         ]
       },
+      {
+        question: "I ... the other suit, but this one looks good on you as well.",
+        tip: "Het tweelettergrepige werkwoord prefer heeft een klemtoon op de laatste lettergreep en eindigt op een -r na een korte klinker (e). Daarom vindt er verdubbeling van de -r plaats voor de uitgang -ed, dus preferred.",
+        type: "multiple_choice",
+        options: [
+          {
+            question: "prefered",
+            correct: false,
+          },
+          {
+            question: "preferred",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "The politician was ... by journalists for hours after the news broke about the government's plans to decrease school funding.",
+        tip: "We double the final consonant in one-syllable verbs before adding -ed or -ing if they end in a short vowel followed by a consonant (unless that consonant is w, x, or y). The verb quiz ends in a short vowel followed by a consonant, so we double the consonant: quizzed. Note that qui here is somewhat of an exception because the -u is paired with the -q to form a kw sound and the -i works alone to form a short vowel, as in hit.",
+        type: "multiple_choice",
+        options: [
+          {
+            question: "quized",
+            correct: false,
+          },
+          {
+            question: "quizzed",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "Musab and Tamsin had been ... for over fifteen minutes when Musab realised he was late for his meeting.",
+        tip: "We double the final consonant in one-syllable verbs before adding -ed or -ing if they end in a short vowel followed by a consonant (unless that consonant is w, x, or y). The verb chat ends in a short vowel followed by a consonant, so we double the consonant: chatting.",
+        type: "multiple_choice",
+        options: [
+          {
+            question: "chating",
+            correct: false,
+          },
+          {
+            question: "chatting",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "When Daxton went to put on his shoes, he saw that his brother had … his laces together as a joke.",
+        tip: "Het éénlettergrepige werkwoord knot heeft een korte klinker (-o) gevolgd door een medeklinker (-t). Daarom vindt er verdubbeling van de -t plaats bij de uitgang -ed, dus knotted.",
+        type: "multiple_choice",
+        options: [
+          {
+            question: "knoted",
+            correct: false,
+          },
+          {
+            question: "knotted",
+            correct: true,
+          },
+        ]
+      },
+
 
 
       {
@@ -882,290 +302,184 @@ export default [
           },
         ]
       },
-      {
-        question: "American and British are perhaps the most well-known varietis of English, but there are many others.",
-        tip: "Het woord variety wordt varieties in het meervoud met -ie, want na een medeklinker (hier t) verandert -y in -ie.",
-        type: "write",
-        options: [
-          {
-            question: "American and British are perhaps the most well-known varieties of English, but there are many others.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "The company is throwing a huge party to celebrate its thirtyth anniversary next month.",
-        tip: "Het woord thirty wordt thirtieth met -ie, want na een medeklinker (hier t) verandert -y in -ie.",
-        type: "write",
-        options: [
-          {
-            question: "The company is throwing a huge party to celebrate its thirtieth anniversary next month.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "He signed up for a gym when he moved here, but I don't think he ever actually gos there.",
-        tip: "Het werkwoord go krijgt na de -o -es in plaats van -s, dus goes.",
-        type: "write",
-        options: [
-          {
-            question: "He signed up for a gym when he moved here, but I don't think he ever actually goes there.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "My cat fell out of a window last night, but somehow she's fine. It must have cost her one of her nine lifes.",
-        tip: "Het woord life schrijf je in het meervoud met -ves, dus lives.",
-        type: "write",
-        options: [
-          {
-            question: "My cat fell out of a window last night, but somehow she's fine. It must have cost her one of her nine lives.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Their hallway is decorated with dozens of framed photoes of their friends and family.",
-        tip: "Het woord photo krijgt gewoon een -s, dus photos.",
-        type: "write",
-        options: [
-          {
-            question: "Their hallway is decorated with dozens of framed photos of their friends and family.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "When I heard that my grandmother was dieing, I drove to the hospital as fast as I could so I could say goodbye.",
-        tip: "Het werkwoord die eindigt op -ie. Deze -ie verandert in -y voor de uitgang -ing. Daarom wordt het dying.",
-        type: "write",
-        options: [
-          {
-            question: "When I heard that my grandmother was dying, I drove to the hospital as fast as I could so I could say goodbye.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "When I was in Spain, I saw two donkies pulling a cart full of vases to the market square. ",
-        tip: "De -y verandert niet in -ie bij het woord donkeys omdat voor de -y een klinker staat.",
-        type: "write",
-        options: [
-          {
-            question: "When I was in Spain, I saw two donkeys pulling a cart full of vases to the market square.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "You shouldn't leave toddlers alone for too long as they can't look after themselfs yet.",
-        tip: "Het woord self schrijf je in het meervoud met -ves, ook al is het een onderdeel van een ander woord, dus themselves.",
-        type: "write",
-        options: [
-          {
-            question: "You shouldn't leave toddlers alone for too long as they can't look after themselves yet.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "People say it's easyer to give a presentation if you imagine the audience is naked, but I disagree. It makes me even more uncomfortable!",
-        tip: "Het woord easy wordt in de vergrotende trap easier met -ie-, want na een medeklinker (hier s) verandert -y in -ie.",
-        type: "write",
-        options: [
-          {
-            question: "People say it's easier to give a presentation if you imagine the audience is naked, but I disagree. It makes me even more uncomfortable!",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "My sister always claims that she has two stomaches: one for normal food and one for dessert.",
-        tip: "In tegenstelling tot sommige andere woorden eindigend op -ch, spreek je stomach niet uit met een sisklank maar met een k. Daarom gebruik je gewoon -s: stomachs.",
-        type: "write",
-        options: [
-          {
-            question: "My sister always claims that she has two stomachs: one for normal food and one for dessert.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "The marketing campaign was a huge success – all the important bloggers are writeing about it on social media!",
-        tip: "Het werkwoord write eindigt op een 'stille -e', daarom valt de -e weg voor de uitgangen -ed, -er/-est en -ing, dus writing.",
-        type: "write",
-        options: [
-          {
-            question: "The marketing campaign was a huge success – all the important bloggers are writing about it on social media!",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "According to Plato, early humans had four arms and four legs before being cut into two halfs by Zeus.",
-        tip: "Het woord half schrijf je in het meervoud met -ves, dus halves.",
-        type: "write",
-        options: [
-          {
-            question: "According to Plato, early humans had four arms and four legs before being cut into two halves by Zeus.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "Can you go by the supermarket on your way home? All my potatos are rotten, but I need some for our dinner.",
-        tip: "Het woord potato krijgt na de -o -es in plaats van -s, dus potatoes.",
-        type: "write",
-        options: [
-          {
-            question: "Can you go by the supermarket on your way home? All my potatoes are rotten, but I need some for our dinner.",
-            correct: true,
-          },
-        ]
-      },
-      {
-        question: "When my siblings and I still lived at home, my father always prepared our lunchs for us.",
-        tip: "Het woord lunch eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s, dus lunches.",
-        type: "write",
-        options: [
-          {
-            question: "When my siblings and I still lived at home, my father always prepared our lunches for us.",
-            correct: true,
-          },
-        ]
-      },
+
 
 
       {
-        question: "When you lay the table for guests: forks go to the left and … (knife) and spoons to the right.",
-        tip: "Het woord knife schrijf je in het meervoud met ves, dus knives.",
+        question: "My parents … (to renew – ed-vorm) their wedding vows during a lovely ceremony at Millbrooke Estate last weekend.",
+        tip: "Het tweelettergrepige werkwoord renew eindigt op een -w, en daarom vindt er geen verdubbeling plaats voor de uitgang -ed, dus renewed.",
         type: "word",
         options: [
           {
-            question: "knives",
+            question: "renewed",
             correct: true,
           },
         ]
       },
       {
-        question: "We offer a shuttle service. Our three … (bus) go to pick up and drop off locations between Halifax and Sydney.",
-        tip: "Het woord bus eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s, dus buses.",
+        question: "I …  (to regret – ed-vorm) sending the message the moment I clicked 'send'.",
+        tip: "Bij het tweelettergrepige werkwoord regret valt de klemtoon op de laatste lettergreep eindigend op één klinker (e) gevolgd door een medeklinker (t). Daarom vindt er verdubbeling plaats voor de uitgang -ed, dus regretted.",
         type: "word",
         options: [
           {
-            question: "buses",
+            question: "regretted",
             correct: true,
           },
         ]
       },
       {
-        question: "Christa … (try) to get that job at the Hilton last month.",
-        tip: "Het werkwoord try wordt tried met -ie-, want na een medeklinker (hier r) verandert -y in -ie.",
+        question: "Can you believe management … (to enter – ed-vorm) into these … (late – -est vorm) negotiations without any preparation?",
+        tip: "Het tweelettergrepige werkwoord enter heeft een klemtoon op de eerste lettergreep. Daarom vindt er geen verdubbeling van de -r plaats bij de uitgang -ed, dus entered. Het éénlettergrepige bijvoeglijk naamwoord late heeft een lange klinker (a). Daarom vindt er geen verdubbeling van de t plaats bij de overtreffend trap, dus latest.",
         type: "word",
         options: [
           {
-            question: "tried",
+            question: "entered",
+            correct: true,
+          },
+          {
+            question: "latest",
             correct: true,
           },
         ]
       },
       {
-        question: "My train was delayed because of … (leaf) on the tracks.",
-        tip: "Het woord leaf schrijf je in het meervoud met ves, dus leaves.",
+        question: "Please note that the goods I … (to order – ed-vorm) a week ago have not yet arrived.",
+        tip: "Het tweelettergrepige werkwoord order heeft een klemtoon op de eerste lettergreep. Daarom vindt er geen verdubbeling van de -r plaats bij de uitgang -ed, dus ordered.",
         type: "word",
         options: [
           {
-            question: "leaves",
+            question: "ordered",
             correct: true,
           },
         ]
       },
       {
-        question: "The Avengers, Spiderman, Wonder Woman … Who are your favourite … (superhero)?",
-        tip: "Het woord hero krijgt na de o -es in plaats van -s, dus superheroes.",
+        question: "Do you know if overtime is … (to tax – ed-vorm) at a higher rate than a base salary?",
+        tip: "Het éénlettergrepige werkwoord tax heeft een korte klinker (-a) maar wordt gevolgd door een -x. De laatste letter wordt niet verdubbeld bij -w, -x of -y bij de uitgang -ed, daarom vindt er geen verdubbeling plaats, dus taxed met één x.",
         type: "word",
         options: [
           {
-            question: "superheroes",
+            question: "taxed",
             correct: true,
           },
         ]
       },
       {
-        question: "… (do) your new office building have a lift?",
-        tip: "Het werkwoord do krijgt na de o -es in plaats van -s, dus does.",
+        question: "Last summer's customer survey … (to reveal – ed-vorm) that most of our clients find us through web advertising.",
+        tip: "Het tweelettergrepige werkwoord reveal eindigt op een -l na een dubbele klinker (-ea). Daarom vindt er geen verdubbeling plaats.",
         type: "word",
         options: [
           {
-            question: "does",
+            question: "revealed",
             correct: true,
           },
         ]
       },
       {
-        question: "The anniversary will be held on the … (twenty) of June.",
-        tip: "Het woord twenty wordt twentieth met -ie-, want na een medeklinker (hier t) verandert -y in -ie.",
+        question: "We are … (to cancel – ing-vorm – Brits-Engels) the workshop on E-writing due to lack of interest.",
+        tip: "Het tweelettergrepige werkwoord cancel eindigt op een -l na een klinker (-e). Daarom vindt er verdubbeling plaats voor de uitgang -ing in het Brits-Engels, dus cancelling. In het Amerikaans-Engels verdubbelt de -l niet omdat de klemtoon op de eerste lettergreep valt, dus canceling.",
         type: "word",
         options: [
           {
-            question: "twentieth",
+            question: "cancelling",
             correct: true,
           },
         ]
       },
       {
-        question: "Why don't you hire a graphic designer to develop some … (logo) for you?",
-        tip: "Het woord logo krijgt gewoon een -s, dus logos.",
+        question: "Jack said he … (to prefer – ed-vorm) a job on the shop floor to one at a desk, so he didn't accept the promotion.",
+        tip: "Bij het tweelettergrepige werkwoord prefer valt de klemtoon op de laatste lettergreep eindigend op één klinker (e) gevolgd door een medeklinker (r). Daarom vindt er verdubbeling plaats voor de uitgang -ed, dus preferred.",
         type: "word",
         options: [
           {
-            question: "logos",
+            question: "preferred",
             correct: true,
           },
         ]
       },
       {
-        question: "Parties are for staff only. The invitation will say if … (wife) and husbands are invited.",
-        tip: "Het woord wife schrijf je in het meervoud met ves, dus wives.",
+        question: "I have two very traditional hobbies: … (to cook – ing-vorm) and … (to knit – ing-vorm).",
+        tip: "Het éénlettergrepige werkwoord cook heeft een lange klinker (-oo). Daarom vindt er geen verdubbeling plaats bij de uitgang -ing, dus cooking.\n" +
+          "\n" +
+          "Het éénlettergrepige werkwoord knit heeft een korte klinker (-i) gevolgd door een medeklinker (-t). Daarom vindt er verdubbeling plaats voor de uitgang -ing, dus knitting.",
         type: "word",
         options: [
           {
-            question: "wives",
+            question: "cooking",
+            correct: true,
+          },
+          {
+            question: "knitting",
             correct: true,
           },
         ]
       },
       {
-        question: "I would like to know if there are any … (tomato) in this dish because I'm allergic to them.",
-        tip: "Het woord tomato krijgt na de o -es in plaats van -s, dus tomatoes.",
+        question: "Last month's sales numbers …  (to reveal – ed-vorm) a shift in focus; our clients are buying more and more environmentally friendly products.",
+        tip: "Het tweelettergrepige werkwoord reveal eindigt op een -l na twee klinkers (ea). Daarom vindt er geen verdubbeling van de -l plaats voor de uitgang -ed, dus revealed.",
         type: "word",
         options: [
           {
-            question: "tomatoes",
+            question: "revealed",
             correct: true,
           },
         ]
       },
       {
-        question: "Working with Excel is the …  (simple) thing, really. Any smart person can learn how to do it.",
-        tip: "Het woord simple eindigt op een 'stille -e', daarom valt de -e weg voor de uitgangen -ed, -er/-est en -ing, dus simplest.",
+        question: "The manager … (to regret – ed-vorm) having annoyed the guests with his over-courteous behaviour.",
+        tip: "Het tweelettergrepige werkwoord regret heeft een klemtoon op de laatste lettergreep en eindigt op een -t na een korte klinker (e). Daarom vindt er verdubbeling van de -t plaats voor de uitgang -ed, dus regretted.",
         type: "word",
         options: [
           {
-            question: "simplest",
+            question: "regretted",
             correct: true,
           },
         ]
       },
       {
-        question: "If you really want to achieve something, you have to stop …   (lie) to yourself!",
-        tip: "Het werkwoord lie eindigt op -ie. Deze -ie verandert in -y voor de uitgang -ing. Daarom wordt het lying.",
+        question: "The client … (to admit – ed-vorm) to not having read the terms and conditions, and therefore his complaint could be dismissed.",
+        tip: "Het tweelettergrepige werkwoord admit heeft een klemtoon op de laatste lettergreep en eindigt op een -t na een korte klinker (i). Daarom vindt er verdubbeling de -t plaats voor de uitgang -ed, dus admitted.",
         type: "word",
         options: [
           {
-            question: "lying",
+            question: "admitted",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "As an air hostess I find it very difficult to stay in shape while … (to travel – ing-vorm – Brits-Engels).",
+        tip: "Het tweelettergrepige werkwoord travel eindigt op een -l na een klinker (-e). Daarom vindt er verdubbeling plaats voor de uitgang -ing in het Brits-Engels, dus travelling. In het Amerikaans-Engels verdubbelt de -l niet omdat de klemtoon op de eerste lettergreep valt, dus traveling.",
+        type: "word",
+        options: [
+          {
+            question: "traveled",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "Adware, like unwanted pop-up advertisements, is often … (to install – ed-vorm) at the same time as free software.",
+        tip: "Het tweelettergrepige werkwoord install eindigt op een dubbele l. Die blijven staan bij de uitgang -ed, dus installed.",
+        type: "word",
+        options: [
+          {
+            question: "installed",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "The jokes my new colleague has been … (to make – ing-vorm ) are … (to begin – ing-vorm) to annoy me.",
+        tip: "Het eenlettergrepige werkwoord make heeft een lange klinker (a). Daarom vindt er geen verdubbeling plaats van de k. Het tweelettergrepige werkwoord begin heeft een klemtoon op de laatste lettergreep en eindigt op een -n na een klinker (i). Daarom vindt er verdubbeling van de -n plaats voor de uitgang -ing, dus beginning.",
+        type: "word",
+        options: [
+          {
+            question: "making",
+            correct: true,
+          },
+          {
+            question: "beginning",
             correct: true,
           },
         ]

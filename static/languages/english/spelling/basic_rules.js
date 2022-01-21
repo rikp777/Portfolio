@@ -2,91 +2,10 @@ export default [
   {
     name: "Basic rules",
     type: ["B1", "B2"],
-    subs: [
-      {
-        name: "",
-        rule:
-          `
-          [B1] Na een sisklank ([s], [sj], [tsj]) krijgt een woord -es in plaats van -s.,
-          `,
-        description:
-          `
-          box – boxes
-          watch – watches
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            Na -o krijgt een aantal woorden -es­ in plaats van -s.
-            Dit geldt bijvoorbeeld voor het meervoud van cargo, echo, hero, mosquito, potato en tomato en voor de werkwoorden do en go.
-          `,
-        description:
-          `
-            hero – heroes
-            do – she does
-            go – he goes
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-          Woorden zoals calf, half, life, wife, knife, shelf, wolf, leaf, thief en loaf (of bread) krijgen -ves in het meervoud.
-          `,
-        description:
-          `
-          calf, half – calves, halves
-          life, wife, knife – lives, wives, knives
-          shelf, wolf – shelves, wolves
-          leaf, thief, loaf – leaves, thieves, loaves
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            Na een medeklinker verandert -y in -ie.
-            Maar na een klinker (a, e, i, o, u) verandert de -y niet.
-          `,
-        description:
-          `
-            twenty – twentieth
-            easy – easier – easiest
-            lady – ladies
-            to try – she tries – she tried
-            but: boy – boys; to play – played
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            De ‘stille -e’, een e aan het eind van een woord die je niet uitspreekt, valt weg voor de uitgangen -ed, -er/-est en -ing.
-          `,
-        description:
-          `
-            wise wordt niet wiseer, maar wiser
-            simple – simpler – simplest
-            to share – shared – sharing
-          `
-      },
-      {
-        name: "",
-        rule:
-          `
-            De -ie aan het eind van een werkwoord verandert in -y voor de uitgang -ing.
-          `,
-        description:
-          `
-            to lie – lying
-          `
-      }
-    ],
     exercise: [
       {
         question: "What would happen if the two biggest … (army) in the world fought a war against each other?",
+        tip: "",
         type: "multiple_choice",
         options: [
           {
@@ -105,6 +24,7 @@ export default [
       },
       {
         question: "Ahmed quickly threw the … in the dishwasher before leaving the house.",
+        tip: "Het woord dish eindigt op een sisklank, dus dat krijgt -es in plaats van -s om er meervoud van te maken: dishes.",
         type: "multiple_choice",
         options: [
           {
@@ -119,6 +39,7 @@ export default [
       },
       {
         question: "Everywhere I go, I see young women pushing … around in prams.",
+        tip: "",
         type: "multiple_choice",
         options: [
           {
@@ -156,6 +77,7 @@ export default [
       },
       {
         question: "I've asked the carpenter to install some extra … (shelf) for storage.",
+        tip: "Het woord shelf schrijf je in het meervoud met ves, dus shelves.",
         type: "multiple_choice",
         options: [
           {
@@ -174,6 +96,7 @@ export default [
       },
       {
         question: "According to witnesses, the robbery was carried out by three teenage … (boy).",
+        tip: "De -y verandert niet in -ie- bij het woord boys omdat voor de -y een klinker staat.",
         type: "multiple_choice",
         options: [
           {
@@ -196,6 +119,7 @@ export default [
       },
       {
         question: "Quick, call the police! Some … (boy) are spraying graffiti on our walls.",
+        tip: "De -y verandert niet in -ie- bij het woord boys omdat voor de -y een klinker staat.",
         type: "multiple_choice",
         options: [
           {
@@ -218,6 +142,7 @@ export default [
       },
       {
         question: "On the … I'm flying to New York to represent my company at a conference.",
+        tip: "",
         type: "multiple_choice",
         options: [
           {
@@ -316,7 +241,7 @@ export default [
             correct: false,
           },
           {
-            question: "boses",
+            question: "bosses",
             correct: true,
           },
         ]
@@ -580,7 +505,7 @@ export default [
       },
       {
         question: "Ragnar came from a musical family with three guitars and two … at home.",
-        tip: "Sommige woorden die eindigen op -o,krijgen ­-es in plaats van -s in het meervoud. Het woord piano is een uitzondering en krijgt gewoon een -s in het meervoud, dus pianos.",
+        tip: "Sommige woorden die eindigen op -o,krijgen -es in plaats van -s in het meervoud. Het woord piano is een uitzondering en krijgt gewoon een -s in het meervoud, dus pianos.",
         type: "multiple_choice",
         options: [
           {
@@ -620,6 +545,25 @@ export default [
           {
             question: "lying",
             correct: true,
+          }
+        ]
+      },
+      {
+        question: "November is often the … month for companies in that sector.",
+        tip: "Het woord busy wordt busiest met -ie-, want na een medeklinker (hier s) verandert -y in -ie.",
+        type: "multiple_choice",
+        options: [
+          {
+            question: "busiest",
+            correct: true,
+          },
+          {
+            question: "busyest",
+            correct: false,
+          },
+          {
+            question: "busyst",
+            correct: false,
           }
         ]
       },
@@ -1028,7 +972,39 @@ export default [
           },
         ]
       },
-
+      {
+        question: "You shouldn't leave toddlers alone for too long as they can't look after themselfs yet.",
+        tip: "Het woord self schrijf je in het meervoud met -ves, ook al is het een onderdeel van een ander woord, dus themselves.",
+        type: "write",
+        options: [
+          {
+            question: "You shouldn't leave toddlers alone for too long as they can't look after themselves yet.",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "When I was in Spain, I saw two donkies pulling a cart full of vases to the market square. ",
+        tip: "De -y verandert niet in -ie bij het woord donkeys omdat voor de -y een klinker staat.",
+        type: "write",
+        options: [
+          {
+            question: "When I was in Spain, I saw two donkeys pulling a cart full of vases to the market square.",
+            correct: true,
+          },
+        ]
+      },
+      {
+        question: "When my siblings and I still lived at home, my father always prepared our lunchs for us.",
+        tip: "Het woord lunch eindigt op een sisklank en krijgt daarom -es in het meervoud in plaats van -s, dus lunches.",
+        type: "write",
+        options: [
+          {
+            question: "When my siblings and I still lived at home, my father always prepared our lunches for us.",
+            correct: true,
+          },
+        ]
+      },
 
       {
         question: "When you lay the table for guests: forks go to the left and … (knife) and spoons to the right.",
@@ -1162,6 +1138,18 @@ export default [
           },
         ]
       },
+      {
+        question: "Nowadays, many people consider the announcement '… (lady) and gentlemen' to be sexist.",
+        tip: "Het woord lady wordt ladies met -ie- in het meervoud, want na een medeklinker (hier d) verandert -y in -ie.",
+        type: "word",
+        options: [
+          {
+            question: "ladies",
+            correct: true,
+          },
+        ]
+      },
+
     ]
   }
 ]
