@@ -259,6 +259,11 @@ During this semester I followed an English C1 Cambridge course in the evening ho
 
 ## General Conslusion 
 
+As I define my own learning path, I sometimes found it difficult to determine when something is worked out enough to tick off a learning objective. Because I thought it would be super cool to immerse myself in data science without any prior knowledge of the subject, I think I'm on the right track with all the assignments I have done and has given me a good foundation for an eventual master's. I found it difficult at first to determine how I could make the connection between data science and cyber, based on the assignment that I made I think I have succeeded well in that. Since it took an immense amount of research to get started at all with no prior knowledge of statistics, machine learning, data science and maths, I personally think I have done enough to prove that I developed myself. These studies are also documented and can be read on this site. 
+
 Overall, I think I learned a lot in this minor. In doing so, I placed my focus mainly on performing machine learning in the area of cyber. I had no prior knowledge of this topic. Now I have a broad scale of knowledge both technical and non technical aspects working on the group project and on the portfolio helped to improve my technical and non-technical and professional and innovations skills. I was happy in the way this minor was structured. It was very open minded I was free in learning about things of interest what I personally find very motivating. It was also allowed to combined different aspects within the cyber atmosphere. I did a lot of side projects that interested me I learned a lot about all of them and besides you really benefit if you are free in what you want to learn because you only learn what you are interested in. Finally, I would like to conclude this minor by thanking all the teachers, especially Stefan and Peter, for their great guidance. 
 
 I will evetually graduate in the field of software-engineering, but all the knowledge I have gained during this minor is very valuable.
+
+
+

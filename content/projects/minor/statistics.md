@@ -84,8 +84,6 @@ H1 - There is a correlation between javascript volume and a malicious label.
 
 *H1: code volume = malicious*
 
-
-
 ### Conclusion
 
 #### Javascript volume makes malware significantly more likely
@@ -106,10 +104,55 @@ The study showed that there is a causal relationship between the volume of javas
 ***
 
 Recourses: 
+
 - [Drive by download](https://www.kaspersky.com/resource-center/definitions/drive-by-download)
 
 ***
+# Research 
+
+## Introduction
+
+These days, everyone has had problems with malware, but how does this malware actually get onto a particular PC? In most cases, this is due to a "drive by download" attack. When a victim visits a site, an installation is performed in the background without the user being aware of it. During this research I will investigate whether there is a correlation between malware and a gibberish URL and whether the amount of code that is loaded can have an influence on this. From this research I hope to find a correlation between these domains. Also, this research will address which Supervised machine learning algorithms were applied to achieve a desired result. This includes explaining why a particular algorithm may have a preference on a particular analysis. During this research, I am using the dataset SINGH, AMIT KUMAR (2020), "Dataset of Malicious and Benign Webpages" ; The dataset contains extracted attributes of websites that can be used for classifying web pages as malicious or benign. The dataset also contains raw page content, including JavaScript code, which can be used as unstructured data in machine learning or for extracting further attributes(SINGH, 2020). The purpose of this research is to warn users about links that use a certain structure. Therefore, the research question reads as follows: "Is there a correlation between "drive by download malware" and gibberish URLs and/or the amount of code loaded by the respective web page". During this (correlational) research I will check if I can show a correlation between "drive by download" malware, "gibberish" URL web address and the amount of code also called code volume.
+
+## Context
+
+Today, the likelihood of having encountered malware and, in particular, the "drive by download" type, is increasing. A drive by download exploits vulnerabilities in the browser used by a victim. "Drive by download" website are put online for one purpose only infecting as many computers as possible that visit their web URL. There are three ways to come into contact with this type of malware. Possibility one is the well known phenomenon of fishing where the victim receives an email and is encouraged to click on a redirect button after which the victim is redirected to the malicious website and infected. Possibility two is that the user is tricked into visiting a particular site via fake advertising, usually these sites are taken over or hacked and these advertising sites are abused for malicious purposes without the owner's knowledge. Usually all these sites look harmless. Way three maybe a relevant person receives a link in an email, a text message or a message on social media telling them to check out something interesting on a site. When one opens the page, while enjoying the article or cartoon, the download installs itself on the computer (McAfee, 2012). Is there a correlation between a malware infection and a malicious site code volume. By this we mean how much code the website leaves in. We know what a "drive by download ̈ ıs by definition. Hereby we can conclude that a this malware type can cause a lot of unknowing damage. This research does not explain how a "drive by download" works in the background and the mechanism of this malware type. The overall hypothesis is as follows: with this research we hope to find a correlation between the defined labels.
+
+#### Gibbarish URL maakt de kans op malware aanzienlijk
+
+H0 - Er is geen correlatie tussen een specifiek URL opbouw en een kwaadaardig label.
+
+𝐻0:gibbarishurl≠kwaadaardig
+
+H1 - er is een correlatie tussen een specifieke URL opbouwe en een kwaadaardig label.
+
+𝐻1:gibbarishurl=kwaadaardig
+
+#### Javascript volume maakt de kans op malware aanzienlijk
+
+H0 - Er is geen correlatie tussen javascript volume en een kwaadaardige label.
+
+𝐻0:javascriptvolume≠kwaadaardig
+
+H1 - Er is een correlatie tussen javascript volume en een kwaadaardige label.
+
+𝐻1:javascriptvolume=kwaadaardig
+
+## Hypothesis Testing
+To test the hypothesis described above we are first going to prepare our dataset for analysis. We do this by reading the dataset and extracting the necessary labels from the dataset Then we split the data into two groups. A group with malicious web links and a group with benign web links.
+
+Graphs: 
+
+https://github.com/rikp777/stat_project/blob/master/stat_project.ipynb
+
+### Conclusion
+
+#### Javascript volume makes malware significantly more likely
+
+The study showed that there is a causal relationship between the volume of javascript loaded and the likelihood of malicious or a rogue site.  
+
 # Appendix
+
 ## Mail contact 
 Agreement to attend external classes
 
