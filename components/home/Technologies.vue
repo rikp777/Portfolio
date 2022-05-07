@@ -5,7 +5,7 @@
       <a :href="``" target="_blank" rel="noreferrer" class="mt-2 text-3xl hover:text-hot-pink leading-8 font-extrabold tracking-tight text-gray-500">{{ $t('technologies.header') }}</a>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-6 bg-gray-900 rounded-lg">
+    <div class="grid grid-cols-1 sm:grid-cols-4 bg-gray-900 rounded-lg">
       <div v-for="(technology, index) in $config.technologies.meta" :key="`rec-${index}`" class="relative h-full rounded-lg text-base w-full">
         <blockquote class="relative">
           <div class="rounded-t-lg px-5 py-5 sm:px-8 sm:py-8y">

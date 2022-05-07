@@ -92,8 +92,8 @@
               </div>
             </div>
             <div class="mt-8 px-5 sm:mt-16 lg:mt-0 lg:col-span-6">
-              <div class="flex-shrink-0 w-full sm:mx-auto flex flex-1 items-center justify-center rounded-lg sm:overflow-hidden">
-                <img class="rounded-md h-80" :src="$config.image" :alt="$config.name">
+              <div class="flex-shrink-0 w-full sm:mx-auto flex flex-1 items-center justify-center rounded-lg sm:overflow-hidden ">
+                <img class="rounded-md outline outline-offset-2 outline-indigo-600 h-96" :src="$config.image" :alt="$config.name">
               </div>
             </div>
           </div>

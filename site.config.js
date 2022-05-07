@@ -3,7 +3,7 @@
 export default {
   name: 'Rik Peeters',
   domain: 'rikp777.github.io', // add without https:// , used in meta tags and share urls
-  image: '/images/bighead-five.png',
+  image: '/images/205_rik_peeters.jpg',
   email: 'rikpeeters11@hotmail.com',
   googleAnalyticsV4: {
     enabled: true,
@@ -150,15 +150,27 @@ export default {
         frameworks: [
           {
             id: "asp.net",
-            name: "ASP.NET",
+            name: "ASP.NET 5",
             url: "https://dotnet.microsoft.com/en-us/apps/aspnet",
+          },
+          {
+            id: "asp.net",
+            name: "ASP.NET Core 6",
+            url: "https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0",
             subs: [
               {
-                id: "entity-framework",
-                name: "Entity Framework",
-                url: "https://docs.microsoft.com/en-us/ef/"
+                id: "minimal-api",
+                name: "Minimal API",
+                url: "https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0"
               }
             ]
+          }
+        ],
+        subs: [
+          {
+            id: "entity-framework",
+            name: "Entity Framework",
+            url: "https://docs.microsoft.com/en-us/ef/"
           }
         ]
       },
@@ -229,6 +241,11 @@ export default {
         url: "https://www.javascript.com/",
         frameworks: [
           {
+            id: "note-js",
+            name: "Note.js",
+            url: 'https://nodejs.org/en/'
+          },
+          {
             id: "vue-js",
             name: "Vue.js",
             url: "https://vuejs.org/",
@@ -243,9 +260,9 @@ export default {
         ],
         subs: [
           {
-            id: 'nodejs',
-            name: 'Node.js',
-            url: 'https://nodejs.org/en/'
+            id: "tailwind",
+            name: "Tailwind",
+            url: "https://tailwindcss.com"
           },
           {
             id: "msw",
@@ -258,6 +275,86 @@ export default {
             url: "https://github.com/axios/axios"
           }
         ]
+      },
+      {
+        id: "cloud",
+        name: "Cloud",
+        url: null,
+        frameworks: [
+          {
+            id: 'k8s',
+            name: "Kubernetes (k8s)",
+            url: 'https://kubernetes.io/',
+            subs: [
+              {
+                id: 'minikube',
+                name: 'MiniKube',
+                url: 'https://minikube.sigs.k8s.io/docs/'
+              }
+            ]
+          },
+          {
+            id: 'azure',
+            name: 'Azure',
+            url: 'https://azure.microsoft.com/nl-nl/',
+            subs: [
+              {
+                id: 'keyvault',
+                name: 'Key vault',
+                url: 'https://azure.microsoft.com/nl-nl/services/key-vault/'
+              },
+              {
+                id: 'blobstorage',
+                name: 'Blob storage',
+                url: 'https://azure.microsoft.com/nl-nl/services/storage/blobs/'
+              }
+            ]
+          },
+        ]
+      },
+      {
+         id: 'tooling',
+         name: 'Tooling',
+         url: '',
+         frameworks: [
+           {
+             id: 'git',
+             name: 'Git',
+             url: 'https://git-scm.com/'
+           },
+           {
+             id: 'docker',
+             name: 'Docker',
+             url: 'https://www.docker.com/'
+           },
+           {
+             id: 'kafka',
+             name: 'Kafka',
+             url: 'https://kafka.apache.org/'
+           },
+           {
+              id: 'redis',
+              name: 'Redis',
+              url: 'https://redis.io/'
+           },
+           {
+             id: 'databases',
+             name: 'Databases',
+             url: null,
+             subs: [
+               {
+                 id: 'mssql',
+                 name: 'MSSQL',
+                 url: 'https://www.microsoft.com/en-us/sql-server'
+               },
+               {
+                 id: 'mysql',
+                 name: 'MySQL/Mariadb',
+                 url: 'https://www.mysql.com/'
+               }
+             ]
+           }
+         ]
       },
       {
         id: 'software',
@@ -281,40 +378,7 @@ export default {
               }
             ]
           },
-          {
-            id: 'tooling',
-            name: 'Tooling',
-            url: null,
-            subs: [
-              {
-                id: 'git',
-                name: 'Git',
-                url: 'https://git-scm.com/'
-              },
-              {
-                id: 'docker',
-                name: 'Docker',
-                url: 'https://www.docker.com/'
-              }
-            ]
-          },
-          {
-            id: 'databases',
-            name: 'databases',
-            url: null,
-            subs: [
-              {
-                id: 'mssql',
-                name: 'MSSQL',
-                url: 'https://www.microsoft.com/en-us/sql-server'
-              },
-              {
-                id: 'mysql',
-                name: 'MySQL',
-                url: 'https://www.mysql.com/'
-              }
-            ]
-          }
+
         ]
       }
     ],
