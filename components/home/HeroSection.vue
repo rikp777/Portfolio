@@ -93,7 +93,7 @@
             </div>
             <div class="mt-8 px-5 sm:mt-16 lg:mt-0 lg:col-span-6">
               <div class="flex-shrink-0 w-full sm:mx-auto flex flex-1 items-center justify-center rounded-lg sm:overflow-hidden ">
-                <img class="rounded-md outline outline-offset-2 outline-indigo-600 h-96" :src="$config.image" :alt="$config.name">
+                <img class="rounded-md md:outline md:outline-offset-2 md:outline-indigo-600 md:h-96" :src="$config.image" :alt="$config.name">
               </div>
             </div>
           </div>
